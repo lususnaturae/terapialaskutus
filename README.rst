@@ -1,7 +1,7 @@
 Teknologiademo Terapialaskutus (Therapy Invoicing)
 ==============================
 
-Kelan hyväksymä psykoterapeutti voi hallita asiakastietoja, asiakastapaamisia ja luoda laskut asiakkaalle. Lisäksi sovelluksella voi luoda viralliset Kelan tilitykset ja asiakaskohtaiset Kela laskutut.
+Kelan hyväksymä psykoterapeutti voi hallita asiakastietoja, asiakastapaamisia ja luoda laskut asiakkaalle. Lisäksi sovelluksella voi luoda viralliset Kelan tilitykset ja asiakaskohtaiset Kela laskut.
 
 Kelan sivuilla Kuntoutuspsykoterapia_.
 
