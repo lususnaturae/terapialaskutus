@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+{% load nvd3_tags %}
+{% block content %}
+    <div class="row">
+        <div class="col-sm-12">
+            <div class="card-header customers-card-header-background-dark">
+                {{ reporttitle }} <input class="btn btn-primary btn-sm" type="button" value="Edellinen vuosi"
+                                         onclick="prevyear()">
+                <input class="btn btn-primary btn-sm" type="button" value="Seuraava vuosi" onclick="nextyear()">
+            </div>
+            <div class="card card-block customers-card-body-background-medium">
+                <div class="card-title">
+                </div>
+                <div class="card-text">
+                    {% include_container chartcontainer 300 400 %}
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}

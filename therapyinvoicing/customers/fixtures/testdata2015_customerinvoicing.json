@@ -1,0 +1,3718 @@
+[
+  {
+    "model": "customerinvoicing.invoicecustomer",
+    "pk": 55,
+    "fields": {
+      "created": "2016-02-06T08:52:24.201Z",
+      "modified": "2016-02-06T08:52:24.201Z",
+      "firstName": "Terttu-Tappi",
+      "additionalName": "",
+      "lastName": "Tosiasiakas",
+      "ssn": "110188-123N",
+      "address": "Terakatu 1111",
+      "zipCode": "33200",
+      "city": "TAMPERE",
+      "country": "",
+      "telephone": "0451234455",
+      "email": "terttu.tosiasiakas@eioikea.fi",
+      "status": true,
+      "therapyCategory": "KUNTOUTUS",
+      "sessionprice": "80.00",
+      "sessionpriceKelaRefund": "27.00",
+      "customer": 1
+    }
+  },
+  {
+    "model": "customerinvoicing.invoicecustomer",
+    "pk": 56,
+    "fields": {
+      "created": "2016-02-06T08:53:29.212Z",
+      "modified": "2016-02-06T08:53:29.212Z",
+      "firstName": "Terttu-Tappi",
+      "additionalName": "",
+      "lastName": "Tosiasiakas",
+      "ssn": "110188-123N",
+      "address": "Terakatu 1111",
+      "zipCode": "33200",
+      "city": "TAMPERE",
+      "country": "",
+      "telephone": "0451234455",
+      "email": "terttu.tosiasiakas@eioikea.fi",
+      "status": true,
+      "therapyCategory": "KUNTOUTUS",
+      "sessionprice": "80.00",
+      "sessionpriceKelaRefund": "27.00",
+      "customer": 1
+    }
+  },
+  {
+    "model": "customerinvoicing.invoicecustomer",
+    "pk": 57,
+    "fields": {
+      "created": "2016-02-06T08:54:35.766Z",
+      "modified": "2016-02-06T08:54:35.766Z",
+      "firstName": "Terttu-Tappi",
+      "additionalName": "",
+      "lastName": "Tosiasiakas",
+      "ssn": "110188-123N",
+      "address": "Terakatu 1111",
+      "zipCode": "33200",
+      "city": "TAMPERE",
+      "country": "",
+      "telephone": "0451234455",
+      "email": "terttu.tosiasiakas@eioikea.fi",
+      "status": true,
+      "therapyCategory": "KUNTOUTUS",
+      "sessionprice": "80.00",
+      "sessionpriceKelaRefund": "27.00",
+      "customer": 1
+    }
+  },
+  {
+    "model": "customerinvoicing.invoicecustomer",
+    "pk": 58,
+    "fields": {
+      "created": "2016-02-06T08:56:11.193Z",
+      "modified": "2016-02-06T08:56:11.193Z",
+      "firstName": "Terttu-Tappi",
+      "additionalName": "",
+      "lastName": "Tosiasiakas",
+      "ssn": "110188-123N",
+      "address": "Terakatu 1111",
+      "zipCode": "33200",
+      "city": "TAMPERE",
+      "country": "",
+      "telephone": "0451234455",
+      "email": "terttu.tosiasiakas@eioikea.fi",
+      "status": true,
+      "therapyCategory": "KUNTOUTUS",
+      "sessionprice": "80.00",
+      "sessionpriceKelaRefund": "27.00",
+      "customer": 1
+    }
+  },
+  {
+    "model": "customerinvoicing.invoicecustomer",
+    "pk": 59,
+    "fields": {
+      "created": "2016-02-06T08:57:18.520Z",
+      "modified": "2016-02-06T08:57:18.520Z",
+      "firstName": "Terttu-Tappi",
+      "additionalName": "",
+      "lastName": "Tosiasiakas",
+      "ssn": "110188-123N",
+      "address": "Terakatu 1111",
+      "zipCode": "33200",
+      "city": "TAMPERE",
+      "country": "",
+      "telephone": "0451234455",
+      "email": "terttu.tosiasiakas@eioikea.fi",
+      "status": true,
+      "therapyCategory": "KUNTOUTUS",
+      "sessionprice": "80.00",
+      "sessionpriceKelaRefund": "27.00",
+      "customer": 1
+    }
+  },
+  {
+    "model": "customerinvoicing.invoicecustomer",
+    "pk": 60,
+    "fields": {
+      "created": "2016-02-06T08:57:18.762Z",
+      "modified": "2016-02-06T08:57:18.762Z",
+      "firstName": "Terttu",
+      "additionalName": "",
+      "lastName": "Tosiasiakas",
+      "ssn": "110188-123N",
+      "address": "Terakatu 1111",
+      "zipCode": "66110",
+      "city": "TAMPERE",
+      "country": "",
+      "telephone": "0451234455",
+      "email": "terttu.tosiasiakas@eioikea.fi",
+      "status": true,
+      "therapyCategory": "KUNTOUTUS",
+      "sessionprice": "80.00",
+      "sessionpriceKelaRefund": "27.00",
+      "customer": 4
+    }
+  },
+  {
+    "model": "customerinvoicing.invoicecustomer",
+    "pk": 61,
+    "fields": {
+      "created": "2016-02-06T08:58:15.058Z",
+      "modified": "2016-02-06T08:58:15.058Z",
+      "firstName": "Anne",
+      "additionalName": "",
+      "lastName": "Asiakas",
+      "ssn": "010185-104Y",
+      "address": "Terakatu 1111",
+      "zipCode": "33777",
+      "city": "TAMPERE",
+      "country": "Suomi",
+      "telephone": "04512412412",
+      "email": "anne.asiakas@eioleoikea.fi",
+      "status": true,
+      "therapyCategory": "KUNTOUTUS",
+      "sessionprice": "85.00",
+      "sessionpriceKelaRefund": "52.14",
+      "customer": 2
+    }
+  },
+  {
+    "model": "customerinvoicing.invoicecustomer",
+    "pk": 62,
+    "fields": {
+      "created": "2016-02-06T08:58:15.451Z",
+      "modified": "2016-02-06T08:58:15.451Z",
+      "firstName": "Terttu-Tappi",
+      "additionalName": "",
+      "lastName": "Tosiasiakas",
+      "ssn": "110188-123N",
+      "address": "Terakatu 1111",
+      "zipCode": "33200",
+      "city": "TAMPERE",
+      "country": "",
+      "telephone": "0451234455",
+      "email": "terttu.tosiasiakas@eioikea.fi",
+      "status": true,
+      "therapyCategory": "KUNTOUTUS",
+      "sessionprice": "80.00",
+      "sessionpriceKelaRefund": "27.00",
+      "customer": 1
+    }
+  },
+  {
+    "model": "customerinvoicing.invoicecustomer",
+    "pk": 63,
+    "fields": {
+      "created": "2016-02-06T08:58:15.629Z",
+      "modified": "2016-02-06T08:58:15.629Z",
+      "firstName": "Terttu",
+      "additionalName": "",
+      "lastName": "Tosiasiakas",
+      "ssn": "110188-123N",
+      "address": "Terakatu 1111",
+      "zipCode": "66110",
+      "city": "TAMPERE",
+      "country": "",
+      "telephone": "0451234455",
+      "email": "terttu.tosiasiakas@eioikea.fi",
+      "status": true,
+      "therapyCategory": "KUNTOUTUS",
+      "sessionprice": "80.00",
+      "sessionpriceKelaRefund": "27.00",
+      "customer": 4
+    }
+  },
+  {
+    "model": "customerinvoicing.invoicecustomer",
+    "pk": 64,
+    "fields": {
+      "created": "2016-02-06T08:58:15.910Z",
+      "modified": "2016-02-06T08:58:15.910Z",
+      "firstName": "Liisa",
+      "additionalName": "Ilpo",
+      "lastName": "Asiakas",
+      "ssn": "311299-123Y",
+      "address": "Sorikatu 9999",
+      "zipCode": "33999",
+      "city": "TAMPERE",
+      "country": "Suomi",
+      "telephone": "0441234567",
+      "email": "liisa.asiakas@eioleoikea.fi",
+      "status": true,
+      "therapyCategory": "KUNTOUTUS",
+      "sessionprice": "80.00",
+      "sessionpriceKelaRefund": "54.00",
+      "customer": 3
+    }
+  },
+  {
+    "model": "customerinvoicing.invoicecustomer",
+    "pk": 65,
+    "fields": {
+      "created": "2016-02-06T09:00:05.121Z",
+      "modified": "2016-02-06T09:00:05.121Z",
+      "firstName": "Anne",
+      "additionalName": "",
+      "lastName": "Asiakas",
+      "ssn": "010185-104Y",
+      "address": "Terakatu 1111",
+      "zipCode": "33777",
+      "city": "TAMPERE",
+      "country": "Suomi",
+      "telephone": "04512412412",
+      "email": "anne.asiakas@eioleoikea.fi",
+      "status": true,
+      "therapyCategory": "KUNTOUTUS",
+      "sessionprice": "85.00",
+      "sessionpriceKelaRefund": "52.14",
+      "customer": 2
+    }
+  },
+  {
+    "model": "customerinvoicing.invoicecustomer",
+    "pk": 66,
+    "fields": {
+      "created": "2016-02-06T09:00:05.313Z",
+      "modified": "2016-02-06T09:00:05.313Z",
+      "firstName": "Terttu-Tappi",
+      "additionalName": "",
+      "lastName": "Tosiasiakas",
+      "ssn": "110188-123N",
+      "address": "Terakatu 1111",
+      "zipCode": "33200",
+      "city": "TAMPERE",
+      "country": "",
+      "telephone": "0451234455",
+      "email": "terttu.tosiasiakas@eioikea.fi",
+      "status": true,
+      "therapyCategory": "KUNTOUTUS",
+      "sessionprice": "80.00",
+      "sessionpriceKelaRefund": "27.00",
+      "customer": 1
+    }
+  },
+  {
+    "model": "customerinvoicing.invoicecustomer",
+    "pk": 67,
+    "fields": {
+      "created": "2016-02-06T09:00:05.516Z",
+      "modified": "2016-02-06T09:00:05.516Z",
+      "firstName": "Liisa",
+      "additionalName": "Ilpo",
+      "lastName": "Asiakas",
+      "ssn": "311299-123Y",
+      "address": "Sorikatu 9999",
+      "zipCode": "33999",
+      "city": "TAMPERE",
+      "country": "Suomi",
+      "telephone": "0441234567",
+      "email": "liisa.asiakas@eioleoikea.fi",
+      "status": true,
+      "therapyCategory": "KUNTOUTUS",
+      "sessionprice": "80.00",
+      "sessionpriceKelaRefund": "54.00",
+      "customer": 3
+    }
+  },
+  {
+    "model": "customerinvoicing.invoicecustomer",
+    "pk": 68,
+    "fields": {
+      "created": "2016-02-06T09:00:05.782Z",
+      "modified": "2016-02-06T09:00:05.782Z",
+      "firstName": "Terttu",
+      "additionalName": "",
+      "lastName": "Tosiasiakas",
+      "ssn": "110188-123N",
+      "address": "Terakatu 1111",
+      "zipCode": "66110",
+      "city": "TAMPERE",
+      "country": "",
+      "telephone": "0451234455",
+      "email": "terttu.tosiasiakas@eioikea.fi",
+      "status": true,
+      "therapyCategory": "KUNTOUTUS",
+      "sessionprice": "80.00",
+      "sessionpriceKelaRefund": "27.00",
+      "customer": 4
+    }
+  },
+  {
+    "model": "customerinvoicing.invoicecustomer",
+    "pk": 69,
+    "fields": {
+      "created": "2016-02-06T09:01:42.068Z",
+      "modified": "2016-02-06T09:01:42.069Z",
+      "firstName": "Anne",
+      "additionalName": "",
+      "lastName": "Asiakas",
+      "ssn": "010185-104Y",
+      "address": "Terakatu 1111",
+      "zipCode": "33777",
+      "city": "TAMPERE",
+      "country": "Suomi",
+      "telephone": "04512412412",
+      "email": "anne.asiakas@eioleoikea.fi",
+      "status": true,
+      "therapyCategory": "KUNTOUTUS",
+      "sessionprice": "85.00",
+      "sessionpriceKelaRefund": "52.14",
+      "customer": 2
+    }
+  },
+  {
+    "model": "customerinvoicing.invoicecustomer",
+    "pk": 70,
+    "fields": {
+      "created": "2016-02-06T09:01:42.426Z",
+      "modified": "2016-02-06T09:01:42.426Z",
+      "firstName": "Terttu-Tappi",
+      "additionalName": "",
+      "lastName": "Tosiasiakas",
+      "ssn": "110188-123N",
+      "address": "Terakatu 1111",
+      "zipCode": "33200",
+      "city": "TAMPERE",
+      "country": "",
+      "telephone": "0451234455",
+      "email": "terttu.tosiasiakas@eioikea.fi",
+      "status": true,
+      "therapyCategory": "KUNTOUTUS",
+      "sessionprice": "80.00",
+      "sessionpriceKelaRefund": "27.00",
+      "customer": 1
+    }
+  },
+  {
+    "model": "customerinvoicing.invoicecustomer",
+    "pk": 71,
+    "fields": {
+      "created": "2016-02-06T09:01:42.602Z",
+      "modified": "2016-02-06T09:01:42.602Z",
+      "firstName": "Liisa",
+      "additionalName": "Ilpo",
+      "lastName": "Asiakas",
+      "ssn": "311299-123Y",
+      "address": "Sorikatu 9999",
+      "zipCode": "33999",
+      "city": "TAMPERE",
+      "country": "Suomi",
+      "telephone": "0441234567",
+      "email": "liisa.asiakas@eioleoikea.fi",
+      "status": true,
+      "therapyCategory": "KUNTOUTUS",
+      "sessionprice": "80.00",
+      "sessionpriceKelaRefund": "54.00",
+      "customer": 3
+    }
+  },
+  {
+    "model": "customerinvoicing.invoicecustomer",
+    "pk": 72,
+    "fields": {
+      "created": "2016-02-06T09:01:42.827Z",
+      "modified": "2016-02-06T09:01:42.827Z",
+      "firstName": "Terttu",
+      "additionalName": "",
+      "lastName": "Tosiasiakas",
+      "ssn": "110188-123N",
+      "address": "Terakatu 1111",
+      "zipCode": "66110",
+      "city": "TAMPERE",
+      "country": "",
+      "telephone": "0451234455",
+      "email": "terttu.tosiasiakas@eioikea.fi",
+      "status": true,
+      "therapyCategory": "KUNTOUTUS",
+      "sessionprice": "80.00",
+      "sessionpriceKelaRefund": "27.00",
+      "customer": 4
+    }
+  },
+  {
+    "model": "customerinvoicing.invoicecustomer",
+    "pk": 73,
+    "fields": {
+      "created": "2016-02-06T09:04:45.135Z",
+      "modified": "2016-02-06T09:04:45.135Z",
+      "firstName": "Anne",
+      "additionalName": "",
+      "lastName": "Asiakas",
+      "ssn": "010185-104Y",
+      "address": "Terakatu 1111",
+      "zipCode": "33777",
+      "city": "TAMPERE",
+      "country": "Suomi",
+      "telephone": "04512412412",
+      "email": "anne.asiakas@eioleoikea.fi",
+      "status": true,
+      "therapyCategory": "KUNTOUTUS",
+      "sessionprice": "85.00",
+      "sessionpriceKelaRefund": "52.14",
+      "customer": 2
+    }
+  },
+  {
+    "model": "customerinvoicing.invoicecustomer",
+    "pk": 74,
+    "fields": {
+      "created": "2016-02-06T09:04:45.483Z",
+      "modified": "2016-02-06T09:04:45.483Z",
+      "firstName": "Terttu-Tappi",
+      "additionalName": "",
+      "lastName": "Tosiasiakas",
+      "ssn": "110188-123N",
+      "address": "Terakatu 1111",
+      "zipCode": "33200",
+      "city": "TAMPERE",
+      "country": "",
+      "telephone": "0451234455",
+      "email": "terttu.tosiasiakas@eioikea.fi",
+      "status": true,
+      "therapyCategory": "KUNTOUTUS",
+      "sessionprice": "80.00",
+      "sessionpriceKelaRefund": "27.00",
+      "customer": 1
+    }
+  },
+  {
+    "model": "customerinvoicing.invoicecustomer",
+    "pk": 75,
+    "fields": {
+      "created": "2016-02-06T09:04:45.682Z",
+      "modified": "2016-02-06T09:04:45.683Z",
+      "firstName": "Terttu",
+      "additionalName": "",
+      "lastName": "Tosiasiakas",
+      "ssn": "110188-123N",
+      "address": "Terakatu 1111",
+      "zipCode": "66110",
+      "city": "TAMPERE",
+      "country": "",
+      "telephone": "0451234455",
+      "email": "terttu.tosiasiakas@eioikea.fi",
+      "status": true,
+      "therapyCategory": "KUNTOUTUS",
+      "sessionprice": "80.00",
+      "sessionpriceKelaRefund": "27.00",
+      "customer": 4
+    }
+  },
+  {
+    "model": "customerinvoicing.invoicecustomer",
+    "pk": 76,
+    "fields": {
+      "created": "2016-02-06T09:04:45.922Z",
+      "modified": "2016-02-06T09:04:45.922Z",
+      "firstName": "Liisa",
+      "additionalName": "Ilpo",
+      "lastName": "Asiakas",
+      "ssn": "311299-123Y",
+      "address": "Sorikatu 9999",
+      "zipCode": "33999",
+      "city": "TAMPERE",
+      "country": "Suomi",
+      "telephone": "0441234567",
+      "email": "liisa.asiakas@eioleoikea.fi",
+      "status": true,
+      "therapyCategory": "KUNTOUTUS",
+      "sessionprice": "80.00",
+      "sessionpriceKelaRefund": "54.00",
+      "customer": 3
+    }
+  },
+  {
+    "model": "customerinvoicing.invoicecustomer",
+    "pk": 77,
+    "fields": {
+      "created": "2016-02-06T09:07:19.977Z",
+      "modified": "2016-02-06T09:07:19.977Z",
+      "firstName": "Anne",
+      "additionalName": "",
+      "lastName": "Asiakas",
+      "ssn": "010185-104Y",
+      "address": "Terakatu 1111",
+      "zipCode": "33777",
+      "city": "TAMPERE",
+      "country": "Suomi",
+      "telephone": "04512412412",
+      "email": "anne.asiakas@eioleoikea.fi",
+      "status": true,
+      "therapyCategory": "KUNTOUTUS",
+      "sessionprice": "85.00",
+      "sessionpriceKelaRefund": "52.14",
+      "customer": 2
+    }
+  },
+  {
+    "model": "customerinvoicing.invoicecustomer",
+    "pk": 78,
+    "fields": {
+      "created": "2016-02-06T09:07:20.366Z",
+      "modified": "2016-02-06T09:07:20.366Z",
+      "firstName": "Liisa",
+      "additionalName": "Ilpo",
+      "lastName": "Asiakas",
+      "ssn": "311299-123Y",
+      "address": "Sorikatu 9999",
+      "zipCode": "33999",
+      "city": "TAMPERE",
+      "country": "Suomi",
+      "telephone": "0441234567",
+      "email": "liisa.asiakas@eioleoikea.fi",
+      "status": true,
+      "therapyCategory": "KUNTOUTUS",
+      "sessionprice": "80.00",
+      "sessionpriceKelaRefund": "54.00",
+      "customer": 3
+    }
+  },
+  {
+    "model": "customerinvoicing.invoicecustomer",
+    "pk": 79,
+    "fields": {
+      "created": "2016-02-06T09:07:20.645Z",
+      "modified": "2016-02-06T09:07:20.645Z",
+      "firstName": "Terttu",
+      "additionalName": "",
+      "lastName": "Tosiasiakas",
+      "ssn": "110188-123N",
+      "address": "Terakatu 1111",
+      "zipCode": "66110",
+      "city": "TAMPERE",
+      "country": "",
+      "telephone": "0451234455",
+      "email": "terttu.tosiasiakas@eioikea.fi",
+      "status": true,
+      "therapyCategory": "KUNTOUTUS",
+      "sessionprice": "80.00",
+      "sessionpriceKelaRefund": "27.00",
+      "customer": 4
+    }
+  },
+  {
+    "model": "customerinvoicing.invoicecustomer",
+    "pk": 80,
+    "fields": {
+      "created": "2016-02-06T09:08:49.546Z",
+      "modified": "2016-02-06T09:08:49.546Z",
+      "firstName": "Anne",
+      "additionalName": "",
+      "lastName": "Asiakas",
+      "ssn": "010185-104Y",
+      "address": "Terakatu 1111",
+      "zipCode": "33777",
+      "city": "TAMPERE",
+      "country": "Suomi",
+      "telephone": "04512412412",
+      "email": "anne.asiakas@eioleoikea.fi",
+      "status": true,
+      "therapyCategory": "KUNTOUTUS",
+      "sessionprice": "85.00",
+      "sessionpriceKelaRefund": "52.14",
+      "customer": 2
+    }
+  },
+  {
+    "model": "customerinvoicing.invoicecustomer",
+    "pk": 81,
+    "fields": {
+      "created": "2016-02-06T09:08:49.878Z",
+      "modified": "2016-02-06T09:08:49.878Z",
+      "firstName": "Liisa",
+      "additionalName": "Ilpo",
+      "lastName": "Asiakas",
+      "ssn": "311299-123Y",
+      "address": "Sorikatu 9999",
+      "zipCode": "33999",
+      "city": "TAMPERE",
+      "country": "Suomi",
+      "telephone": "0441234567",
+      "email": "liisa.asiakas@eioleoikea.fi",
+      "status": true,
+      "therapyCategory": "KUNTOUTUS",
+      "sessionprice": "80.00",
+      "sessionpriceKelaRefund": "54.00",
+      "customer": 3
+    }
+  },
+  {
+    "model": "customerinvoicing.invoicecustomer",
+    "pk": 82,
+    "fields": {
+      "created": "2016-02-06T09:08:50.129Z",
+      "modified": "2016-02-06T09:08:50.130Z",
+      "firstName": "Terttu",
+      "additionalName": "",
+      "lastName": "Tosiasiakas",
+      "ssn": "110188-123N",
+      "address": "Terakatu 1111",
+      "zipCode": "66110",
+      "city": "TAMPERE",
+      "country": "",
+      "telephone": "0451234455",
+      "email": "terttu.tosiasiakas@eioikea.fi",
+      "status": true,
+      "therapyCategory": "KUNTOUTUS",
+      "sessionprice": "80.00",
+      "sessionpriceKelaRefund": "27.00",
+      "customer": 4
+    }
+  },
+  {
+    "model": "customerinvoicing.invoicecustomer",
+    "pk": 83,
+    "fields": {
+      "created": "2016-02-06T09:10:34.972Z",
+      "modified": "2016-02-06T09:10:34.972Z",
+      "firstName": "Terttu-Tappi",
+      "additionalName": "",
+      "lastName": "Tosiasiakas",
+      "ssn": "110188-123N",
+      "address": "Terakatu 1111",
+      "zipCode": "33200",
+      "city": "TAMPERE",
+      "country": "",
+      "telephone": "0451234455",
+      "email": "terttu.tosiasiakas@eioikea.fi",
+      "status": true,
+      "therapyCategory": "KUNTOUTUS",
+      "sessionprice": "80.00",
+      "sessionpriceKelaRefund": "27.00",
+      "customer": 1
+    }
+  },
+  {
+    "model": "customerinvoicing.invoicecustomer",
+    "pk": 84,
+    "fields": {
+      "created": "2016-02-06T09:10:35.143Z",
+      "modified": "2016-02-06T09:10:35.144Z",
+      "firstName": "Liisa",
+      "additionalName": "Ilpo",
+      "lastName": "Asiakas",
+      "ssn": "311299-123Y",
+      "address": "Sorikatu 9999",
+      "zipCode": "33999",
+      "city": "TAMPERE",
+      "country": "Suomi",
+      "telephone": "0441234567",
+      "email": "liisa.asiakas@eioleoikea.fi",
+      "status": true,
+      "therapyCategory": "KUNTOUTUS",
+      "sessionprice": "80.00",
+      "sessionpriceKelaRefund": "54.00",
+      "customer": 3
+    }
+  },
+  {
+    "model": "customerinvoicing.invoicecustomer",
+    "pk": 85,
+    "fields": {
+      "created": "2016-02-06T09:10:35.363Z",
+      "modified": "2016-02-06T09:10:35.364Z",
+      "firstName": "Terttu",
+      "additionalName": "",
+      "lastName": "Tosiasiakas",
+      "ssn": "110188-123N",
+      "address": "Terakatu 1111",
+      "zipCode": "66110",
+      "city": "TAMPERE",
+      "country": "",
+      "telephone": "0451234455",
+      "email": "terttu.tosiasiakas@eioikea.fi",
+      "status": true,
+      "therapyCategory": "KUNTOUTUS",
+      "sessionprice": "80.00",
+      "sessionpriceKelaRefund": "27.00",
+      "customer": 4
+    }
+  },
+  {
+    "model": "customerinvoicing.invoicecompanyprofile",
+    "pk": 26,
+    "fields": {
+      "created": "2016-02-06T08:52:24.122Z",
+      "modified": "2016-02-06T08:52:24.122Z",
+      "companyName": "Terapia Oy",
+      "firstName": "Tero",
+      "additionalName": "",
+      "lastName": "Terapeutti",
+      "address": "Keskustori 1",
+      "zipCode": "33300",
+      "city": "TAMPERE",
+      "country": "",
+      "telephone": "04512412412",
+      "email": "psykoterapia@terapiaoy.com",
+      "vatId": "1234567-8",
+      "iban": "FI1234567800123457",
+      "bic": "HANDIFF",
+      "serviceproviderType": "PALVELUNTUOTTAJA",
+      "invoiceRefType": "TILITYSNRO",
+      "taxAdvanceType": "TAXREGISTER",
+      "companyProfile": 9999
+    }
+  },
+  {
+    "model": "customerinvoicing.invoicecompanyprofile",
+    "pk": 27,
+    "fields": {
+      "created": "2016-02-06T08:53:29.135Z",
+      "modified": "2016-02-06T08:53:29.135Z",
+      "companyName": "Terapia Oy",
+      "firstName": "Tero",
+      "additionalName": "",
+      "lastName": "Terapeutti",
+      "address": "Keskustori 1",
+      "zipCode": "33300",
+      "city": "TAMPERE",
+      "country": "",
+      "telephone": "04512412412",
+      "email": "psykoterapia@terapiaoy.com",
+      "vatId": "1234567-8",
+      "iban": "FI1234567800123457",
+      "bic": "HANDIFF",
+      "serviceproviderType": "PALVELUNTUOTTAJA",
+      "invoiceRefType": "TILITYSNRO",
+      "taxAdvanceType": "TAXREGISTER",
+      "companyProfile": 9999
+    }
+  },
+  {
+    "model": "customerinvoicing.invoicecompanyprofile",
+    "pk": 28,
+    "fields": {
+      "created": "2016-02-06T08:54:35.686Z",
+      "modified": "2016-02-06T08:54:35.686Z",
+      "companyName": "Terapia Oy",
+      "firstName": "Tero",
+      "additionalName": "",
+      "lastName": "Terapeutti",
+      "address": "Keskustori 1",
+      "zipCode": "33300",
+      "city": "TAMPERE",
+      "country": "",
+      "telephone": "04512412412",
+      "email": "psykoterapia@terapiaoy.com",
+      "vatId": "1234567-8",
+      "iban": "FI1234567800123457",
+      "bic": "HANDIFF",
+      "serviceproviderType": "PALVELUNTUOTTAJA",
+      "invoiceRefType": "TILITYSNRO",
+      "taxAdvanceType": "TAXREGISTER",
+      "companyProfile": 9999
+    }
+  },
+  {
+    "model": "customerinvoicing.invoicecompanyprofile",
+    "pk": 29,
+    "fields": {
+      "created": "2016-02-06T08:56:11.117Z",
+      "modified": "2016-02-06T08:56:11.117Z",
+      "companyName": "Terapia Oy",
+      "firstName": "Tero",
+      "additionalName": "",
+      "lastName": "Terapeutti",
+      "address": "Keskustori 1",
+      "zipCode": "33300",
+      "city": "TAMPERE",
+      "country": "",
+      "telephone": "04512412412",
+      "email": "psykoterapia@terapiaoy.com",
+      "vatId": "1234567-8",
+      "iban": "FI1234567800123457",
+      "bic": "HANDIFF",
+      "serviceproviderType": "PALVELUNTUOTTAJA",
+      "invoiceRefType": "TILITYSNRO",
+      "taxAdvanceType": "TAXREGISTER",
+      "companyProfile": 9999
+    }
+  },
+  {
+    "model": "customerinvoicing.invoicecompanyprofile",
+    "pk": 30,
+    "fields": {
+      "created": "2016-02-06T08:57:18.444Z",
+      "modified": "2016-02-06T08:57:18.444Z",
+      "companyName": "Terapia Oy",
+      "firstName": "Tero",
+      "additionalName": "",
+      "lastName": "Terapeutti",
+      "address": "Keskustori 1",
+      "zipCode": "33300",
+      "city": "TAMPERE",
+      "country": "",
+      "telephone": "04512412412",
+      "email": "psykoterapia@terapiaoy.com",
+      "vatId": "1234567-8",
+      "iban": "FI1234567800123457",
+      "bic": "HANDIFF",
+      "serviceproviderType": "PALVELUNTUOTTAJA",
+      "invoiceRefType": "TILITYSNRO",
+      "taxAdvanceType": "TAXREGISTER",
+      "companyProfile": 9999
+    }
+  },
+  {
+    "model": "customerinvoicing.invoicecompanyprofile",
+    "pk": 31,
+    "fields": {
+      "created": "2016-02-06T08:58:14.978Z",
+      "modified": "2016-02-06T08:58:14.978Z",
+      "companyName": "Terapia Oy",
+      "firstName": "Tero",
+      "additionalName": "",
+      "lastName": "Terapeutti",
+      "address": "Keskustori 1",
+      "zipCode": "33300",
+      "city": "TAMPERE",
+      "country": "",
+      "telephone": "04512412412",
+      "email": "psykoterapia@terapiaoy.com",
+      "vatId": "1234567-8",
+      "iban": "FI1234567800123457",
+      "bic": "HANDIFF",
+      "serviceproviderType": "PALVELUNTUOTTAJA",
+      "invoiceRefType": "TILITYSNRO",
+      "taxAdvanceType": "TAXREGISTER",
+      "companyProfile": 9999
+    }
+  },
+  {
+    "model": "customerinvoicing.invoicecompanyprofile",
+    "pk": 32,
+    "fields": {
+      "created": "2016-02-06T09:00:05.045Z",
+      "modified": "2016-02-06T09:00:05.045Z",
+      "companyName": "Terapia Oy",
+      "firstName": "Tero",
+      "additionalName": "",
+      "lastName": "Terapeutti",
+      "address": "Keskustori 1",
+      "zipCode": "33300",
+      "city": "TAMPERE",
+      "country": "",
+      "telephone": "04512412412",
+      "email": "psykoterapia@terapiaoy.com",
+      "vatId": "1234567-8",
+      "iban": "FI1234567800123457",
+      "bic": "HANDIFF",
+      "serviceproviderType": "PALVELUNTUOTTAJA",
+      "invoiceRefType": "TILITYSNRO",
+      "taxAdvanceType": "TAXREGISTER",
+      "companyProfile": 9999
+    }
+  },
+  {
+    "model": "customerinvoicing.invoicecompanyprofile",
+    "pk": 33,
+    "fields": {
+      "created": "2016-02-06T09:01:41.988Z",
+      "modified": "2016-02-06T09:01:41.988Z",
+      "companyName": "Terapia Oy",
+      "firstName": "Tero",
+      "additionalName": "",
+      "lastName": "Terapeutti",
+      "address": "Keskustori 1",
+      "zipCode": "33300",
+      "city": "TAMPERE",
+      "country": "",
+      "telephone": "04512412412",
+      "email": "psykoterapia@terapiaoy.com",
+      "vatId": "1234567-8",
+      "iban": "FI1234567800123457",
+      "bic": "HANDIFF",
+      "serviceproviderType": "PALVELUNTUOTTAJA",
+      "invoiceRefType": "TILITYSNRO",
+      "taxAdvanceType": "TAXREGISTER",
+      "companyProfile": 9999
+    }
+  },
+  {
+    "model": "customerinvoicing.invoicecompanyprofile",
+    "pk": 34,
+    "fields": {
+      "created": "2016-02-06T09:04:45.057Z",
+      "modified": "2016-02-06T09:04:45.057Z",
+      "companyName": "Terapia Oy",
+      "firstName": "Tero",
+      "additionalName": "",
+      "lastName": "Terapeutti",
+      "address": "Keskustori 1",
+      "zipCode": "33300",
+      "city": "TAMPERE",
+      "country": "",
+      "telephone": "04512412412",
+      "email": "psykoterapia@terapiaoy.com",
+      "vatId": "1234567-8",
+      "iban": "FI1234567800123457",
+      "bic": "HANDIFF",
+      "serviceproviderType": "PALVELUNTUOTTAJA",
+      "invoiceRefType": "TILITYSNRO",
+      "taxAdvanceType": "TAXREGISTER",
+      "companyProfile": 9999
+    }
+  },
+  {
+    "model": "customerinvoicing.invoicecompanyprofile",
+    "pk": 35,
+    "fields": {
+      "created": "2016-02-06T09:07:19.901Z",
+      "modified": "2016-02-06T09:07:19.901Z",
+      "companyName": "Terapia Oy",
+      "firstName": "Tero",
+      "additionalName": "",
+      "lastName": "Terapeutti",
+      "address": "Keskustori 1",
+      "zipCode": "33300",
+      "city": "TAMPERE",
+      "country": "",
+      "telephone": "04512412412",
+      "email": "psykoterapia@terapiaoy.com",
+      "vatId": "1234567-8",
+      "iban": "FI1234567800123457",
+      "bic": "HANDIFF",
+      "serviceproviderType": "PALVELUNTUOTTAJA",
+      "invoiceRefType": "TILITYSNRO",
+      "taxAdvanceType": "TAXREGISTER",
+      "companyProfile": 9999
+    }
+  },
+  {
+    "model": "customerinvoicing.invoicecompanyprofile",
+    "pk": 36,
+    "fields": {
+      "created": "2016-02-06T09:08:49.465Z",
+      "modified": "2016-02-06T09:08:49.465Z",
+      "companyName": "Terapia Oy",
+      "firstName": "Tero",
+      "additionalName": "",
+      "lastName": "Terapeutti",
+      "address": "Keskustori 1",
+      "zipCode": "33300",
+      "city": "TAMPERE",
+      "country": "",
+      "telephone": "04512412412",
+      "email": "psykoterapia@terapiaoy.com",
+      "vatId": "1234567-8",
+      "iban": "FI1234567800123457",
+      "bic": "HANDIFF",
+      "serviceproviderType": "PALVELUNTUOTTAJA",
+      "invoiceRefType": "TILITYSNRO",
+      "taxAdvanceType": "TAXREGISTER",
+      "companyProfile": 9999
+    }
+  },
+  {
+    "model": "customerinvoicing.invoicecompanyprofile",
+    "pk": 37,
+    "fields": {
+      "created": "2016-02-06T09:10:34.897Z",
+      "modified": "2016-02-06T09:10:34.897Z",
+      "companyName": "Terapia Oy",
+      "firstName": "Tero",
+      "additionalName": "",
+      "lastName": "Terapeutti",
+      "address": "Keskustori 1",
+      "zipCode": "33300",
+      "city": "TAMPERE",
+      "country": "",
+      "telephone": "04512412412",
+      "email": "psykoterapia@terapiaoy.com",
+      "vatId": "1234567-8",
+      "iban": "FI1234567800123457",
+      "bic": "HANDIFF",
+      "serviceproviderType": "PALVELUNTUOTTAJA",
+      "invoiceRefType": "TILITYSNRO",
+      "taxAdvanceType": "TAXREGISTER",
+      "companyProfile": 9999
+    }
+  },
+  {
+    "model": "customerinvoicing.invoice",
+    "pk": 52,
+    "fields": {
+      "created": "2016-02-06T08:52:24.251Z",
+      "modified": "2016-02-06T08:52:46.263Z",
+      "invoiceCustomer": 55,
+      "invoiceCompanyProfile": 26,
+      "date": "2015-01-31",
+      "invoiceNumber": 141,
+      "paidDate": null
+    }
+  },
+  {
+    "model": "customerinvoicing.invoice",
+    "pk": 53,
+    "fields": {
+      "created": "2016-02-06T08:53:29.280Z",
+      "modified": "2016-02-06T08:54:08.500Z",
+      "invoiceCustomer": 56,
+      "invoiceCompanyProfile": 27,
+      "date": "2015-02-28",
+      "invoiceNumber": 142,
+      "paidDate": null
+    }
+  },
+  {
+    "model": "customerinvoicing.invoice",
+    "pk": 54,
+    "fields": {
+      "created": "2016-02-06T08:54:35.843Z",
+      "modified": "2016-02-06T08:55:32.676Z",
+      "invoiceCustomer": 57,
+      "invoiceCompanyProfile": 28,
+      "date": "2015-03-30",
+      "invoiceNumber": 143,
+      "paidDate": null
+    }
+  },
+  {
+    "model": "customerinvoicing.invoice",
+    "pk": 55,
+    "fields": {
+      "created": "2016-02-06T08:56:11.261Z",
+      "modified": "2016-02-06T08:56:28.477Z",
+      "invoiceCustomer": 58,
+      "invoiceCompanyProfile": 29,
+      "date": "2015-04-30",
+      "invoiceNumber": 144,
+      "paidDate": null
+    }
+  },
+  {
+    "model": "customerinvoicing.invoice",
+    "pk": 56,
+    "fields": {
+      "created": "2016-02-06T08:57:18.587Z",
+      "modified": "2016-02-06T08:57:37.628Z",
+      "invoiceCustomer": 59,
+      "invoiceCompanyProfile": 30,
+      "date": "2015-05-31",
+      "invoiceNumber": 145,
+      "paidDate": null
+    }
+  },
+  {
+    "model": "customerinvoicing.invoice",
+    "pk": 57,
+    "fields": {
+      "created": "2016-02-06T08:57:18.829Z",
+      "modified": "2016-02-06T08:57:47.042Z",
+      "invoiceCustomer": 60,
+      "invoiceCompanyProfile": 30,
+      "date": "2015-05-31",
+      "invoiceNumber": 146,
+      "paidDate": null
+    }
+  },
+  {
+    "model": "customerinvoicing.invoice",
+    "pk": 58,
+    "fields": {
+      "created": "2016-02-06T08:58:15.131Z",
+      "modified": "2016-02-06T08:59:03.120Z",
+      "invoiceCustomer": 61,
+      "invoiceCompanyProfile": 31,
+      "date": "2015-06-30",
+      "invoiceNumber": 147,
+      "paidDate": null
+    }
+  },
+  {
+    "model": "customerinvoicing.invoice",
+    "pk": 59,
+    "fields": {
+      "created": "2016-02-06T08:58:15.523Z",
+      "modified": "2016-02-06T08:59:11.298Z",
+      "invoiceCustomer": 62,
+      "invoiceCompanyProfile": 31,
+      "date": "2015-06-30",
+      "invoiceNumber": 148,
+      "paidDate": null
+    }
+  },
+  {
+    "model": "customerinvoicing.invoice",
+    "pk": 60,
+    "fields": {
+      "created": "2016-02-06T08:58:15.699Z",
+      "modified": "2016-02-06T08:59:19.560Z",
+      "invoiceCustomer": 63,
+      "invoiceCompanyProfile": 31,
+      "date": "2015-06-30",
+      "invoiceNumber": 149,
+      "paidDate": null
+    }
+  },
+  {
+    "model": "customerinvoicing.invoice",
+    "pk": 61,
+    "fields": {
+      "created": "2016-02-06T08:58:15.978Z",
+      "modified": "2016-02-06T08:59:28.607Z",
+      "invoiceCustomer": 64,
+      "invoiceCompanyProfile": 31,
+      "date": "2015-06-30",
+      "invoiceNumber": 150,
+      "paidDate": null
+    }
+  },
+  {
+    "model": "customerinvoicing.invoice",
+    "pk": 62,
+    "fields": {
+      "created": "2016-02-06T09:00:05.188Z",
+      "modified": "2016-02-06T09:00:55.461Z",
+      "invoiceCustomer": 65,
+      "invoiceCompanyProfile": 32,
+      "date": "2015-07-30",
+      "invoiceNumber": 151,
+      "paidDate": null
+    }
+  },
+  {
+    "model": "customerinvoicing.invoice",
+    "pk": 63,
+    "fields": {
+      "created": "2016-02-06T09:00:05.380Z",
+      "modified": "2016-02-06T09:01:03.444Z",
+      "invoiceCustomer": 66,
+      "invoiceCompanyProfile": 32,
+      "date": "2015-07-30",
+      "invoiceNumber": 152,
+      "paidDate": null
+    }
+  },
+  {
+    "model": "customerinvoicing.invoice",
+    "pk": 64,
+    "fields": {
+      "created": "2016-02-06T09:00:05.593Z",
+      "modified": "2016-02-06T09:01:11.612Z",
+      "invoiceCustomer": 67,
+      "invoiceCompanyProfile": 32,
+      "date": "2015-07-30",
+      "invoiceNumber": 153,
+      "paidDate": null
+    }
+  },
+  {
+    "model": "customerinvoicing.invoice",
+    "pk": 65,
+    "fields": {
+      "created": "2016-02-06T09:00:05.855Z",
+      "modified": "2016-02-06T09:01:20.788Z",
+      "invoiceCustomer": 68,
+      "invoiceCompanyProfile": 32,
+      "date": "2015-07-30",
+      "invoiceNumber": 154,
+      "paidDate": null
+    }
+  },
+  {
+    "model": "customerinvoicing.invoice",
+    "pk": 66,
+    "fields": {
+      "created": "2016-02-06T09:01:42.142Z",
+      "modified": "2016-02-06T09:03:50.584Z",
+      "invoiceCustomer": 69,
+      "invoiceCompanyProfile": 33,
+      "date": "2015-08-30",
+      "invoiceNumber": 155,
+      "paidDate": null
+    }
+  },
+  {
+    "model": "customerinvoicing.invoice",
+    "pk": 67,
+    "fields": {
+      "created": "2016-02-06T09:01:42.497Z",
+      "modified": "2016-02-06T09:03:58.848Z",
+      "invoiceCustomer": 70,
+      "invoiceCompanyProfile": 33,
+      "date": "2015-08-30",
+      "invoiceNumber": 156,
+      "paidDate": null
+    }
+  },
+  {
+    "model": "customerinvoicing.invoice",
+    "pk": 68,
+    "fields": {
+      "created": "2016-02-06T09:01:42.672Z",
+      "modified": "2016-02-06T09:04:06.517Z",
+      "invoiceCustomer": 71,
+      "invoiceCompanyProfile": 33,
+      "date": "2015-08-30",
+      "invoiceNumber": 157,
+      "paidDate": null
+    }
+  },
+  {
+    "model": "customerinvoicing.invoice",
+    "pk": 69,
+    "fields": {
+      "created": "2016-02-06T09:01:42.895Z",
+      "modified": "2016-02-06T09:04:14.661Z",
+      "invoiceCustomer": 72,
+      "invoiceCompanyProfile": 33,
+      "date": "2015-08-30",
+      "invoiceNumber": 158,
+      "paidDate": null
+    }
+  },
+  {
+    "model": "customerinvoicing.invoice",
+    "pk": 70,
+    "fields": {
+      "created": "2016-02-06T09:04:45.206Z",
+      "modified": "2016-02-06T09:05:44.259Z",
+      "invoiceCustomer": 73,
+      "invoiceCompanyProfile": 34,
+      "date": "2015-09-30",
+      "invoiceNumber": 159,
+      "paidDate": null
+    }
+  },
+  {
+    "model": "customerinvoicing.invoice",
+    "pk": 71,
+    "fields": {
+      "created": "2016-02-06T09:04:45.553Z",
+      "modified": "2016-02-06T09:05:53.065Z",
+      "invoiceCustomer": 74,
+      "invoiceCompanyProfile": 34,
+      "date": "2015-09-30",
+      "invoiceNumber": 160,
+      "paidDate": null
+    }
+  },
+  {
+    "model": "customerinvoicing.invoice",
+    "pk": 72,
+    "fields": {
+      "created": "2016-02-06T09:04:45.751Z",
+      "modified": "2016-02-06T09:06:00.057Z",
+      "invoiceCustomer": 75,
+      "invoiceCompanyProfile": 34,
+      "date": "2015-09-30",
+      "invoiceNumber": 161,
+      "paidDate": null
+    }
+  },
+  {
+    "model": "customerinvoicing.invoice",
+    "pk": 73,
+    "fields": {
+      "created": "2016-02-06T09:04:45.989Z",
+      "modified": "2016-02-06T09:06:07.667Z",
+      "invoiceCustomer": 76,
+      "invoiceCompanyProfile": 34,
+      "date": "2015-09-30",
+      "invoiceNumber": 162,
+      "paidDate": null
+    }
+  },
+  {
+    "model": "customerinvoicing.invoice",
+    "pk": 74,
+    "fields": {
+      "created": "2016-02-06T09:07:20.047Z",
+      "modified": "2016-02-06T09:08:05.751Z",
+      "invoiceCustomer": 77,
+      "invoiceCompanyProfile": 35,
+      "date": "2015-10-30",
+      "invoiceNumber": 163,
+      "paidDate": null
+    }
+  },
+  {
+    "model": "customerinvoicing.invoice",
+    "pk": 75,
+    "fields": {
+      "created": "2016-02-06T09:07:20.436Z",
+      "modified": "2016-02-06T09:08:13.450Z",
+      "invoiceCustomer": 78,
+      "invoiceCompanyProfile": 35,
+      "date": "2015-10-30",
+      "invoiceNumber": 164,
+      "paidDate": null
+    }
+  },
+  {
+    "model": "customerinvoicing.invoice",
+    "pk": 76,
+    "fields": {
+      "created": "2016-02-06T09:07:20.716Z",
+      "modified": "2016-02-06T09:08:21.311Z",
+      "invoiceCustomer": 79,
+      "invoiceCompanyProfile": 35,
+      "date": "2015-10-30",
+      "invoiceNumber": 165,
+      "paidDate": null
+    }
+  },
+  {
+    "model": "customerinvoicing.invoice",
+    "pk": 77,
+    "fields": {
+      "created": "2016-02-06T09:08:49.619Z",
+      "modified": "2016-02-06T09:09:40.822Z",
+      "invoiceCustomer": 80,
+      "invoiceCompanyProfile": 36,
+      "date": "2015-11-30",
+      "invoiceNumber": 166,
+      "paidDate": null
+    }
+  },
+  {
+    "model": "customerinvoicing.invoice",
+    "pk": 78,
+    "fields": {
+      "created": "2016-02-06T09:08:49.949Z",
+      "modified": "2016-02-06T09:09:48.640Z",
+      "invoiceCustomer": 81,
+      "invoiceCompanyProfile": 36,
+      "date": "2015-11-30",
+      "invoiceNumber": 167,
+      "paidDate": null
+    }
+  },
+  {
+    "model": "customerinvoicing.invoice",
+    "pk": 79,
+    "fields": {
+      "created": "2016-02-06T09:08:50.202Z",
+      "modified": "2016-02-06T09:09:56.804Z",
+      "invoiceCustomer": 82,
+      "invoiceCompanyProfile": 36,
+      "date": "2015-11-30",
+      "invoiceNumber": 168,
+      "paidDate": null
+    }
+  },
+  {
+    "model": "customerinvoicing.invoice",
+    "pk": 80,
+    "fields": {
+      "created": "2016-02-06T09:10:35.043Z",
+      "modified": "2016-02-06T09:12:09.160Z",
+      "invoiceCustomer": 83,
+      "invoiceCompanyProfile": 37,
+      "date": "2015-12-31",
+      "invoiceNumber": 169,
+      "paidDate": null
+    }
+  },
+  {
+    "model": "customerinvoicing.invoice",
+    "pk": 81,
+    "fields": {
+      "created": "2016-02-06T09:10:35.212Z",
+      "modified": "2016-02-06T09:12:18.106Z",
+      "invoiceCustomer": 84,
+      "invoiceCompanyProfile": 37,
+      "date": "2015-12-31",
+      "invoiceNumber": 170,
+      "paidDate": null
+    }
+  },
+  {
+    "model": "customerinvoicing.invoice",
+    "pk": 82,
+    "fields": {
+      "created": "2016-02-06T09:10:35.433Z",
+      "modified": "2016-02-06T09:12:26.744Z",
+      "invoiceCustomer": 85,
+      "invoiceCompanyProfile": 37,
+      "date": "2015-12-31",
+      "invoiceNumber": 171,
+      "paidDate": null
+    }
+  },
+  {
+    "model": "customerinvoicing.invoicelineitem",
+    "pk": 203,
+    "fields": {
+      "created": "2016-02-06T08:52:24.302Z",
+      "modified": "2016-02-06T08:52:24.302Z",
+      "date": "2015-01-08",
+      "time": "16:00:00",
+      "sessionInvoiceType": "SINGLESESSION",
+      "kelaInvoiceType": "CANINVOICEKELA",
+      "sessionType": "YKSIL\u00d6",
+      "sessionDone": true,
+      "kelaInvoiced": true,
+      "customerInvoiced": false,
+      "sessionprice": "80.00",
+      "sessionpriceKelaRefund": "52.14",
+      "invoice": 52,
+      "session": 1000
+    }
+  },
+  {
+    "model": "customerinvoicing.invoicelineitem",
+    "pk": 204,
+    "fields": {
+      "created": "2016-02-06T08:52:24.328Z",
+      "modified": "2016-02-06T08:52:24.328Z",
+      "date": "2015-01-12",
+      "time": "16:15:00",
+      "sessionInvoiceType": "SINGLESESSION",
+      "kelaInvoiceType": "CANINVOICEKELA",
+      "sessionType": "YKSIL\u00d6",
+      "sessionDone": true,
+      "kelaInvoiced": true,
+      "customerInvoiced": false,
+      "sessionprice": "80.00",
+      "sessionpriceKelaRefund": "52.14",
+      "invoice": 52,
+      "session": 1001
+    }
+  },
+  {
+    "model": "customerinvoicing.invoicelineitem",
+    "pk": 205,
+    "fields": {
+      "created": "2016-02-06T08:52:24.353Z",
+      "modified": "2016-02-06T08:52:24.353Z",
+      "date": "2015-01-19",
+      "time": "16:15:00",
+      "sessionInvoiceType": "SINGLESESSION",
+      "kelaInvoiceType": "CANINVOICEKELA",
+      "sessionType": "YKSIL\u00d6",
+      "sessionDone": true,
+      "kelaInvoiced": true,
+      "customerInvoiced": false,
+      "sessionprice": "80.00",
+      "sessionpriceKelaRefund": "52.14",
+      "invoice": 52,
+      "session": 1002
+    }
+  },
+  {
+    "model": "customerinvoicing.invoicelineitem",
+    "pk": 206,
+    "fields": {
+      "created": "2016-02-06T08:52:24.378Z",
+      "modified": "2016-02-06T08:52:24.378Z",
+      "date": "2015-01-26",
+      "time": "16:15:00",
+      "sessionInvoiceType": "SINGLESESSION",
+      "kelaInvoiceType": "CANINVOICEKELA",
+      "sessionType": "YKSIL\u00d6",
+      "sessionDone": true,
+      "kelaInvoiced": true,
+      "customerInvoiced": false,
+      "sessionprice": "80.00",
+      "sessionpriceKelaRefund": "52.14",
+      "invoice": 52,
+      "session": 1003
+    }
+  },
+  {
+    "model": "customerinvoicing.invoicelineitem",
+    "pk": 207,
+    "fields": {
+      "created": "2016-02-06T08:53:29.329Z",
+      "modified": "2016-02-06T08:53:29.329Z",
+      "date": "2015-02-03",
+      "time": "16:15:00",
+      "sessionInvoiceType": "SINGLESESSION",
+      "kelaInvoiceType": "CANINVOICEKELA",
+      "sessionType": "YKSIL\u00d6",
+      "sessionDone": true,
+      "kelaInvoiced": false,
+      "customerInvoiced": false,
+      "sessionprice": "80.00",
+      "sessionpriceKelaRefund": "52.14",
+      "invoice": 53,
+      "session": 1004
+    }
+  },
+  {
+    "model": "customerinvoicing.invoicelineitem",
+    "pk": 208,
+    "fields": {
+      "created": "2016-02-06T08:53:29.355Z",
+      "modified": "2016-02-06T08:53:29.355Z",
+      "date": "2015-02-10",
+      "time": "16:00:00",
+      "sessionInvoiceType": "SINGLESESSION",
+      "kelaInvoiceType": "CANINVOICEKELA",
+      "sessionType": "YKSIL\u00d6",
+      "sessionDone": true,
+      "kelaInvoiced": false,
+      "customerInvoiced": false,
+      "sessionprice": "80.00",
+      "sessionpriceKelaRefund": "52.14",
+      "invoice": 53,
+      "session": 1005
+    }
+  },
+  {
+    "model": "customerinvoicing.invoicelineitem",
+    "pk": 209,
+    "fields": {
+      "created": "2016-02-06T08:53:29.380Z",
+      "modified": "2016-02-06T08:53:29.380Z",
+      "date": "2015-02-17",
+      "time": "16:00:00",
+      "sessionInvoiceType": "SINGLESESSION",
+      "kelaInvoiceType": "CANINVOICEKELA",
+      "sessionType": "YKSIL\u00d6",
+      "sessionDone": true,
+      "kelaInvoiced": false,
+      "customerInvoiced": false,
+      "sessionprice": "80.00",
+      "sessionpriceKelaRefund": "52.14",
+      "invoice": 53,
+      "session": 1006
+    }
+  },
+  {
+    "model": "customerinvoicing.invoicelineitem",
+    "pk": 210,
+    "fields": {
+      "created": "2016-02-06T08:53:29.407Z",
+      "modified": "2016-02-06T08:53:29.407Z",
+      "date": "2015-02-23",
+      "time": "16:00:00",
+      "sessionInvoiceType": "SINGLESESSION",
+      "kelaInvoiceType": "CANINVOICEKELA",
+      "sessionType": "YKSIL\u00d6",
+      "sessionDone": true,
+      "kelaInvoiced": false,
+      "customerInvoiced": false,
+      "sessionprice": "80.00",
+      "sessionpriceKelaRefund": "52.14",
+      "invoice": 53,
+      "session": 1007
+    }
+  },
+  {
+    "model": "customerinvoicing.invoicelineitem",
+    "pk": 211,
+    "fields": {
+      "created": "2016-02-06T08:54:35.897Z",
+      "modified": "2016-02-06T08:54:35.897Z",
+      "date": "2015-03-03",
+      "time": "16:00:00",
+      "sessionInvoiceType": "SINGLESESSION",
+      "kelaInvoiceType": "CANINVOICEKELA",
+      "sessionType": "YKSIL\u00d6",
+      "sessionDone": true,
+      "kelaInvoiced": false,
+      "customerInvoiced": false,
+      "sessionprice": "80.00",
+      "sessionpriceKelaRefund": "52.14",
+      "invoice": 54,
+      "session": 1008
+    }
+  },
+  {
+    "model": "customerinvoicing.invoicelineitem",
+    "pk": 212,
+    "fields": {
+      "created": "2016-02-06T08:54:35.925Z",
+      "modified": "2016-02-06T08:54:35.925Z",
+      "date": "2015-03-12",
+      "time": "16:00:00",
+      "sessionInvoiceType": "SINGLESESSION",
+      "kelaInvoiceType": "CANINVOICEKELA",
+      "sessionType": "YKSIL\u00d6",
+      "sessionDone": true,
+      "kelaInvoiced": false,
+      "customerInvoiced": false,
+      "sessionprice": "80.00",
+      "sessionpriceKelaRefund": "52.14",
+      "invoice": 54,
+      "session": 1009
+    }
+  },
+  {
+    "model": "customerinvoicing.invoicelineitem",
+    "pk": 213,
+    "fields": {
+      "created": "2016-02-06T08:54:35.950Z",
+      "modified": "2016-02-06T08:54:35.950Z",
+      "date": "2015-03-19",
+      "time": "17:00:00",
+      "sessionInvoiceType": "SINGLESESSION",
+      "kelaInvoiceType": "CANINVOICEKELA",
+      "sessionType": "YKSIL\u00d6",
+      "sessionDone": true,
+      "kelaInvoiced": false,
+      "customerInvoiced": false,
+      "sessionprice": "80.00",
+      "sessionpriceKelaRefund": "52.14",
+      "invoice": 54,
+      "session": 1010
+    }
+  },
+  {
+    "model": "customerinvoicing.invoicelineitem",
+    "pk": 214,
+    "fields": {
+      "created": "2016-02-06T08:54:35.976Z",
+      "modified": "2016-02-06T08:54:35.976Z",
+      "date": "2015-03-26",
+      "time": "16:45:00",
+      "sessionInvoiceType": "SINGLESESSION",
+      "kelaInvoiceType": "CANINVOICEKELA",
+      "sessionType": "YKSIL\u00d6",
+      "sessionDone": true,
+      "kelaInvoiced": false,
+      "customerInvoiced": false,
+      "sessionprice": "80.00",
+      "sessionpriceKelaRefund": "52.14",
+      "invoice": 54,
+      "session": 1011
+    }
+  },
+  {
+    "model": "customerinvoicing.invoicelineitem",
+    "pk": 215,
+    "fields": {
+      "created": "2016-02-06T08:56:11.311Z",
+      "modified": "2016-02-06T08:56:11.311Z",
+      "date": "2015-04-02",
+      "time": "16:45:00",
+      "sessionInvoiceType": "SINGLESESSION",
+      "kelaInvoiceType": "CANINVOICEKELA",
+      "sessionType": "YKSIL\u00d6",
+      "sessionDone": true,
+      "kelaInvoiced": true,
+      "customerInvoiced": false,
+      "sessionprice": "80.00",
+      "sessionpriceKelaRefund": "52.14",
+      "invoice": 55,
+      "session": 1012
+    }
+  },
+  {
+    "model": "customerinvoicing.invoicelineitem",
+    "pk": 216,
+    "fields": {
+      "created": "2016-02-06T08:56:11.337Z",
+      "modified": "2016-02-06T08:56:11.338Z",
+      "date": "2015-04-09",
+      "time": "16:45:00",
+      "sessionInvoiceType": "SINGLESESSION",
+      "kelaInvoiceType": "CANINVOICEKELA",
+      "sessionType": "YKSIL\u00d6",
+      "sessionDone": true,
+      "kelaInvoiced": true,
+      "customerInvoiced": false,
+      "sessionprice": "80.00",
+      "sessionpriceKelaRefund": "52.14",
+      "invoice": 55,
+      "session": 1013
+    }
+  },
+  {
+    "model": "customerinvoicing.invoicelineitem",
+    "pk": 217,
+    "fields": {
+      "created": "2016-02-06T08:56:11.362Z",
+      "modified": "2016-02-06T08:56:11.362Z",
+      "date": "2015-04-23",
+      "time": "16:45:00",
+      "sessionInvoiceType": "SINGLESESSION",
+      "kelaInvoiceType": "CANINVOICEKELA",
+      "sessionType": "YKSIL\u00d6",
+      "sessionDone": true,
+      "kelaInvoiced": true,
+      "customerInvoiced": false,
+      "sessionprice": "80.00",
+      "sessionpriceKelaRefund": "52.14",
+      "invoice": 55,
+      "session": 1014
+    }
+  },
+  {
+    "model": "customerinvoicing.invoicelineitem",
+    "pk": 218,
+    "fields": {
+      "created": "2016-02-06T08:57:18.637Z",
+      "modified": "2016-02-06T08:57:18.637Z",
+      "date": "2015-05-07",
+      "time": "16:45:00",
+      "sessionInvoiceType": "SINGLESESSION",
+      "kelaInvoiceType": "CANINVOICEKELA",
+      "sessionType": "YKSIL\u00d6",
+      "sessionDone": true,
+      "kelaInvoiced": true,
+      "customerInvoiced": false,
+      "sessionprice": "80.00",
+      "sessionpriceKelaRefund": "52.14",
+      "invoice": 56,
+      "session": 1015
+    }
+  },
+  {
+    "model": "customerinvoicing.invoicelineitem",
+    "pk": 219,
+    "fields": {
+      "created": "2016-02-06T08:57:18.663Z",
+      "modified": "2016-02-06T08:57:18.663Z",
+      "date": "2015-05-15",
+      "time": "14:15:00",
+      "sessionInvoiceType": "SINGLESESSION",
+      "kelaInvoiceType": "CANINVOICEKELA",
+      "sessionType": "YKSIL\u00d6",
+      "sessionDone": true,
+      "kelaInvoiced": true,
+      "customerInvoiced": false,
+      "sessionprice": "80.00",
+      "sessionpriceKelaRefund": "52.14",
+      "invoice": 56,
+      "session": 1016
+    }
+  },
+  {
+    "model": "customerinvoicing.invoicelineitem",
+    "pk": 220,
+    "fields": {
+      "created": "2016-02-06T08:57:18.687Z",
+      "modified": "2016-02-06T08:57:18.687Z",
+      "date": "2015-05-21",
+      "time": "16:00:00",
+      "sessionInvoiceType": "SINGLESESSION",
+      "kelaInvoiceType": "CANINVOICEKELA",
+      "sessionType": "YKSIL\u00d6",
+      "sessionDone": true,
+      "kelaInvoiced": true,
+      "customerInvoiced": false,
+      "sessionprice": "80.00",
+      "sessionpriceKelaRefund": "52.14",
+      "invoice": 56,
+      "session": 1017
+    }
+  },
+  {
+    "model": "customerinvoicing.invoicelineitem",
+    "pk": 221,
+    "fields": {
+      "created": "2016-02-06T08:57:18.712Z",
+      "modified": "2016-02-06T08:57:18.712Z",
+      "date": "2015-05-26",
+      "time": "16:00:00",
+      "sessionInvoiceType": "SINGLESESSION",
+      "kelaInvoiceType": "CANINVOICEKELA",
+      "sessionType": "YKSIL\u00d6",
+      "sessionDone": true,
+      "kelaInvoiced": true,
+      "customerInvoiced": false,
+      "sessionprice": "80.00",
+      "sessionpriceKelaRefund": "52.14",
+      "invoice": 56,
+      "session": 1018
+    }
+  },
+  {
+    "model": "customerinvoicing.invoicelineitem",
+    "pk": 222,
+    "fields": {
+      "created": "2016-02-06T08:57:18.881Z",
+      "modified": "2016-02-06T08:57:18.881Z",
+      "date": "2015-05-28",
+      "time": "16:00:00",
+      "sessionInvoiceType": "SINGLESESSION",
+      "kelaInvoiceType": "CANINVOICEKELA",
+      "sessionType": "YKSIL\u00d6",
+      "sessionDone": true,
+      "kelaInvoiced": true,
+      "customerInvoiced": false,
+      "sessionprice": "80.00",
+      "sessionpriceKelaRefund": "52.14",
+      "invoice": 57,
+      "session": 1019
+    }
+  },
+  {
+    "model": "customerinvoicing.invoicelineitem",
+    "pk": 223,
+    "fields": {
+      "created": "2016-02-06T08:58:15.185Z",
+      "modified": "2016-02-06T08:58:15.185Z",
+      "date": "2015-06-02",
+      "time": "16:00:00",
+      "sessionInvoiceType": "SINGLESESSION",
+      "kelaInvoiceType": "CANINVOICEKELA",
+      "sessionType": "YKSIL\u00d6",
+      "sessionDone": true,
+      "kelaInvoiced": false,
+      "customerInvoiced": false,
+      "sessionprice": "80.00",
+      "sessionpriceKelaRefund": "37.00",
+      "invoice": 58,
+      "session": 1021
+    }
+  },
+  {
+    "model": "customerinvoicing.invoicelineitem",
+    "pk": 224,
+    "fields": {
+      "created": "2016-02-06T08:58:15.212Z",
+      "modified": "2016-02-06T08:58:15.212Z",
+      "date": "2015-06-04",
+      "time": "17:00:00",
+      "sessionInvoiceType": "SINGLESESSION",
+      "kelaInvoiceType": "CANINVOICEKELA",
+      "sessionType": "YKSIL\u00d6",
+      "sessionDone": true,
+      "kelaInvoiced": false,
+      "customerInvoiced": false,
+      "sessionprice": "80.00",
+      "sessionpriceKelaRefund": "37.00",
+      "invoice": 58,
+      "session": 1022
+    }
+  },
+  {
+    "model": "customerinvoicing.invoicelineitem",
+    "pk": 225,
+    "fields": {
+      "created": "2016-02-06T08:58:15.238Z",
+      "modified": "2016-02-06T08:58:15.239Z",
+      "date": "2015-06-11",
+      "time": "17:00:00",
+      "sessionInvoiceType": "SINGLESESSION",
+      "kelaInvoiceType": "CANINVOICEKELA",
+      "sessionType": "YKSIL\u00d6",
+      "sessionDone": true,
+      "kelaInvoiced": false,
+      "customerInvoiced": false,
+      "sessionprice": "80.00",
+      "sessionpriceKelaRefund": "37.00",
+      "invoice": 58,
+      "session": 1025
+    }
+  },
+  {
+    "model": "customerinvoicing.invoicelineitem",
+    "pk": 226,
+    "fields": {
+      "created": "2016-02-06T08:58:15.264Z",
+      "modified": "2016-02-06T08:58:15.265Z",
+      "date": "2015-06-12",
+      "time": "15:00:00",
+      "sessionInvoiceType": "SINGLESESSION",
+      "kelaInvoiceType": "CANINVOICEKELA",
+      "sessionType": "YKSIL\u00d6",
+      "sessionDone": true,
+      "kelaInvoiced": false,
+      "customerInvoiced": false,
+      "sessionprice": "80.00",
+      "sessionpriceKelaRefund": "37.00",
+      "invoice": 58,
+      "session": 1026
+    }
+  },
+  {
+    "model": "customerinvoicing.invoicelineitem",
+    "pk": 227,
+    "fields": {
+      "created": "2016-02-06T08:58:15.291Z",
+      "modified": "2016-02-06T08:58:15.291Z",
+      "date": "2015-06-16",
+      "time": "16:00:00",
+      "sessionInvoiceType": "SINGLESESSION",
+      "kelaInvoiceType": "CANINVOICEKELA",
+      "sessionType": "YKSIL\u00d6",
+      "sessionDone": true,
+      "kelaInvoiced": false,
+      "customerInvoiced": false,
+      "sessionprice": "80.00",
+      "sessionpriceKelaRefund": "37.00",
+      "invoice": 58,
+      "session": 1028
+    }
+  },
+  {
+    "model": "customerinvoicing.invoicelineitem",
+    "pk": 228,
+    "fields": {
+      "created": "2016-02-06T08:58:15.316Z",
+      "modified": "2016-02-06T08:58:15.317Z",
+      "date": "2015-06-18",
+      "time": "14:30:00",
+      "sessionInvoiceType": "SINGLESESSION",
+      "kelaInvoiceType": "CANINVOICEKELA",
+      "sessionType": "YKSIL\u00d6",
+      "sessionDone": true,
+      "kelaInvoiced": false,
+      "customerInvoiced": false,
+      "sessionprice": "80.00",
+      "sessionpriceKelaRefund": "37.00",
+      "invoice": 58,
+      "session": 1031
+    }
+  },
+  {
+    "model": "customerinvoicing.invoicelineitem",
+    "pk": 229,
+    "fields": {
+      "created": "2016-02-06T08:58:15.344Z",
+      "modified": "2016-02-06T08:58:15.344Z",
+      "date": "2015-06-22",
+      "time": "16:00:00",
+      "sessionInvoiceType": "SINGLESESSION",
+      "kelaInvoiceType": "CANINVOICEKELA",
+      "sessionType": "YKSIL\u00d6",
+      "sessionDone": true,
+      "kelaInvoiced": false,
+      "customerInvoiced": false,
+      "sessionprice": "80.00",
+      "sessionpriceKelaRefund": "37.00",
+      "invoice": 58,
+      "session": 1032
+    }
+  },
+  {
+    "model": "customerinvoicing.invoicelineitem",
+    "pk": 230,
+    "fields": {
+      "created": "2016-02-06T08:58:15.372Z",
+      "modified": "2016-02-06T08:58:15.372Z",
+      "date": "2015-06-25",
+      "time": "17:00:00",
+      "sessionInvoiceType": "SINGLESESSION",
+      "kelaInvoiceType": "CANINVOICEKELA",
+      "sessionType": "YKSIL\u00d6",
+      "sessionDone": true,
+      "kelaInvoiced": false,
+      "customerInvoiced": false,
+      "sessionprice": "80.00",
+      "sessionpriceKelaRefund": "37.00",
+      "invoice": 58,
+      "session": 1034
+    }
+  },
+  {
+    "model": "customerinvoicing.invoicelineitem",
+    "pk": 231,
+    "fields": {
+      "created": "2016-02-06T08:58:15.398Z",
+      "modified": "2016-02-06T08:58:15.398Z",
+      "date": "2015-06-30",
+      "time": "17:00:00",
+      "sessionInvoiceType": "SINGLESESSION",
+      "kelaInvoiceType": "CANINVOICEKELA",
+      "sessionType": "YKSIL\u00d6",
+      "sessionDone": true,
+      "kelaInvoiced": false,
+      "customerInvoiced": false,
+      "sessionprice": "80.00",
+      "sessionpriceKelaRefund": "37.00",
+      "invoice": 58,
+      "session": 1037
+    }
+  },
+  {
+    "model": "customerinvoicing.invoicelineitem",
+    "pk": 232,
+    "fields": {
+      "created": "2016-02-06T08:58:15.577Z",
+      "modified": "2016-02-06T08:58:15.577Z",
+      "date": "2015-06-04",
+      "time": "16:00:00",
+      "sessionInvoiceType": "SINGLESESSION",
+      "kelaInvoiceType": "CANINVOICEKELA",
+      "sessionType": "YKSIL\u00d6",
+      "sessionDone": true,
+      "kelaInvoiced": false,
+      "customerInvoiced": false,
+      "sessionprice": "80.00",
+      "sessionpriceKelaRefund": "52.14",
+      "invoice": 59,
+      "session": 1023
+    }
+  },
+  {
+    "model": "customerinvoicing.invoicelineitem",
+    "pk": 233,
+    "fields": {
+      "created": "2016-02-06T08:58:15.751Z",
+      "modified": "2016-02-06T08:58:15.752Z",
+      "date": "2015-06-02",
+      "time": "17:00:00",
+      "sessionInvoiceType": "SINGLESESSION",
+      "kelaInvoiceType": "CANINVOICEKELA",
+      "sessionType": "YKSIL\u00d6",
+      "sessionDone": true,
+      "kelaInvoiced": false,
+      "customerInvoiced": false,
+      "sessionprice": "80.00",
+      "sessionpriceKelaRefund": "52.14",
+      "invoice": 60,
+      "session": 1020
+    }
+  },
+  {
+    "model": "customerinvoicing.invoicelineitem",
+    "pk": 234,
+    "fields": {
+      "created": "2016-02-06T08:58:15.778Z",
+      "modified": "2016-02-06T08:58:15.778Z",
+      "date": "2015-06-11",
+      "time": "16:00:00",
+      "sessionInvoiceType": "SINGLESESSION",
+      "kelaInvoiceType": "CANINVOICEKELA",
+      "sessionType": "YKSIL\u00d6",
+      "sessionDone": true,
+      "kelaInvoiced": false,
+      "customerInvoiced": false,
+      "sessionprice": "80.00",
+      "sessionpriceKelaRefund": "52.14",
+      "invoice": 60,
+      "session": 1024
+    }
+  },
+  {
+    "model": "customerinvoicing.invoicelineitem",
+    "pk": 235,
+    "fields": {
+      "created": "2016-02-06T08:58:15.804Z",
+      "modified": "2016-02-06T08:58:15.804Z",
+      "date": "2015-06-18",
+      "time": "15:30:00",
+      "sessionInvoiceType": "SINGLESESSION",
+      "kelaInvoiceType": "CANINVOICEKELA",
+      "sessionType": "YKSIL\u00d6",
+      "sessionDone": true,
+      "kelaInvoiced": false,
+      "customerInvoiced": false,
+      "sessionprice": "80.00",
+      "sessionpriceKelaRefund": "52.14",
+      "invoice": 60,
+      "session": 1030
+    }
+  },
+  {
+    "model": "customerinvoicing.invoicelineitem",
+    "pk": 236,
+    "fields": {
+      "created": "2016-02-06T08:58:15.831Z",
+      "modified": "2016-02-06T08:58:15.831Z",
+      "date": "2015-06-23",
+      "time": "16:30:00",
+      "sessionInvoiceType": "SINGLESESSION",
+      "kelaInvoiceType": "CANINVOICEKELA",
+      "sessionType": "YKSIL\u00d6",
+      "sessionDone": true,
+      "kelaInvoiced": false,
+      "customerInvoiced": false,
+      "sessionprice": "80.00",
+      "sessionpriceKelaRefund": "52.14",
+      "invoice": 60,
+      "session": 1033
+    }
+  },
+  {
+    "model": "customerinvoicing.invoicelineitem",
+    "pk": 237,
+    "fields": {
+      "created": "2016-02-06T08:58:15.856Z",
+      "modified": "2016-02-06T08:58:15.856Z",
+      "date": "2015-06-30",
+      "time": "16:00:00",
+      "sessionInvoiceType": "SINGLESESSION",
+      "kelaInvoiceType": "CANINVOICEKELA",
+      "sessionType": "YKSIL\u00d6",
+      "sessionDone": true,
+      "kelaInvoiced": false,
+      "customerInvoiced": false,
+      "sessionprice": "80.00",
+      "sessionpriceKelaRefund": "52.14",
+      "invoice": 60,
+      "session": 1036
+    }
+  },
+  {
+    "model": "customerinvoicing.invoicelineitem",
+    "pk": 238,
+    "fields": {
+      "created": "2016-02-06T08:58:16.029Z",
+      "modified": "2016-02-06T08:58:16.029Z",
+      "date": "2015-06-12",
+      "time": "16:00:00",
+      "sessionInvoiceType": "SINGLESESSION",
+      "kelaInvoiceType": "CANINVOICEKELA",
+      "sessionType": "YKSIL\u00d6",
+      "sessionDone": true,
+      "kelaInvoiced": false,
+      "customerInvoiced": false,
+      "sessionprice": "80.00",
+      "sessionpriceKelaRefund": "52.14",
+      "invoice": 61,
+      "session": 1027
+    }
+  },
+  {
+    "model": "customerinvoicing.invoicelineitem",
+    "pk": 239,
+    "fields": {
+      "created": "2016-02-06T08:58:16.055Z",
+      "modified": "2016-02-06T08:58:16.055Z",
+      "date": "2015-06-16",
+      "time": "17:00:00",
+      "sessionInvoiceType": "SINGLESESSION",
+      "kelaInvoiceType": "CANINVOICEKELA",
+      "sessionType": "YKSIL\u00d6",
+      "sessionDone": true,
+      "kelaInvoiced": false,
+      "customerInvoiced": false,
+      "sessionprice": "80.00",
+      "sessionpriceKelaRefund": "52.14",
+      "invoice": 61,
+      "session": 1029
+    }
+  },
+  {
+    "model": "customerinvoicing.invoicelineitem",
+    "pk": 240,
+    "fields": {
+      "created": "2016-02-06T08:58:16.081Z",
+      "modified": "2016-02-06T08:58:16.081Z",
+      "date": "2015-06-25",
+      "time": "16:00:00",
+      "sessionInvoiceType": "SINGLESESSION",
+      "kelaInvoiceType": "CANINVOICEKELA",
+      "sessionType": "YKSIL\u00d6",
+      "sessionDone": true,
+      "kelaInvoiced": false,
+      "customerInvoiced": false,
+      "sessionprice": "80.00",
+      "sessionpriceKelaRefund": "52.14",
+      "invoice": 61,
+      "session": 1035
+    }
+  },
+  {
+    "model": "customerinvoicing.invoicelineitem",
+    "pk": 241,
+    "fields": {
+      "created": "2016-02-06T09:00:05.238Z",
+      "modified": "2016-02-06T09:00:05.238Z",
+      "date": "2015-07-02",
+      "time": "17:00:00",
+      "sessionInvoiceType": "SINGLESESSION",
+      "kelaInvoiceType": "CANINVOICEKELA",
+      "sessionType": "YKSIL\u00d6",
+      "sessionDone": true,
+      "kelaInvoiced": false,
+      "customerInvoiced": false,
+      "sessionprice": "80.00",
+      "sessionpriceKelaRefund": "37.00",
+      "invoice": 62,
+      "session": 1038
+    }
+  },
+  {
+    "model": "customerinvoicing.invoicelineitem",
+    "pk": 242,
+    "fields": {
+      "created": "2016-02-06T09:00:05.263Z",
+      "modified": "2016-02-06T09:00:05.263Z",
+      "date": "2015-07-07",
+      "time": "17:00:00",
+      "sessionInvoiceType": "SINGLESESSION",
+      "kelaInvoiceType": "CANINVOICEKELA",
+      "sessionType": "YKSIL\u00d6",
+      "sessionDone": true,
+      "kelaInvoiced": false,
+      "customerInvoiced": false,
+      "sessionprice": "80.00",
+      "sessionpriceKelaRefund": "37.00",
+      "invoice": 62,
+      "session": 1040
+    }
+  },
+  {
+    "model": "customerinvoicing.invoicelineitem",
+    "pk": 243,
+    "fields": {
+      "created": "2016-02-06T09:00:05.432Z",
+      "modified": "2016-02-06T09:00:05.432Z",
+      "date": "2015-07-09",
+      "time": "16:00:00",
+      "sessionInvoiceType": "SINGLESESSION",
+      "kelaInvoiceType": "CANINVOICEKELA",
+      "sessionType": "YKSIL\u00d6",
+      "sessionDone": true,
+      "kelaInvoiced": false,
+      "customerInvoiced": false,
+      "sessionprice": "80.00",
+      "sessionpriceKelaRefund": "52.14",
+      "invoice": 63,
+      "session": 1043
+    }
+  },
+  {
+    "model": "customerinvoicing.invoicelineitem",
+    "pk": 244,
+    "fields": {
+      "created": "2016-02-06T09:00:05.459Z",
+      "modified": "2016-02-06T09:00:05.459Z",
+      "date": "2015-07-28",
+      "time": "15:00:00",
+      "sessionInvoiceType": "SINGLESESSION",
+      "kelaInvoiceType": "CANINVOICEKELA",
+      "sessionType": "YKSIL\u00d6",
+      "sessionDone": true,
+      "kelaInvoiced": false,
+      "customerInvoiced": false,
+      "sessionprice": "80.00",
+      "sessionpriceKelaRefund": "52.14",
+      "invoice": 63,
+      "session": 1047
+    }
+  },
+  {
+    "model": "customerinvoicing.invoicelineitem",
+    "pk": 245,
+    "fields": {
+      "created": "2016-02-06T09:00:05.650Z",
+      "modified": "2016-02-06T09:00:05.650Z",
+      "date": "2015-07-02",
+      "time": "16:00:00",
+      "sessionInvoiceType": "SINGLESESSION",
+      "kelaInvoiceType": "CANINVOICEKELA",
+      "sessionType": "YKSIL\u00d6",
+      "sessionDone": true,
+      "kelaInvoiced": false,
+      "customerInvoiced": false,
+      "sessionprice": "80.00",
+      "sessionpriceKelaRefund": "52.14",
+      "invoice": 64,
+      "session": 1039
+    }
+  },
+  {
+    "model": "customerinvoicing.invoicelineitem",
+    "pk": 246,
+    "fields": {
+      "created": "2016-02-06T09:00:05.676Z",
+      "modified": "2016-02-06T09:00:05.676Z",
+      "date": "2015-07-07",
+      "time": "16:00:00",
+      "sessionInvoiceType": "SINGLESESSION",
+      "kelaInvoiceType": "CANINVOICEKELA",
+      "sessionType": "YKSIL\u00d6",
+      "sessionDone": true,
+      "kelaInvoiced": false,
+      "customerInvoiced": false,
+      "sessionprice": "80.00",
+      "sessionpriceKelaRefund": "52.14",
+      "invoice": 64,
+      "session": 1041
+    }
+  },
+  {
+    "model": "customerinvoicing.invoicelineitem",
+    "pk": 247,
+    "fields": {
+      "created": "2016-02-06T09:00:05.702Z",
+      "modified": "2016-02-06T09:00:05.702Z",
+      "date": "2015-07-16",
+      "time": "16:00:00",
+      "sessionInvoiceType": "SINGLESESSION",
+      "kelaInvoiceType": "CANINVOICEKELA",
+      "sessionType": "YKSIL\u00d6",
+      "sessionDone": true,
+      "kelaInvoiced": false,
+      "customerInvoiced": false,
+      "sessionprice": "80.00",
+      "sessionpriceKelaRefund": "52.14",
+      "invoice": 64,
+      "session": 1044
+    }
+  },
+  {
+    "model": "customerinvoicing.invoicelineitem",
+    "pk": 248,
+    "fields": {
+      "created": "2016-02-06T09:00:05.728Z",
+      "modified": "2016-02-06T09:00:05.729Z",
+      "date": "2015-07-23",
+      "time": "14:00:00",
+      "sessionInvoiceType": "SINGLESESSION",
+      "kelaInvoiceType": "CANINVOICEKELA",
+      "sessionType": "YKSIL\u00d6",
+      "sessionDone": true,
+      "kelaInvoiced": false,
+      "customerInvoiced": false,
+      "sessionprice": "80.00",
+      "sessionpriceKelaRefund": "52.14",
+      "invoice": 64,
+      "session": 1045
+    }
+  },
+  {
+    "model": "customerinvoicing.invoicelineitem",
+    "pk": 249,
+    "fields": {
+      "created": "2016-02-06T09:00:05.907Z",
+      "modified": "2016-02-06T09:00:05.907Z",
+      "date": "2015-07-09",
+      "time": "17:00:00",
+      "sessionInvoiceType": "SINGLESESSION",
+      "kelaInvoiceType": "CANINVOICEKELA",
+      "sessionType": "YKSIL\u00d6",
+      "sessionDone": true,
+      "kelaInvoiced": false,
+      "customerInvoiced": false,
+      "sessionprice": "80.00",
+      "sessionpriceKelaRefund": "52.14",
+      "invoice": 65,
+      "session": 1042
+    }
+  },
+  {
+    "model": "customerinvoicing.invoicelineitem",
+    "pk": 250,
+    "fields": {
+      "created": "2016-02-06T09:00:05.933Z",
+      "modified": "2016-02-06T09:00:05.933Z",
+      "date": "2015-07-28",
+      "time": "14:00:00",
+      "sessionInvoiceType": "SINGLESESSION",
+      "kelaInvoiceType": "CANINVOICEKELA",
+      "sessionType": "YKSIL\u00d6",
+      "sessionDone": true,
+      "kelaInvoiced": false,
+      "customerInvoiced": false,
+      "sessionprice": "80.00",
+      "sessionpriceKelaRefund": "52.14",
+      "invoice": 65,
+      "session": 1046
+    }
+  },
+  {
+    "model": "customerinvoicing.invoicelineitem",
+    "pk": 251,
+    "fields": {
+      "created": "2016-02-06T09:01:42.195Z",
+      "modified": "2016-02-06T09:01:42.196Z",
+      "date": "2015-08-04",
+      "time": "12:00:00",
+      "sessionInvoiceType": "SINGLESESSION",
+      "kelaInvoiceType": "CANINVOICEKELA",
+      "sessionType": "YKSIL\u00d6",
+      "sessionDone": true,
+      "kelaInvoiced": false,
+      "customerInvoiced": false,
+      "sessionprice": "80.00",
+      "sessionpriceKelaRefund": "37.00",
+      "invoice": 66,
+      "session": 1048
+    }
+  },
+  {
+    "model": "customerinvoicing.invoicelineitem",
+    "pk": 252,
+    "fields": {
+      "created": "2016-02-06T09:01:42.222Z",
+      "modified": "2016-02-06T09:01:42.222Z",
+      "date": "2015-08-06",
+      "time": "15:00:00",
+      "sessionInvoiceType": "SINGLESESSION",
+      "kelaInvoiceType": "CANINVOICEKELA",
+      "sessionType": "YKSIL\u00d6",
+      "sessionDone": true,
+      "kelaInvoiced": false,
+      "customerInvoiced": false,
+      "sessionprice": "80.00",
+      "sessionpriceKelaRefund": "37.00",
+      "invoice": 66,
+      "session": 1049
+    }
+  },
+  {
+    "model": "customerinvoicing.invoicelineitem",
+    "pk": 253,
+    "fields": {
+      "created": "2016-02-06T09:01:42.247Z",
+      "modified": "2016-02-06T09:01:42.247Z",
+      "date": "2015-08-11",
+      "time": "15:00:00",
+      "sessionInvoiceType": "SINGLESESSION",
+      "kelaInvoiceType": "CANINVOICEKELA",
+      "sessionType": "YKSIL\u00d6",
+      "sessionDone": true,
+      "kelaInvoiced": false,
+      "customerInvoiced": false,
+      "sessionprice": "80.00",
+      "sessionpriceKelaRefund": "37.00",
+      "invoice": 66,
+      "session": 1050
+    }
+  },
+  {
+    "model": "customerinvoicing.invoicelineitem",
+    "pk": 254,
+    "fields": {
+      "created": "2016-02-06T09:01:42.273Z",
+      "modified": "2016-02-06T09:01:42.273Z",
+      "date": "2015-08-13",
+      "time": "13:00:00",
+      "sessionInvoiceType": "SINGLESESSION",
+      "kelaInvoiceType": "CANINVOICEKELA",
+      "sessionType": "YKSIL\u00d6",
+      "sessionDone": true,
+      "kelaInvoiced": false,
+      "customerInvoiced": false,
+      "sessionprice": "80.00",
+      "sessionpriceKelaRefund": "37.00",
+      "invoice": 66,
+      "session": 1051
+    }
+  },
+  {
+    "model": "customerinvoicing.invoicelineitem",
+    "pk": 255,
+    "fields": {
+      "created": "2016-02-06T09:01:42.298Z",
+      "modified": "2016-02-06T09:01:42.298Z",
+      "date": "2015-08-18",
+      "time": "16:00:00",
+      "sessionInvoiceType": "SINGLESESSION",
+      "kelaInvoiceType": "CANINVOICEKELA",
+      "sessionType": "YKSIL\u00d6",
+      "sessionDone": true,
+      "kelaInvoiced": false,
+      "customerInvoiced": false,
+      "sessionprice": "80.00",
+      "sessionpriceKelaRefund": "37.00",
+      "invoice": 66,
+      "session": 1055
+    }
+  },
+  {
+    "model": "customerinvoicing.invoicelineitem",
+    "pk": 256,
+    "fields": {
+      "created": "2016-02-06T09:01:42.323Z",
+      "modified": "2016-02-06T09:01:42.323Z",
+      "date": "2015-08-21",
+      "time": "15:15:00",
+      "sessionInvoiceType": "SINGLESESSION",
+      "kelaInvoiceType": "CANINVOICEKELA",
+      "sessionType": "YKSIL\u00d6",
+      "sessionDone": true,
+      "kelaInvoiced": false,
+      "customerInvoiced": false,
+      "sessionprice": "80.00",
+      "sessionpriceKelaRefund": "37.00",
+      "invoice": 66,
+      "session": 1056
+    }
+  },
+  {
+    "model": "customerinvoicing.invoicelineitem",
+    "pk": 257,
+    "fields": {
+      "created": "2016-02-06T09:01:42.349Z",
+      "modified": "2016-02-06T09:01:42.349Z",
+      "date": "2015-08-25",
+      "time": "16:00:00",
+      "sessionInvoiceType": "SINGLESESSION",
+      "kelaInvoiceType": "CANINVOICEKELA",
+      "sessionType": "YKSIL\u00d6",
+      "sessionDone": true,
+      "kelaInvoiced": false,
+      "customerInvoiced": false,
+      "sessionprice": "80.00",
+      "sessionpriceKelaRefund": "37.00",
+      "invoice": 66,
+      "session": 1058
+    }
+  },
+  {
+    "model": "customerinvoicing.invoicelineitem",
+    "pk": 258,
+    "fields": {
+      "created": "2016-02-06T09:01:42.374Z",
+      "modified": "2016-02-06T09:01:42.374Z",
+      "date": "2015-08-28",
+      "time": "15:15:00",
+      "sessionInvoiceType": "SINGLESESSION",
+      "kelaInvoiceType": "CANINVOICEKELA",
+      "sessionType": "YKSIL\u00d6",
+      "sessionDone": true,
+      "kelaInvoiced": false,
+      "customerInvoiced": false,
+      "sessionprice": "80.00",
+      "sessionpriceKelaRefund": "37.00",
+      "invoice": 66,
+      "session": 1060
+    }
+  },
+  {
+    "model": "customerinvoicing.invoicelineitem",
+    "pk": 259,
+    "fields": {
+      "created": "2016-02-06T09:01:42.549Z",
+      "modified": "2016-02-06T09:01:42.549Z",
+      "date": "2015-08-13",
+      "time": "16:00:00",
+      "sessionInvoiceType": "SINGLESESSION",
+      "kelaInvoiceType": "CANINVOICEKELA",
+      "sessionType": "YKSIL\u00d6",
+      "sessionDone": true,
+      "kelaInvoiced": false,
+      "customerInvoiced": false,
+      "sessionprice": "80.00",
+      "sessionpriceKelaRefund": "52.14",
+      "invoice": 67,
+      "session": 1052
+    }
+  },
+  {
+    "model": "customerinvoicing.invoicelineitem",
+    "pk": 260,
+    "fields": {
+      "created": "2016-02-06T09:01:42.723Z",
+      "modified": "2016-02-06T09:01:42.723Z",
+      "date": "2015-08-13",
+      "time": "15:00:00",
+      "sessionInvoiceType": "SINGLESESSION",
+      "kelaInvoiceType": "CANINVOICEKELA",
+      "sessionType": "YKSIL\u00d6",
+      "sessionDone": true,
+      "kelaInvoiced": false,
+      "customerInvoiced": false,
+      "sessionprice": "80.00",
+      "sessionpriceKelaRefund": "52.14",
+      "invoice": 68,
+      "session": 1053
+    }
+  },
+  {
+    "model": "customerinvoicing.invoicelineitem",
+    "pk": 261,
+    "fields": {
+      "created": "2016-02-06T09:01:42.749Z",
+      "modified": "2016-02-06T09:01:42.750Z",
+      "date": "2015-08-21",
+      "time": "14:15:00",
+      "sessionInvoiceType": "SINGLESESSION",
+      "kelaInvoiceType": "CANINVOICEKELA",
+      "sessionType": "YKSIL\u00d6",
+      "sessionDone": true,
+      "kelaInvoiced": false,
+      "customerInvoiced": false,
+      "sessionprice": "80.00",
+      "sessionpriceKelaRefund": "52.14",
+      "invoice": 68,
+      "session": 1057
+    }
+  },
+  {
+    "model": "customerinvoicing.invoicelineitem",
+    "pk": 262,
+    "fields": {
+      "created": "2016-02-06T09:01:42.775Z",
+      "modified": "2016-02-06T09:01:42.775Z",
+      "date": "2015-08-25",
+      "time": "17:00:00",
+      "sessionInvoiceType": "SINGLESESSION",
+      "kelaInvoiceType": "CANINVOICEKELA",
+      "sessionType": "YKSIL\u00d6",
+      "sessionDone": true,
+      "kelaInvoiced": false,
+      "customerInvoiced": false,
+      "sessionprice": "80.00",
+      "sessionpriceKelaRefund": "52.14",
+      "invoice": 68,
+      "session": 1059
+    }
+  },
+  {
+    "model": "customerinvoicing.invoicelineitem",
+    "pk": 263,
+    "fields": {
+      "created": "2016-02-06T09:01:42.944Z",
+      "modified": "2016-02-06T09:01:42.945Z",
+      "date": "2015-08-18",
+      "time": "17:00:00",
+      "sessionInvoiceType": "SINGLESESSION",
+      "kelaInvoiceType": "CANINVOICEKELA",
+      "sessionType": "YKSIL\u00d6",
+      "sessionDone": true,
+      "kelaInvoiced": false,
+      "customerInvoiced": false,
+      "sessionprice": "80.00",
+      "sessionpriceKelaRefund": "52.14",
+      "invoice": 69,
+      "session": 1054
+    }
+  },
+  {
+    "model": "customerinvoicing.invoicelineitem",
+    "pk": 264,
+    "fields": {
+      "created": "2016-02-06T09:04:45.256Z",
+      "modified": "2016-02-06T09:04:45.257Z",
+      "date": "2015-09-01",
+      "time": "16:00:00",
+      "sessionInvoiceType": "SINGLESESSION",
+      "kelaInvoiceType": "CANINVOICEKELA",
+      "sessionType": "YKSIL\u00d6",
+      "sessionDone": true,
+      "kelaInvoiced": false,
+      "customerInvoiced": false,
+      "sessionprice": "80.00",
+      "sessionpriceKelaRefund": "37.00",
+      "invoice": 70,
+      "session": 1062
+    }
+  },
+  {
+    "model": "customerinvoicing.invoicelineitem",
+    "pk": 265,
+    "fields": {
+      "created": "2016-02-06T09:04:45.283Z",
+      "modified": "2016-02-06T09:04:45.283Z",
+      "date": "2015-09-07",
+      "time": "16:00:00",
+      "sessionInvoiceType": "SINGLESESSION",
+      "kelaInvoiceType": "CANINVOICEKELA",
+      "sessionType": "YKSIL\u00d6",
+      "sessionDone": true,
+      "kelaInvoiced": false,
+      "customerInvoiced": false,
+      "sessionprice": "80.00",
+      "sessionpriceKelaRefund": "37.00",
+      "invoice": 70,
+      "session": 1065
+    }
+  },
+  {
+    "model": "customerinvoicing.invoicelineitem",
+    "pk": 266,
+    "fields": {
+      "created": "2016-02-06T09:04:45.308Z",
+      "modified": "2016-02-06T09:04:45.309Z",
+      "date": "2015-09-11",
+      "time": "14:30:00",
+      "sessionInvoiceType": "SINGLESESSION",
+      "kelaInvoiceType": "CANINVOICEKELA",
+      "sessionType": "YKSIL\u00d6",
+      "sessionDone": true,
+      "kelaInvoiced": false,
+      "customerInvoiced": false,
+      "sessionprice": "80.00",
+      "sessionpriceKelaRefund": "37.00",
+      "invoice": 70,
+      "session": 1068
+    }
+  },
+  {
+    "model": "customerinvoicing.invoicelineitem",
+    "pk": 267,
+    "fields": {
+      "created": "2016-02-06T09:04:45.333Z",
+      "modified": "2016-02-06T09:04:45.333Z",
+      "date": "2015-09-15",
+      "time": "17:00:00",
+      "sessionInvoiceType": "SINGLESESSION",
+      "kelaInvoiceType": "CANINVOICEKELA",
+      "sessionType": "YKSIL\u00d6",
+      "sessionDone": true,
+      "kelaInvoiced": false,
+      "customerInvoiced": false,
+      "sessionprice": "80.00",
+      "sessionpriceKelaRefund": "37.00",
+      "invoice": 70,
+      "session": 1069
+    }
+  },
+  {
+    "model": "customerinvoicing.invoicelineitem",
+    "pk": 268,
+    "fields": {
+      "created": "2016-02-06T09:04:45.358Z",
+      "modified": "2016-02-06T09:04:45.359Z",
+      "date": "2015-09-18",
+      "time": "14:45:00",
+      "sessionInvoiceType": "SINGLESESSION",
+      "kelaInvoiceType": "CANINVOICEKELA",
+      "sessionType": "YKSIL\u00d6",
+      "sessionDone": true,
+      "kelaInvoiced": false,
+      "customerInvoiced": false,
+      "sessionprice": "80.00",
+      "sessionpriceKelaRefund": "37.00",
+      "invoice": 70,
+      "session": 1071
+    }
+  },
+  {
+    "model": "customerinvoicing.invoicelineitem",
+    "pk": 269,
+    "fields": {
+      "created": "2016-02-06T09:04:45.383Z",
+      "modified": "2016-02-06T09:04:45.383Z",
+      "date": "2015-09-22",
+      "time": "18:00:00",
+      "sessionInvoiceType": "SINGLESESSION",
+      "kelaInvoiceType": "CANINVOICEKELA",
+      "sessionType": "YKSIL\u00d6",
+      "sessionDone": true,
+      "kelaInvoiced": false,
+      "customerInvoiced": false,
+      "sessionprice": "80.00",
+      "sessionpriceKelaRefund": "37.00",
+      "invoice": 70,
+      "session": 1073
+    }
+  },
+  {
+    "model": "customerinvoicing.invoicelineitem",
+    "pk": 270,
+    "fields": {
+      "created": "2016-02-06T09:04:45.408Z",
+      "modified": "2016-02-06T09:04:45.408Z",
+      "date": "2015-09-25",
+      "time": "14:45:00",
+      "sessionInvoiceType": "SINGLESESSION",
+      "kelaInvoiceType": "CANINVOICEKELA",
+      "sessionType": "YKSIL\u00d6",
+      "sessionDone": true,
+      "kelaInvoiced": false,
+      "customerInvoiced": false,
+      "sessionprice": "80.00",
+      "sessionpriceKelaRefund": "37.00",
+      "invoice": 70,
+      "session": 1075
+    }
+  },
+  {
+    "model": "customerinvoicing.invoicelineitem",
+    "pk": 271,
+    "fields": {
+      "created": "2016-02-06T09:04:45.432Z",
+      "modified": "2016-02-06T09:04:45.433Z",
+      "date": "2015-09-29",
+      "time": "16:00:00",
+      "sessionInvoiceType": "SINGLESESSION",
+      "kelaInvoiceType": "CANINVOICEKELA",
+      "sessionType": "YKSIL\u00d6",
+      "sessionDone": true,
+      "kelaInvoiced": false,
+      "customerInvoiced": false,
+      "sessionprice": "80.00",
+      "sessionpriceKelaRefund": "37.00",
+      "invoice": 70,
+      "session": 1077
+    }
+  },
+  {
+    "model": "customerinvoicing.invoicelineitem",
+    "pk": 272,
+    "fields": {
+      "created": "2016-02-06T09:04:45.605Z",
+      "modified": "2016-02-06T09:04:45.606Z",
+      "date": "2015-09-03",
+      "time": "16:00:00",
+      "sessionInvoiceType": "SINGLESESSION",
+      "kelaInvoiceType": "CANINVOICEKELA",
+      "sessionType": "YKSIL\u00d6",
+      "sessionDone": true,
+      "kelaInvoiced": false,
+      "customerInvoiced": false,
+      "sessionprice": "80.00",
+      "sessionpriceKelaRefund": "52.14",
+      "invoice": 71,
+      "session": 1063
+    }
+  },
+  {
+    "model": "customerinvoicing.invoicelineitem",
+    "pk": 273,
+    "fields": {
+      "created": "2016-02-06T09:04:45.631Z",
+      "modified": "2016-02-06T09:04:45.631Z",
+      "date": "2015-09-22",
+      "time": "17:00:00",
+      "sessionInvoiceType": "SINGLESESSION",
+      "kelaInvoiceType": "CANINVOICEKELA",
+      "sessionType": "YKSIL\u00d6",
+      "sessionDone": true,
+      "kelaInvoiced": false,
+      "customerInvoiced": false,
+      "sessionprice": "80.00",
+      "sessionpriceKelaRefund": "52.14",
+      "invoice": 71,
+      "session": 1074
+    }
+  },
+  {
+    "model": "customerinvoicing.invoicelineitem",
+    "pk": 274,
+    "fields": {
+      "created": "2016-02-06T09:04:45.801Z",
+      "modified": "2016-02-06T09:04:45.801Z",
+      "date": "2015-09-01",
+      "time": "17:00:00",
+      "sessionInvoiceType": "SINGLESESSION",
+      "kelaInvoiceType": "CANINVOICEKELA",
+      "sessionType": "YKSIL\u00d6",
+      "sessionDone": true,
+      "kelaInvoiced": false,
+      "customerInvoiced": false,
+      "sessionprice": "80.00",
+      "sessionpriceKelaRefund": "52.14",
+      "invoice": 72,
+      "session": 1061
+    }
+  },
+  {
+    "model": "customerinvoicing.invoicelineitem",
+    "pk": 275,
+    "fields": {
+      "created": "2016-02-06T09:04:45.825Z",
+      "modified": "2016-02-06T09:04:45.825Z",
+      "date": "2015-09-10",
+      "time": "16:00:00",
+      "sessionInvoiceType": "SINGLESESSION",
+      "kelaInvoiceType": "CANINVOICEKELA",
+      "sessionType": "YKSIL\u00d6",
+      "sessionDone": true,
+      "kelaInvoiced": false,
+      "customerInvoiced": false,
+      "sessionprice": "80.00",
+      "sessionpriceKelaRefund": "52.14",
+      "invoice": 72,
+      "session": 1067
+    }
+  },
+  {
+    "model": "customerinvoicing.invoicelineitem",
+    "pk": 276,
+    "fields": {
+      "created": "2016-02-06T09:04:45.849Z",
+      "modified": "2016-02-06T09:04:45.849Z",
+      "date": "2015-09-22",
+      "time": "16:00:00",
+      "sessionInvoiceType": "SINGLESESSION",
+      "kelaInvoiceType": "CANINVOICEKELA",
+      "sessionType": "YKSIL\u00d6",
+      "sessionDone": true,
+      "kelaInvoiced": false,
+      "customerInvoiced": false,
+      "sessionprice": "80.00",
+      "sessionpriceKelaRefund": "52.14",
+      "invoice": 72,
+      "session": 1072
+    }
+  },
+  {
+    "model": "customerinvoicing.invoicelineitem",
+    "pk": 277,
+    "fields": {
+      "created": "2016-02-06T09:04:45.873Z",
+      "modified": "2016-02-06T09:04:45.873Z",
+      "date": "2015-09-30",
+      "time": "14:30:00",
+      "sessionInvoiceType": "SINGLESESSION",
+      "kelaInvoiceType": "CANINVOICEKELA",
+      "sessionType": "YKSIL\u00d6",
+      "sessionDone": true,
+      "kelaInvoiced": false,
+      "customerInvoiced": false,
+      "sessionprice": "80.00",
+      "sessionpriceKelaRefund": "52.14",
+      "invoice": 72,
+      "session": 1078
+    }
+  },
+  {
+    "model": "customerinvoicing.invoicelineitem",
+    "pk": 278,
+    "fields": {
+      "created": "2016-02-06T09:04:46.038Z",
+      "modified": "2016-02-06T09:04:46.038Z",
+      "date": "2015-09-03",
+      "time": "17:00:00",
+      "sessionInvoiceType": "SINGLESESSION",
+      "kelaInvoiceType": "CANINVOICEKELA",
+      "sessionType": "YKSIL\u00d6",
+      "sessionDone": true,
+      "kelaInvoiced": false,
+      "customerInvoiced": false,
+      "sessionprice": "80.00",
+      "sessionpriceKelaRefund": "52.14",
+      "invoice": 73,
+      "session": 1064
+    }
+  },
+  {
+    "model": "customerinvoicing.invoicelineitem",
+    "pk": 279,
+    "fields": {
+      "created": "2016-02-06T09:04:46.063Z",
+      "modified": "2016-02-06T09:04:46.063Z",
+      "date": "2015-09-08",
+      "time": "16:00:00",
+      "sessionInvoiceType": "SINGLESESSION",
+      "kelaInvoiceType": "CANINVOICEKELA",
+      "sessionType": "YKSIL\u00d6",
+      "sessionDone": true,
+      "kelaInvoiced": false,
+      "customerInvoiced": false,
+      "sessionprice": "80.00",
+      "sessionpriceKelaRefund": "52.14",
+      "invoice": 73,
+      "session": 1066
+    }
+  },
+  {
+    "model": "customerinvoicing.invoicelineitem",
+    "pk": 280,
+    "fields": {
+      "created": "2016-02-06T09:04:46.087Z",
+      "modified": "2016-02-06T09:04:46.087Z",
+      "date": "2015-09-15",
+      "time": "16:00:00",
+      "sessionInvoiceType": "SINGLESESSION",
+      "kelaInvoiceType": "CANINVOICEKELA",
+      "sessionType": "YKSIL\u00d6",
+      "sessionDone": true,
+      "kelaInvoiced": false,
+      "customerInvoiced": false,
+      "sessionprice": "80.00",
+      "sessionpriceKelaRefund": "52.14",
+      "invoice": 73,
+      "session": 1070
+    }
+  },
+  {
+    "model": "customerinvoicing.invoicelineitem",
+    "pk": 281,
+    "fields": {
+      "created": "2016-02-06T09:04:46.112Z",
+      "modified": "2016-02-06T09:04:46.112Z",
+      "date": "2015-09-25",
+      "time": "15:45:00",
+      "sessionInvoiceType": "SINGLESESSION",
+      "kelaInvoiceType": "CANINVOICEKELA",
+      "sessionType": "YKSIL\u00d6",
+      "sessionDone": true,
+      "kelaInvoiced": false,
+      "customerInvoiced": false,
+      "sessionprice": "80.00",
+      "sessionpriceKelaRefund": "52.14",
+      "invoice": 73,
+      "session": 1076
+    }
+  },
+  {
+    "model": "customerinvoicing.invoicelineitem",
+    "pk": 282,
+    "fields": {
+      "created": "2016-02-06T09:07:20.103Z",
+      "modified": "2016-02-06T09:07:20.103Z",
+      "date": "2015-10-01",
+      "time": "14:00:00",
+      "sessionInvoiceType": "SINGLESESSION",
+      "kelaInvoiceType": "CANINVOICEKELA",
+      "sessionType": "YKSIL\u00d6",
+      "sessionDone": true,
+      "kelaInvoiced": false,
+      "customerInvoiced": false,
+      "sessionprice": "80.00",
+      "sessionpriceKelaRefund": "37.00",
+      "invoice": 74,
+      "session": 1079
+    }
+  },
+  {
+    "model": "customerinvoicing.invoicelineitem",
+    "pk": 283,
+    "fields": {
+      "created": "2016-02-06T09:07:20.131Z",
+      "modified": "2016-02-06T09:07:20.131Z",
+      "date": "2015-10-06",
+      "time": "16:00:00",
+      "sessionInvoiceType": "SINGLESESSION",
+      "kelaInvoiceType": "CANINVOICEKELA",
+      "sessionType": "YKSIL\u00d6",
+      "sessionDone": true,
+      "kelaInvoiced": false,
+      "customerInvoiced": false,
+      "sessionprice": "80.00",
+      "sessionpriceKelaRefund": "37.00",
+      "invoice": 74,
+      "session": 1081
+    }
+  },
+  {
+    "model": "customerinvoicing.invoicelineitem",
+    "pk": 284,
+    "fields": {
+      "created": "2016-02-06T09:07:20.158Z",
+      "modified": "2016-02-06T09:07:20.158Z",
+      "date": "2015-10-09",
+      "time": "16:00:00",
+      "sessionInvoiceType": "SINGLESESSION",
+      "kelaInvoiceType": "CANINVOICEKELA",
+      "sessionType": "YKSIL\u00d6",
+      "sessionDone": true,
+      "kelaInvoiced": false,
+      "customerInvoiced": false,
+      "sessionprice": "80.00",
+      "sessionpriceKelaRefund": "37.00",
+      "invoice": 74,
+      "session": 1083
+    }
+  },
+  {
+    "model": "customerinvoicing.invoicelineitem",
+    "pk": 285,
+    "fields": {
+      "created": "2016-02-06T09:07:20.184Z",
+      "modified": "2016-02-06T09:07:20.184Z",
+      "date": "2015-10-12",
+      "time": "16:00:00",
+      "sessionInvoiceType": "SINGLESESSION",
+      "kelaInvoiceType": "CANINVOICEKELA",
+      "sessionType": "YKSIL\u00d6",
+      "sessionDone": true,
+      "kelaInvoiced": false,
+      "customerInvoiced": false,
+      "sessionprice": "80.00",
+      "sessionpriceKelaRefund": "37.00",
+      "invoice": 74,
+      "session": 1085
+    }
+  },
+  {
+    "model": "customerinvoicing.invoicelineitem",
+    "pk": 286,
+    "fields": {
+      "created": "2016-02-06T09:07:20.210Z",
+      "modified": "2016-02-06T09:07:20.210Z",
+      "date": "2015-10-13",
+      "time": "15:00:00",
+      "sessionInvoiceType": "SINGLESESSION",
+      "kelaInvoiceType": "CANINVOICEKELA",
+      "sessionType": "YKSIL\u00d6",
+      "sessionDone": true,
+      "kelaInvoiced": false,
+      "customerInvoiced": false,
+      "sessionprice": "80.00",
+      "sessionpriceKelaRefund": "37.00",
+      "invoice": 74,
+      "session": 1087
+    }
+  },
+  {
+    "model": "customerinvoicing.invoicelineitem",
+    "pk": 287,
+    "fields": {
+      "created": "2016-02-06T09:07:20.236Z",
+      "modified": "2016-02-06T09:07:20.236Z",
+      "date": "2015-10-20",
+      "time": "16:00:00",
+      "sessionInvoiceType": "SINGLESESSION",
+      "kelaInvoiceType": "CANINVOICEKELA",
+      "sessionType": "YKSIL\u00d6",
+      "sessionDone": true,
+      "kelaInvoiced": false,
+      "customerInvoiced": false,
+      "sessionprice": "80.00",
+      "sessionpriceKelaRefund": "37.00",
+      "invoice": 74,
+      "session": 1090
+    }
+  },
+  {
+    "model": "customerinvoicing.invoicelineitem",
+    "pk": 288,
+    "fields": {
+      "created": "2016-02-06T09:07:20.262Z",
+      "modified": "2016-02-06T09:07:20.262Z",
+      "date": "2015-10-23",
+      "time": "14:30:00",
+      "sessionInvoiceType": "SINGLESESSION",
+      "kelaInvoiceType": "CANINVOICEKELA",
+      "sessionType": "YKSIL\u00d6",
+      "sessionDone": true,
+      "kelaInvoiced": false,
+      "customerInvoiced": false,
+      "sessionprice": "80.00",
+      "sessionpriceKelaRefund": "37.00",
+      "invoice": 74,
+      "session": 1091
+    }
+  },
+  {
+    "model": "customerinvoicing.invoicelineitem",
+    "pk": 289,
+    "fields": {
+      "created": "2016-02-06T09:07:20.288Z",
+      "modified": "2016-02-06T09:07:20.288Z",
+      "date": "2015-10-27",
+      "time": "16:00:00",
+      "sessionInvoiceType": "SINGLESESSION",
+      "kelaInvoiceType": "CANINVOICEKELA",
+      "sessionType": "YKSIL\u00d6",
+      "sessionDone": true,
+      "kelaInvoiced": false,
+      "customerInvoiced": false,
+      "sessionprice": "80.00",
+      "sessionpriceKelaRefund": "37.00",
+      "invoice": 74,
+      "session": 1094
+    }
+  },
+  {
+    "model": "customerinvoicing.invoicelineitem",
+    "pk": 290,
+    "fields": {
+      "created": "2016-02-06T09:07:20.314Z",
+      "modified": "2016-02-06T09:07:20.314Z",
+      "date": "2015-10-30",
+      "time": "14:30:00",
+      "sessionInvoiceType": "SINGLESESSION",
+      "kelaInvoiceType": "CANINVOICEKELA",
+      "sessionType": "YKSIL\u00d6",
+      "sessionDone": true,
+      "kelaInvoiced": false,
+      "customerInvoiced": false,
+      "sessionprice": "80.00",
+      "sessionpriceKelaRefund": "37.00",
+      "invoice": 74,
+      "session": 1095
+    }
+  },
+  {
+    "model": "customerinvoicing.invoicelineitem",
+    "pk": 291,
+    "fields": {
+      "created": "2016-02-06T09:07:20.490Z",
+      "modified": "2016-02-06T09:07:20.490Z",
+      "date": "2015-10-01",
+      "time": "13:00:00",
+      "sessionInvoiceType": "SINGLESESSION",
+      "kelaInvoiceType": "CANINVOICEKELA",
+      "sessionType": "YKSIL\u00d6",
+      "sessionDone": true,
+      "kelaInvoiced": false,
+      "customerInvoiced": false,
+      "sessionprice": "80.00",
+      "sessionpriceKelaRefund": "52.14",
+      "invoice": 75,
+      "session": 1080
+    }
+  },
+  {
+    "model": "customerinvoicing.invoicelineitem",
+    "pk": 292,
+    "fields": {
+      "created": "2016-02-06T09:07:20.515Z",
+      "modified": "2016-02-06T09:07:20.515Z",
+      "date": "2015-10-09",
+      "time": "14:45:00",
+      "sessionInvoiceType": "SINGLESESSION",
+      "kelaInvoiceType": "CANINVOICEKELA",
+      "sessionType": "YKSIL\u00d6",
+      "sessionDone": true,
+      "kelaInvoiced": false,
+      "customerInvoiced": false,
+      "sessionprice": "80.00",
+      "sessionpriceKelaRefund": "52.14",
+      "invoice": 75,
+      "session": 1084
+    }
+  },
+  {
+    "model": "customerinvoicing.invoicelineitem",
+    "pk": 293,
+    "fields": {
+      "created": "2016-02-06T09:07:20.541Z",
+      "modified": "2016-02-06T09:07:20.541Z",
+      "date": "2015-10-13",
+      "time": "16:00:00",
+      "sessionInvoiceType": "SINGLESESSION",
+      "kelaInvoiceType": "CANINVOICEKELA",
+      "sessionType": "YKSIL\u00d6",
+      "sessionDone": true,
+      "kelaInvoiced": false,
+      "customerInvoiced": false,
+      "sessionprice": "80.00",
+      "sessionpriceKelaRefund": "52.14",
+      "invoice": 75,
+      "session": 1088
+    }
+  },
+  {
+    "model": "customerinvoicing.invoicelineitem",
+    "pk": 294,
+    "fields": {
+      "created": "2016-02-06T09:07:20.566Z",
+      "modified": "2016-02-06T09:07:20.567Z",
+      "date": "2015-10-23",
+      "time": "15:30:00",
+      "sessionInvoiceType": "SINGLESESSION",
+      "kelaInvoiceType": "CANINVOICEKELA",
+      "sessionType": "YKSIL\u00d6",
+      "sessionDone": true,
+      "kelaInvoiced": false,
+      "customerInvoiced": false,
+      "sessionprice": "80.00",
+      "sessionpriceKelaRefund": "52.14",
+      "invoice": 75,
+      "session": 1092
+    }
+  },
+  {
+    "model": "customerinvoicing.invoicelineitem",
+    "pk": 295,
+    "fields": {
+      "created": "2016-02-06T09:07:20.592Z",
+      "modified": "2016-02-06T09:07:20.592Z",
+      "date": "2015-10-30",
+      "time": "15:30:00",
+      "sessionInvoiceType": "SINGLESESSION",
+      "kelaInvoiceType": "CANINVOICEKELA",
+      "sessionType": "YKSIL\u00d6",
+      "sessionDone": true,
+      "kelaInvoiced": false,
+      "customerInvoiced": false,
+      "sessionprice": "80.00",
+      "sessionpriceKelaRefund": "52.14",
+      "invoice": 75,
+      "session": 1096
+    }
+  },
+  {
+    "model": "customerinvoicing.invoicelineitem",
+    "pk": 296,
+    "fields": {
+      "created": "2016-02-06T09:07:20.768Z",
+      "modified": "2016-02-06T09:07:20.768Z",
+      "date": "2015-10-08",
+      "time": "17:00:00",
+      "sessionInvoiceType": "SINGLESESSION",
+      "kelaInvoiceType": "CANINVOICEKELA",
+      "sessionType": "YKSIL\u00d6",
+      "sessionDone": true,
+      "kelaInvoiced": false,
+      "customerInvoiced": false,
+      "sessionprice": "80.00",
+      "sessionpriceKelaRefund": "52.14",
+      "invoice": 76,
+      "session": 1082
+    }
+  },
+  {
+    "model": "customerinvoicing.invoicelineitem",
+    "pk": 297,
+    "fields": {
+      "created": "2016-02-06T09:07:20.795Z",
+      "modified": "2016-02-06T09:07:20.795Z",
+      "date": "2015-10-13",
+      "time": "17:00:00",
+      "sessionInvoiceType": "SINGLESESSION",
+      "kelaInvoiceType": "CANINVOICEKELA",
+      "sessionType": "YKSIL\u00d6",
+      "sessionDone": true,
+      "kelaInvoiced": false,
+      "customerInvoiced": false,
+      "sessionprice": "80.00",
+      "sessionpriceKelaRefund": "52.14",
+      "invoice": 76,
+      "session": 1086
+    }
+  },
+  {
+    "model": "customerinvoicing.invoicelineitem",
+    "pk": 298,
+    "fields": {
+      "created": "2016-02-06T09:07:20.823Z",
+      "modified": "2016-02-06T09:07:20.823Z",
+      "date": "2015-10-20",
+      "time": "17:00:00",
+      "sessionInvoiceType": "SINGLESESSION",
+      "kelaInvoiceType": "CANINVOICEKELA",
+      "sessionType": "YKSIL\u00d6",
+      "sessionDone": true,
+      "kelaInvoiced": false,
+      "customerInvoiced": false,
+      "sessionprice": "80.00",
+      "sessionpriceKelaRefund": "52.14",
+      "invoice": 76,
+      "session": 1089
+    }
+  },
+  {
+    "model": "customerinvoicing.invoicelineitem",
+    "pk": 299,
+    "fields": {
+      "created": "2016-02-06T09:07:20.849Z",
+      "modified": "2016-02-06T09:07:20.850Z",
+      "date": "2015-10-27",
+      "time": "17:00:00",
+      "sessionInvoiceType": "SINGLESESSION",
+      "kelaInvoiceType": "CANINVOICEKELA",
+      "sessionType": "YKSIL\u00d6",
+      "sessionDone": true,
+      "kelaInvoiced": false,
+      "customerInvoiced": false,
+      "sessionprice": "80.00",
+      "sessionpriceKelaRefund": "52.14",
+      "invoice": 76,
+      "session": 1093
+    }
+  },
+  {
+    "model": "customerinvoicing.invoicelineitem",
+    "pk": 300,
+    "fields": {
+      "created": "2016-02-06T09:08:49.671Z",
+      "modified": "2016-02-06T09:08:49.671Z",
+      "date": "2015-11-03",
+      "time": "16:00:00",
+      "sessionInvoiceType": "SINGLESESSION",
+      "kelaInvoiceType": "CANINVOICEKELA",
+      "sessionType": "YKSIL\u00d6",
+      "sessionDone": true,
+      "kelaInvoiced": false,
+      "customerInvoiced": false,
+      "sessionprice": "80.00",
+      "sessionpriceKelaRefund": "37.00",
+      "invoice": 77,
+      "session": 1097
+    }
+  },
+  {
+    "model": "customerinvoicing.invoicelineitem",
+    "pk": 301,
+    "fields": {
+      "created": "2016-02-06T09:08:49.698Z",
+      "modified": "2016-02-06T09:08:49.698Z",
+      "date": "2015-11-06",
+      "time": "14:30:00",
+      "sessionInvoiceType": "SINGLESESSION",
+      "kelaInvoiceType": "CANINVOICEKELA",
+      "sessionType": "YKSIL\u00d6",
+      "sessionDone": true,
+      "kelaInvoiced": false,
+      "customerInvoiced": false,
+      "sessionprice": "80.00",
+      "sessionpriceKelaRefund": "37.00",
+      "invoice": 77,
+      "session": 1098
+    }
+  },
+  {
+    "model": "customerinvoicing.invoicelineitem",
+    "pk": 302,
+    "fields": {
+      "created": "2016-02-06T09:08:49.724Z",
+      "modified": "2016-02-06T09:08:49.724Z",
+      "date": "2015-11-10",
+      "time": "16:00:00",
+      "sessionInvoiceType": "SINGLESESSION",
+      "kelaInvoiceType": "CANINVOICEKELA",
+      "sessionType": "YKSIL\u00d6",
+      "sessionDone": true,
+      "kelaInvoiced": false,
+      "customerInvoiced": false,
+      "sessionprice": "80.00",
+      "sessionpriceKelaRefund": "37.00",
+      "invoice": 77,
+      "session": 1101
+    }
+  },
+  {
+    "model": "customerinvoicing.invoicelineitem",
+    "pk": 303,
+    "fields": {
+      "created": "2016-02-06T09:08:49.749Z",
+      "modified": "2016-02-06T09:08:49.749Z",
+      "date": "2015-11-13",
+      "time": "12:00:00",
+      "sessionInvoiceType": "SINGLESESSION",
+      "kelaInvoiceType": "CANINVOICEKELA",
+      "sessionType": "YKSIL\u00d6",
+      "sessionDone": true,
+      "kelaInvoiced": false,
+      "customerInvoiced": false,
+      "sessionprice": "80.00",
+      "sessionpriceKelaRefund": "37.00",
+      "invoice": 77,
+      "session": 1102
+    }
+  },
+  {
+    "model": "customerinvoicing.invoicelineitem",
+    "pk": 304,
+    "fields": {
+      "created": "2016-02-06T09:08:49.775Z",
+      "modified": "2016-02-06T09:08:49.775Z",
+      "date": "2015-11-20",
+      "time": "14:30:00",
+      "sessionInvoiceType": "SINGLESESSION",
+      "kelaInvoiceType": "CANINVOICEKELA",
+      "sessionType": "YKSIL\u00d6",
+      "sessionDone": true,
+      "kelaInvoiced": false,
+      "customerInvoiced": false,
+      "sessionprice": "80.00",
+      "sessionpriceKelaRefund": "37.00",
+      "invoice": 77,
+      "session": 1104
+    }
+  },
+  {
+    "model": "customerinvoicing.invoicelineitem",
+    "pk": 305,
+    "fields": {
+      "created": "2016-02-06T09:08:49.801Z",
+      "modified": "2016-02-06T09:08:49.801Z",
+      "date": "2015-11-24",
+      "time": "16:00:00",
+      "sessionInvoiceType": "SINGLESESSION",
+      "kelaInvoiceType": "CANINVOICEKELA",
+      "sessionType": "YKSIL\u00d6",
+      "sessionDone": true,
+      "kelaInvoiced": false,
+      "customerInvoiced": false,
+      "sessionprice": "80.00",
+      "sessionpriceKelaRefund": "37.00",
+      "invoice": 77,
+      "session": 1107
+    }
+  },
+  {
+    "model": "customerinvoicing.invoicelineitem",
+    "pk": 306,
+    "fields": {
+      "created": "2016-02-06T09:08:49.827Z",
+      "modified": "2016-02-06T09:08:49.827Z",
+      "date": "2015-11-27",
+      "time": "14:30:00",
+      "sessionInvoiceType": "SINGLESESSION",
+      "kelaInvoiceType": "CANINVOICEKELA",
+      "sessionType": "YKSIL\u00d6",
+      "sessionDone": true,
+      "kelaInvoiced": false,
+      "customerInvoiced": false,
+      "sessionprice": "80.00",
+      "sessionpriceKelaRefund": "37.00",
+      "invoice": 77,
+      "session": 1108
+    }
+  },
+  {
+    "model": "customerinvoicing.invoicelineitem",
+    "pk": 307,
+    "fields": {
+      "created": "2016-02-06T09:08:50.000Z",
+      "modified": "2016-02-06T09:08:50.000Z",
+      "date": "2015-11-06",
+      "time": "15:30:00",
+      "sessionInvoiceType": "SINGLESESSION",
+      "kelaInvoiceType": "CANINVOICEKELA",
+      "sessionType": "YKSIL\u00d6",
+      "sessionDone": true,
+      "kelaInvoiced": false,
+      "customerInvoiced": false,
+      "sessionprice": "80.00",
+      "sessionpriceKelaRefund": "52.14",
+      "invoice": 78,
+      "session": 1099
+    }
+  },
+  {
+    "model": "customerinvoicing.invoicelineitem",
+    "pk": 308,
+    "fields": {
+      "created": "2016-02-06T09:08:50.026Z",
+      "modified": "2016-02-06T09:08:50.026Z",
+      "date": "2015-11-13",
+      "time": "13:00:00",
+      "sessionInvoiceType": "SINGLESESSION",
+      "kelaInvoiceType": "CANINVOICEKELA",
+      "sessionType": "YKSIL\u00d6",
+      "sessionDone": true,
+      "kelaInvoiced": false,
+      "customerInvoiced": false,
+      "sessionprice": "80.00",
+      "sessionpriceKelaRefund": "52.14",
+      "invoice": 78,
+      "session": 1103
+    }
+  },
+  {
+    "model": "customerinvoicing.invoicelineitem",
+    "pk": 309,
+    "fields": {
+      "created": "2016-02-06T09:08:50.053Z",
+      "modified": "2016-02-06T09:08:50.053Z",
+      "date": "2015-11-20",
+      "time": "15:30:00",
+      "sessionInvoiceType": "SINGLESESSION",
+      "kelaInvoiceType": "CANINVOICEKELA",
+      "sessionType": "YKSIL\u00d6",
+      "sessionDone": true,
+      "kelaInvoiced": false,
+      "customerInvoiced": false,
+      "sessionprice": "80.00",
+      "sessionpriceKelaRefund": "52.14",
+      "invoice": 78,
+      "session": 1105
+    }
+  },
+  {
+    "model": "customerinvoicing.invoicelineitem",
+    "pk": 310,
+    "fields": {
+      "created": "2016-02-06T09:08:50.078Z",
+      "modified": "2016-02-06T09:08:50.078Z",
+      "date": "2015-11-27",
+      "time": "15:30:00",
+      "sessionInvoiceType": "SINGLESESSION",
+      "kelaInvoiceType": "CANINVOICEKELA",
+      "sessionType": "YKSIL\u00d6",
+      "sessionDone": true,
+      "kelaInvoiced": false,
+      "customerInvoiced": false,
+      "sessionprice": "80.00",
+      "sessionpriceKelaRefund": "52.14",
+      "invoice": 78,
+      "session": 1109
+    }
+  },
+  {
+    "model": "customerinvoicing.invoicelineitem",
+    "pk": 311,
+    "fields": {
+      "created": "2016-02-06T09:08:50.253Z",
+      "modified": "2016-02-06T09:08:50.253Z",
+      "date": "2015-11-10",
+      "time": "17:00:00",
+      "sessionInvoiceType": "SINGLESESSION",
+      "kelaInvoiceType": "CANINVOICEKELA",
+      "sessionType": "YKSIL\u00d6",
+      "sessionDone": true,
+      "kelaInvoiced": false,
+      "customerInvoiced": false,
+      "sessionprice": "80.00",
+      "sessionpriceKelaRefund": "52.14",
+      "invoice": 79,
+      "session": 1100
+    }
+  },
+  {
+    "model": "customerinvoicing.invoicelineitem",
+    "pk": 312,
+    "fields": {
+      "created": "2016-02-06T09:08:50.279Z",
+      "modified": "2016-02-06T09:08:50.279Z",
+      "date": "2015-11-24",
+      "time": "17:00:00",
+      "sessionInvoiceType": "SINGLESESSION",
+      "kelaInvoiceType": "CANINVOICEKELA",
+      "sessionType": "YKSIL\u00d6",
+      "sessionDone": true,
+      "kelaInvoiced": false,
+      "customerInvoiced": false,
+      "sessionprice": "80.00",
+      "sessionpriceKelaRefund": "52.14",
+      "invoice": 79,
+      "session": 1106
+    }
+  },
+  {
+    "model": "customerinvoicing.invoicelineitem",
+    "pk": 313,
+    "fields": {
+      "created": "2016-02-06T09:10:35.093Z",
+      "modified": "2016-02-06T09:10:35.093Z",
+      "date": "2015-12-04",
+      "time": "14:15:00",
+      "sessionInvoiceType": "SINGLESESSION",
+      "kelaInvoiceType": "CANINVOICEKELA",
+      "sessionType": "YKSIL\u00d6",
+      "sessionDone": true,
+      "kelaInvoiced": false,
+      "customerInvoiced": false,
+      "sessionprice": "80.00",
+      "sessionpriceKelaRefund": "52.14",
+      "invoice": 80,
+      "session": 1110
+    }
+  },
+  {
+    "model": "customerinvoicing.invoicelineitem",
+    "pk": 314,
+    "fields": {
+      "created": "2016-02-06T09:10:35.262Z",
+      "modified": "2016-02-06T09:10:35.262Z",
+      "date": "2015-12-04",
+      "time": "13:00:00",
+      "sessionInvoiceType": "SINGLESESSION",
+      "kelaInvoiceType": "CANINVOICEKELA",
+      "sessionType": "YKSIL\u00d6",
+      "sessionDone": true,
+      "kelaInvoiced": false,
+      "customerInvoiced": false,
+      "sessionprice": "80.00",
+      "sessionpriceKelaRefund": "52.14",
+      "invoice": 81,
+      "session": 1111
+    }
+  },
+  {
+    "model": "customerinvoicing.invoicelineitem",
+    "pk": 315,
+    "fields": {
+      "created": "2016-02-06T09:10:35.288Z",
+      "modified": "2016-02-06T09:10:35.288Z",
+      "date": "2015-12-08",
+      "time": "16:00:00",
+      "sessionInvoiceType": "SINGLESESSION",
+      "kelaInvoiceType": "CANINVOICEKELA",
+      "sessionType": "YKSIL\u00d6",
+      "sessionDone": true,
+      "kelaInvoiced": false,
+      "customerInvoiced": false,
+      "sessionprice": "80.00",
+      "sessionpriceKelaRefund": "52.14",
+      "invoice": 81,
+      "session": 1113
+    }
+  },
+  {
+    "model": "customerinvoicing.invoicelineitem",
+    "pk": 316,
+    "fields": {
+      "created": "2016-02-06T09:10:35.313Z",
+      "modified": "2016-02-06T09:10:35.313Z",
+      "date": "2015-12-18",
+      "time": "14:30:00",
+      "sessionInvoiceType": "SINGLESESSION",
+      "kelaInvoiceType": "CANINVOICEKELA",
+      "sessionType": "YKSIL\u00d6",
+      "sessionDone": true,
+      "kelaInvoiced": false,
+      "customerInvoiced": false,
+      "sessionprice": "80.00",
+      "sessionpriceKelaRefund": "52.14",
+      "invoice": 81,
+      "session": 1114
+    }
+  },
+  {
+    "model": "customerinvoicing.invoicelineitem",
+    "pk": 317,
+    "fields": {
+      "created": "2016-02-06T09:10:35.481Z",
+      "modified": "2016-02-06T09:10:35.481Z",
+      "date": "2015-12-08",
+      "time": "17:00:00",
+      "sessionInvoiceType": "SINGLESESSION",
+      "kelaInvoiceType": "CANINVOICEKELA",
+      "sessionType": "YKSIL\u00d6",
+      "sessionDone": true,
+      "kelaInvoiced": false,
+      "customerInvoiced": false,
+      "sessionprice": "80.00",
+      "sessionpriceKelaRefund": "52.14",
+      "invoice": 82,
+      "session": 1112
+    }
+  }
+]

@@ -1,0 +1,73 @@
+{% extends "base.html" %}
+{% load customerinvoicing_extras %}
+{% block content %}
+    <div class="row">
+        <div class="card col-sm-7">
+            <div class="card-header customers-card-header-background-dark">
+                Asiakaslaskut
+            </div>
+            <div class="card-block customers-card-body-background-medium">
+                <h4 class="card-title"></h4>
+                <div class="card-text">
+                    <table class="table table-bordered table-condensed  table-sm">
+                        <thead>
+                        <tr>
+                            <th class="col-sm-2" style="font-size: 12px;">Päivä</th>
+                            <th class="col-sm-8" style="font-size: 12px;">Nimi</th>
+                            <th class="col-sm-2" style="font-size: 12px;">Summa</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        {% for invoice in customer_invoices %}
+                            <tr>
+                                <td class="col-sm-2"  style="font-size: 14px;">{{ invoice.date|date:"d.m.Y" }}</td>
+                                <td class="col-sm-8" style="font-size: 14px;"><a id="invoice-link" href="{% url 'customerinvoicing:invoice_detail' invoice.pk %}">
+                                    {{ invoice.invoiceCustomer.lastName }}, {{ invoice.invoiceCustomer.firstName }} {{ invoice.invoiceCustomer.additionalName }}
+                                </a></td>
+                                <td class="col-sm-2" style="font-size: 14px;text-align: right">{% calc_invoicetotal invoice.pk %}</td>
+                            </tr>
+                        {% endfor %}
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="card col-sm-5 ">
+            <div class="row">
+                <div class="card-header customers-card-header-background-dark">
+                    {{ invoicelisttitle }} {% if customerinvoicablesessions %}<a id="generateinvoice-button"
+                                                                   class="btn btn-primary  btn-sm"
+                                                                   href="{% url 'customerinvoicing:invoice_generator_confirm' %}"
+                                                                   role="button">Luo laskut asiakkaille</a>{% endif %}
+                </div>
+                <div class="card-block customers-card-body-background-medium">
+                    <h4 class="card-title"></h4>
+                    <div class="card-text" style="font-size: 12px;">
+                        {{ invoicelisttext }}
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                &nbsp;
+            </div>
+            <div class="row">
+                {% for cc in customerinvoicablesessions %}
+                    <div class="col-sm-6">
+                        <div class="card">
+                            <div class="card-header customers-card-header-background-dark"  style="font-size: 12px;">
+                                {{ cc.lastName }}, {{ cc.firstName }} {{ cc.additionalName }}
+                            </div>
+                            <ul class="list-group list-group-flush ">
+                                {% for ss in cc.invoicablesessions %}
+                                    <li class="list-group-item  customers-card-body-background-medium"  style="font-size: 12px;">
+                                        {{ ss.date|date:"d.m.Y" }}
+                                        {{ ss.time|date:"H:i" }}</li>
+                                {% endfor %}
+                            </ul>
+                        </div>
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+{% endblock %}

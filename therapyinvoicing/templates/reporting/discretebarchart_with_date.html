@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+{% load staticfiles i18n %}
+
+<head>
+
+    {# Jquery CDN : Needed when using jquery_on_ready=True #}
+    <script  type="text/javascript" src='{% static 'jquery/dist/jquery.min.js' %}'></script>
+    <script type="text/javascript" src='{% static 'd3/d3.min.js' %}'  ></script>
+    <script type="text/javascript" src='{% static 'nvd3/build/nv.d3.min.js' %}' ></script>
+
+    <script src="{% static 'js/project.js' %}"></script>
+
+    {% load nvd3_tags %}
+    {% include_chart_jscss %}
+    {% load_chart charttype chartdata chartcontainer extra %}
+</head>
+{% block content %}
+{% include_container chartcontainer 200 400 %}
+{% endblock %}
+</html>

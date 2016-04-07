@@ -1,0 +1,278 @@
+/* These styles are generated from project.scss. */
+
+.alert-debug {
+  color: black;
+  background-color: white;
+  border-color: #d6e9c6;
+}
+
+.alert-error {
+  color: #b94a48;
+  background-color: #f2dede;
+  border-color: #eed3d7;
+}
+
+/* This is a fix for the bootstrap4 alpha release */
+@media (max-width: 47.9em) {
+  .navbar-nav .nav-item {
+    float: none;
+    width: 100%;
+    display: inline-block;
+  }
+
+  .navbar-nav .nav-item + .nav-item {
+    margin-left: 0;
+  }
+
+  .nav.navbar-nav.pull-right {
+    float: none !important;
+  }
+}
+
+/* Display django-debug-toolbar.
+   See https://github.com/django-debug-toolbar/django-debug-toolbar/issues/742
+   and https://github.com/pydanny/cookiecutter-django/issues/317
+*/
+[hidden][style="display: block;"] {
+  display: block !important;
+}
+
+/*
+ Own css
+
+*/
+/*
+
+  Colors from http://www.colourlovers.com/palette/475875/Gentle_Waves
+
+  myst at sea
+  D3E2B6
+  211,226,182
+
+  set foot in an ocean
+  C3DBB4
+  195,219,180
+
+  set foot in sea
+  AACCB1
+  170,204,177
+
+  come test the water
+  87BDB1
+  135,189,177
+
+  go wading with me
+  68B3AF
+  104,179,175
+*/
+.barchart-background-medium {
+  background: #C3DBB4
+}
+
+.barchart-background-dark {
+  background: #68B3AF
+}
+
+.main-background-light {
+  background: #AACCB1
+}
+
+.main-card-header-background-dark {
+    background: #68B3AF
+}
+
+.main-card-body-background-medium {
+    background: #C3DBB4
+}
+
+.account-background-light {
+  background: #D3E2B6
+}
+
+.account-card-header-background-dark {
+    background: #68B3AF
+}
+
+.account-card-body-background-medium {
+    background: #C3DBB4
+}
+
+.customers-background-light {
+  background: #D3E2B6
+}
+
+.customers-card-header-background-dark {
+    background: #68B3AF
+}
+
+.customers-card-body-background-medium {
+    background: #C3DBB4
+}
+
+.kelainvoicing-divider {
+    border: 1px solid #000;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    height: 1px;
+    background: #333;
+    color: #000;
+
+}
+.kelainvoicing-divider-top {
+    border: 1px solid #000;
+    margin-bottom: 0px;
+    margin-top: 2cm;
+    height: 1px;
+    background: #333;
+    color: #000;
+
+}
+
+
+.kelainvoicing-contenttitle {
+  font-size: 70%;
+  margin-bottom: 0px;
+  font-weight: normal;
+}
+
+
+.kelainvoicing-contenttext {
+  font-size: 0.8rem;
+  margin-bottom: .1rem;
+  font-family: inherit;
+  font-weight: bold;
+  line-height: 1.1;
+  color: inherit;
+}
+
+.customerinvoicing-divider {
+    border: 1px solid #000;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    height: 1px;
+    background: #333;
+    color: #000;
+
+}
+.customerinvoicing-divider-top {
+    border: 1px solid #000;
+    margin-bottom: 0px;
+    margin-top: 2cm;
+    height: 1px;
+    background: #333;
+    color: #000;
+
+}
+
+
+.customerinvoicing-contenttitle {
+  font-size: 70%;
+  margin-bottom: 0px;
+  font-weight: normal;
+}
+
+
+.customerinvoicing-contenttext {
+  font-size: 0.8rem;
+  margin-bottom: .1rem;
+  font-family: inherit;
+  font-weight: bold;
+  line-height: 1.1;
+  color: inherit;
+}
+
+.customerinvoicing-companyprofileinvoicetitle {
+  font-size: 0.6rem;
+  margin-bottom: .1rem;
+  font-family: inherit;
+  font-weight: normal;
+  line-height: 1.1;
+  color: inherit;
+}
+.customerinvoicing-invoicebigtext {
+  font-size: 1.2rem;
+  margin-bottom: .1rem;
+  font-family: inherit;
+  font-weight: bold;
+  line-height: 1.1;
+  color: inherit;
+}
+
+
+.chart text {
+  font: 10px sans-serif;
+}
+.chart .title {
+  font: 15px sans-serif;
+  color: #3c510c;
+}
+
+@media print {
+  #hideprint {
+        display: none;
+    }
+  *,
+  *::before,
+  *::after {
+    text-shadow: none !important;
+    -webkit-box-shadow: none !important;
+            box-shadow: none !important;
+  }
+  a,
+  a:visited {
+    text-decoration: underline;
+  }
+  abbr[title]::after {
+    content: " (" attr(title) ")";
+  }
+  pre,
+  blockquote {
+    border: 1px solid #999;
+
+    page-break-inside: avoid;
+  }
+  thead {
+    display: table-header-group;
+  }
+  tr,
+  img {
+    page-break-inside: avoid;
+  }
+  img {
+    max-width: 100% !important;
+  }
+  p,
+  h2,
+  h3 {
+    orphans: 3;
+    widows: 3;
+  }
+  h2,
+  h3 {
+    page-break-after: avoid;
+  }
+  .navbar {
+    display: none;
+  }
+  .btn > .caret,
+  .dropup > .btn > .caret {
+    border-top-color: #000 !important;
+  }
+  .label {
+    border: 1px solid #000;
+  }
+  .table {
+    border-collapse: collapse !important;
+  }
+  .table td,
+  .table th {
+    background-color: #fff !important;
+  }
+  .table-bordered th,
+  .table-bordered td {
+    border: 1px solid #000 !important;
+  }
+
+}
+
+

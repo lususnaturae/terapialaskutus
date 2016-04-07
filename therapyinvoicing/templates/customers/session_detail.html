@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% block content %}
+    <h2>{{ session.customer.lastName }}, {{ session.customer.firstName }} {{ session.customer.additionalName }}</h2>
+    <p>{{ session.date }}</p>
+    <p>{{ session.time }}</p>
+    <p>{{ session.duration }}</p>
+    <p>{{ session.sessionDone }}</p>
+    <p>{{ session.kelaInvoiced }}</p>
+    <p>{{ session.sessionprice }}</p>
+    <p>{{ session.sessionpriceKelaRefund }}</p>
+    <a id="sessionedit-link" href="{% url 'customers:session_update' session.pk %}">Muokkaa tapaamista</a>
+    <a id="sessiondelete-link" href="{% url 'customers:session_delete' session.pk %}">Poista tapaaminen</a>
+    <a id="customerdetail-link" href="{% url 'customers:customer_detail' session.customer.pk %}">Palaa tallentamatta</a>
+{% endblock %}
+href="{% url 'modulinnimi:urlnimi' contextobjectinnimi.id %}

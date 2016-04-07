@@ -1,0 +1,44 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block title %}User: {{ object.username }}{% endblock %}
+
+{% block content %}
+    <div class="container">
+
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="card">
+                    <div class="card-header account-card-header-background-dark">
+                        <h2>{{ object.username }}</h2>
+                        {% if object.name %}
+                            <p>{{ object.name }}</p>
+                        {% endif %}
+                    </div>
+
+
+                    <div class="card-block   account-card-body-background-medium">
+
+                        <div class="card-text ">
+                            {% if object == request.user %}
+                                <!-- Action buttons -->
+                                <div class="row">
+
+                                    <div class="col-sm-12 ">
+                                        <a class="btn btn-primary" href="{% url 'users:update' %}">Omat tiedot</a>
+                                        <a class="btn btn-primary" href="{% url 'account_email' %}">Sähköposti</a>
+                                        <!-- Your Stuff: Custom user template urls -->
+                                    </div>
+
+                                </div>
+                                <!-- End Action buttons -->
+                            {% endif %}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+{% endblock content %}
+

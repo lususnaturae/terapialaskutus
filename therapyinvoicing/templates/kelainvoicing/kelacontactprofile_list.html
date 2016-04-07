@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+{% block content %}
+    {% for kelacontactprofile in object_list %}
+        <p>
+            <a href="{% url 'kelastatement:kelacontactprofile_detail' kelacontactprofile.pk %}">{{ kelacontactprofile.legalName }}</a>
+        </p>
+    {% endfor %}
+    <a href="{% url 'kelastatement:kelacontactprofile_create' %}">lisää Kelan kontaktitiedot...</a>
+    <a href="{% url 'kelastatement:kelacontactprofile_list' %}">Palaa Kelan yhteystietojen listaan</a>
+{% endblock %}

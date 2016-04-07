@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% load crispy_forms_tags %}
+{% block content %}
+    <form class="form-horizontal" method="post"
+          action="{% url 'customers:customer_delete' object.pk %}">
+        {% csrf_token %}
+        <p>Oletko varma, että haluat poistaa asiakkaan {{ customer.lastName }}, {{ customer.firstName }}?</p>
+        {{ form|crispy }}
+        <div class="control-group">
+            <div class="controls">
+                <button type="submit" class="btn">Poista asiakas</button>
+            </div>
+        </div>
+        <a href="{% url 'customers:customer_list' %}">Älä poista ja palaa asiakaslistaan</a>
+    </form>
+{% endblock %}

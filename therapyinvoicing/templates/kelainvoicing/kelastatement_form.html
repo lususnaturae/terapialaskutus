@@ -1,0 +1,71 @@
+{% extends "base.html" %}
+{% load crispy_forms_tags %}
+{% block content %}
+    {% if kelastatement %}
+    {% else %}
+        <div class="col-sm-6">{% endif %}
+<div class="card">
+    <div class="card-header customers-card-header-background-dark">
+        <h2>Kelan tilityksen perustiedot</h2>
+        {% if kelastatement %}
+            <h2>Muokkaa tilityksen perustietoja</h2>
+        {% else %}
+            <h2>Luo uusi tilitys</h2>
+        {% endif %}
+    </div>
+    <div class="card-block   customers-card-body-background-medium">
+        <div class="card-title"></div>
+        <div class="card-text ">
+            <form class="form-horizontal" method="post"
+                  action="
+
+                          {% if kelastatement %}{% url 'kelainvoicing:kelastatement_update' kelastatement.pk %}{% else %}{% url 'kelainvoicing:kelastatement_create' %}{% endif %}">
+                {% csrf_token %}
+                {{ form|crispy }}
+                {% if stbi %}
+                    <button id="kelastatement-save-button" type="submit"
+                            class="btn btn-primary btn-sm">{{ savebuttontext }}</button>
+                {% endif %}
+                <a id="kelastatementlist-button" class="btn btn-secondary  btn-sm"
+                   href="{% url 'kelainvoicing:kelastatement_list' %}"
+                   role="button">{{ backtokelastatementlistbuttontext }}</a>
+            </form>
+        </div>
+    </div>
+</div>
+</div>
+    {% if not kelastatement %}
+        <div class="card col-sm-5 ">
+            <div class="row">
+                <div class="card-header  customers-card-header-background-dark">
+                    {{ invoicablesessionstitle }}
+                </div>
+                <div class="card-block customers-card-body-background-medium">
+                    <h4 class="card-title"></h4>
+                    <div class="card-text">
+                        {{ invoicablesessionstext }}
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                {% for ss in stbi %}
+                    <div class="col-sm-6">
+                        <div class="card">
+                            <div class="card-block customers-card-header-background-dark">
+                                <h5 class="card-title">{{ ss.lastName }}, {{ ss.firstName }} {{ ss.additionalName }}</h5>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                {% for is in ss.invoicablesessions %}
+                                    <li class="list-group-item  customers-card-body-background-medium">
+                                        {{ is.date|date:"d.m.Y" }} {{ is.time|date:"H:i" }}</li>
+                                {% endfor %}
+                            </ul>
+                        </div>
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+    {% endif %}
+{% endblock %}
+
+

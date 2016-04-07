@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+{% load crispy_forms_tags %}
+{% block content %}
+    <div class="card">
+        <div class="card-header customers-card-header-background-dark">
+            {{ deleteconfirmationtitletext }}
+        </div>
+        <div class="card-block   customers-card-body-background-medium">
+            <div class="card-title"></div>
+            <div class="card-text ">
+                <form class="form-horizontal" method="post"
+                      action="{% url 'customers:session_delete' object.pk %}">
+                    {% csrf_token %}
+                    <div> Nimi: {{ customer_session.customer.lastName }}, {{ customer_session.customer.firstName }}</div>
+                        <div>Tapaamisaika: {{ customer_session.date|date:"j.n.Y" }}, {{ customer_session.time }}</div>
+                    {{ form|crispy }}
+                    <button id="sessiondeleteconfirmed-button" type="submit" class="btn btn-danger   btn-sm">{{ deleteconfirmationbuttontext }}</button>
+         <a id="customerlist-button" class="btn btn-secondary  btn-sm"
+            href="{% url 'customers:customer_detail'   customer_session.customer.id %}"
+                   role="button">{{ backtocustomerdetailbuttontext }}</a>
+                </form>
+            </div>
+        </div>
+    </div>
+{% endblock %}

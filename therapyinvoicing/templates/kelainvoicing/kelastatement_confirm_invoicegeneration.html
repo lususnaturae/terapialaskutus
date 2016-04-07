@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+{% load crispy_forms_tags %}
+{% block content %}
+    <h1>Kela tilitys vahvistu</h1>
+    <h2>Oman yrityksen tiedot</h2>
+    <form class="form-horizontal" method="post">
+        {% csrf_token %}
+        <p>Oletko varma, että haluat luoda tilityksen {{ object.companyName }}?</p>
+        {{ form|crispy }}
+        <div class="control-group">
+            <div class="controls">
+                <button class="btn btn-primary">Luo tilitys ja laskut Kelalle</button>
+            </div>
+        </div>
+        <a href="{% url 'kelacontactprofile:kelastatement_list' %}">Älä luo tilitystä ja palaa Kelan yhteystietojen
+            listaan</a>
+    </form>
+{% endblock %}

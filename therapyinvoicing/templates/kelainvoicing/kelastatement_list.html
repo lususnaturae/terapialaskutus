@@ -1,0 +1,96 @@
+{% extends "base.html" %}
+{% load kelainvoicing_extras %}
+{% block content %}
+    <div class="row">
+        <div class="col-sm-4">
+            <div class="card">
+                <div class="card-header customers-card-header-background-dark">
+                    {{ kelastatmentlisttitle }} <a id="kelastatement-create-button" class="btn btn-primary  btn-sm"
+                                                   href="{% url 'kelainvoicing:kelastatement_create' %}"
+                                                   role="button">{{ createkelastatementbuttontext }}</a>
+                </div>
+                <div class="card-block customers-card-body-background-medium">
+                    <h4 class="card-title"></h4>
+                    <div class="card-text">
+                        <table class="table table-bordered table-condensed  table-sm">
+                            <thead>
+                            <tr>
+                                <th class="col-sm-5" style="font-size: 12px;">Päiväys</th>
+                                <th class="col-sm-2" style="font-size: 12px;">Tilitys</th>
+                                <th class="col-sm-5" style="font-size: 12px;">Summa</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            {% for kelastatement in kelastatement_list %}
+                                <tr>
+                                    <td class="col-sm-5" style="font-size: 14px;font-weight: bold">
+                                        <a id="kelastatment-detail-link"
+                                           href="{% url 'kelainvoicing:kelastatement_detail' kelastatement.pk %}">
+                                            {{ kelastatement.date|date:"d.m.Y" }}</a>
+                                    </td>
+                                    <td class="col-sm-2"
+                                        style="font-size: 14px;font-weight: bold">{{ kelastatement.orderno }}</td>
+                                    <td class="col-sm-5"
+                                        style="font-size: 14px;font-weight: bold;text-align: right">{% calc_totalrefund_of_kelastatement kelastatement.pk %}</td>
+                                </tr>
+                            {% endfor %}
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+           <div class="card col-sm-8 ">
+       <div class="card col-sm-5 ">
+            <div class="row">
+                <div class="card-header  customers-card-header-background-dark">
+                    {{ invoicablesessionstitle }}
+                </div>
+                <div class="card-block customers-card-body-background-medium">
+                    <h4 class="card-title"></h4>
+                    <div class="card-text">
+                        {{ invoicablesessionstext }}
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                {% for ss in stbi %}
+                    <div class="col-sm-6">
+                        <div class="card">
+                            <div class="card-block customers-card-header-background-dark">
+                                <h5 class="card-title">{{ ss.lastName }}, {{ ss.firstName }} {{ ss.additionalName }}</h5>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                {% for is in ss.invoicablesessions %}
+                                    <li class="list-group-item  customers-card-body-background-medium">
+                                        {{ is.date|date:"d.m.Y" }} {{ is.time|date:"H:i" }}</li>
+                                {% endfor %}
+                            </ul>
+                        </div>
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+        </div>
+
+    </div>
+    <div class="row">
+        <div class="col-sm-12">
+            <div class="card">
+                <div class="card-header customers-card-header-background-dark">
+                    {{ kelacontactprofilecardtitle }} <a id="kelacontactprofile-update-button"
+                                                         class="btn btn-primary  btn-sm"
+                                                         href="{% url 'kelainvoicing:kelacontactprofile_update' kelacontactprofile.pk %}"
+                                                         role="button">{{ kelacontactprofileupdatebuttontext }}</a>
+                </div>
+                <div class="card-block customers-card-body-background-medium">
+                    <h4 class="card-title">{{ kelacontactprofile.legalName }}</h4>
+                    <div class="card-text">
+                        {{ kelacontactprofile.address }}<br>
+                        {{ kelacontactprofile.zipCode }} {{ kelacontactprofile.city }}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}

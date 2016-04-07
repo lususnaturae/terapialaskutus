@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+{% load crispy_forms_tags %}
+{% block content %}
+    <h1>Kela tilitys vahvistus{{ object.date }}</h1>
+    <h2>Oman yrityksen tiedot</h2>
+    <h3>{{ object.companyName }}</h3>
+    <p>{{ object.address }}</p>
+    <p>{{ object.zipCode }}{{ object.city }}</p>
+    <p>{{ object.telephone }}</p>
+    <p>{{ object.email }}</p>
+    <p>{{ object.vatId }}</p>
+    <p>{{ object.bankAccount }}</p>
+    <form class="form-horizontal" method="post">
+        {% csrf_token %}
+        {{ form|crispy }}
+        <div class="control-group">
+            <div class="controls">
+                <button type="submit" class="btn">Vahvista kelatilitys ja luo laskut Kelalle</button>
+            </div>
+        </div>
+    </form>
+    <h2>Tapaamiset valmiina laskutettavaksi</h2>
+    {% for ss in sessionstobeinvoiced %}
+        <p>
+            {{ ss.date }} - {{ ss.time }} {{ ss.customer.lastName }}, {{ ss.customer.firstName }}
+        </p>
+    {% endfor %}
+    <a href="{% url 'kelainvoicing:kelastatement_list' %}">Palaa Kelatilityksiin</a>
+{% endblock %}

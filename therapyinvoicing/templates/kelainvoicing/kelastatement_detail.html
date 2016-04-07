@@ -1,0 +1,157 @@
+{% extends "base.html" %}
+{% load crispy_forms_tags %}
+{% block content %}
+    <div id="hideprint" class="row">
+        <a id="kelastatementlist-button" class="btn btn-primary  btn-sm"
+           href="{% url 'kelainvoicing:kelastatement_list' %}"
+           role="button">{{ backtokelastatementlistbuttontext }}</a>
+    </div>
+    <div class="kelainvoicing-divider-top"></div>
+    <div class="row">
+        <div class="col-sm-6">
+            <h1>Kela</h1>
+        </div>
+        <div class="col-sm-6">
+            <p>Tilitys kuntoutuskustannuksista</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-6">
+        </div>
+        <div class="col-sm-6">
+            <div class="kelainvoicing-contenttitle">
+                <input type="checkbox" name="profiletypeRadios" id="optionsRadios1" value="option1" checked=""/>
+                Kuntoutuspalveluntuottaja
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-6">
+        </div>
+        <div class="col-sm-6">
+            <div class="kelainvoicing-contenttitle">Tilityksessä on laskuja {{ count }} kpl</div>
+        </div>
+    </div>
+    <hr class="kelainvoicing-divider">
+    <div class="row">
+        <div class="col-sm-9">
+            <div class="kelainvoicing-contenttitle">Kuntoutuspalvelutuottajan nimi</div>
+            <div class="kelainvoicing-contenttext">{{ object.companyName }}</div>
+        </div>
+        <div class="col-sm-3">
+            <div class="kelainvoicing-contenttitle">Y-tunnus</div>
+            <div class="kelainvoicing-contenttext">{{ object.vatId }}</div>
+        </div>
+    </div>
+    <hr class="kelainvoicing-divider">
+    <div class="row">
+        <div class="col-sm-9">
+            <div class="kelainvoicing-contenttitle">Kuntoutuspalvelutuottajan osoite</div>
+            <div class="kelainvoicing-contenttext">
+                {{ object.address }}, {{ object.zipCode }} {{ object.city }}</div>
+        </div>
+        <div class="col-sm-3">
+            <div class="kelainvoicing-contenttitle">Puhelinnumero</div>
+            <div class="kelainvoicing-contenttext">{{ object.telephone }}</div>
+        </div>
+    </div>
+    <hr class="kelainvoicing-divider">
+    <div class="row">
+        <div class="col-sm-6">
+            <div class="kelainvoicing-contenttitle">Tilityksen laatijan nimi</div>
+            <div class="kelainvoicing-contenttext">{{ object.lastName }}, {{ object.firstName }} {{ object.additionalName }}</div>
+        </div>
+        <div class="col-sm-3">
+            <div class="kelainvoicing-contenttitle">Puhelinnumero</div>
+            <div class="kelainvoicing-contenttext">{{ object.telephone }}</div>
+        </div>
+        <div class="col-sm-3">
+            <div class="kelainvoicing-contenttitle">Faksinumero</div>
+            <div class="kelainvoicing-contenttext"></div>
+        </div>
+    </div>
+    <hr class="kelainvoicing-divider">
+    <div class="row">
+        <div class="col-sm-12">
+            <div class="kelainvoicing-contenttitle">Maksuosoite: IBAN-tilinumero</div>
+            <div class="kelainvoicing-contenttext">{{ object.iban }}</div>
+        </div>
+    </div>
+    <hr class="kelainvoicing-divider">
+    <div class="row">
+        <div class="col-sm-12">
+            <div class="kelainvoicing-contenttitle">BIC-pankkitunniste</div>
+            <div class="kelainvoicing-contenttext">{{ object.bic }}</div>
+        </div>
+    </div>
+    <hr class="kelainvoicing-divider">
+    <div class="row">
+        <div class="col-sm-6">
+            <div class="kelainvoicing-contenttitle">
+                Tilityksen numero
+            </div>
+        </div>
+        <div class="col-sm-6">
+            <div class="kelainvoicing-contenttitle">
+                Ennakkoperintäperuste
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-6">
+            <div class="kelainvoicing-contenttext">{{ object.orderno }}</div>
+        </div>
+        <div class="col-sm-6">
+            <div class="kelainvoicing-contenttext">Ennakkoperintärekisterissä</div>
+        </div>
+    </div>
+    <hr class="kelainvoicing-divider">
+    <div class="container-fluid">
+        <div class="row ">
+            <table class="table table-bordered table-condensed">
+                <thead>
+                <tr>
+                    <th class="col-sm-1" style="font-size: 10px;">Nro</th>
+                    <th class="col-sm-4" style="font-size: 10px;">Kuntoutujan nimi</th>
+                    <th class="col-sm-2" style="font-size: 10px;">Henkilötunnus</th>
+                    <th class="col-sm-3" style="font-size: 10px;">Kuntoutusaika</th>
+                    <th class="col-sm-2" style="font-size: 10px;">Kustannukset</th>
+                </tr>
+                </thead>
+                <tbody>
+                {% for ic in invoicablecustomers %}
+                    <tr>
+                        <td class="col-sm-1" style="font-size: 10px;font-weight: bold;">{{ ic.linenum }}</td>
+                        <td class="col-sm-4" style="font-size: 10px;font-weight: bold;"><a
+                                href="{% url 'kelainvoicing:kelainvoice_detail' ic.id %}">{{ ic.lastName }}, {{ ic.firstName }} {{ ic.additionalName }}</a>
+                        </td>
+                        <td class="col-sm-2" style="font-size: 10px;font-weight: bold;">{{ ic.ssn }}</td>
+                        <td class="col-sm-3" style="font-size: 10px;font-weight: bold;">
+                            {{ ic.minSessionDate|date:"j.n." }} -
+                            {{ ic.maxSessionDate|date:"j.n.Y" }}</td>
+                        <td class="col-sm-2"
+                            style="font-size: 10px;font-weight: bold; text-align: right">{{ ic.kelaRefundTotal }}€
+                        </td>
+                    </tr>
+                {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <hr class="kelainvoicing-divider">
+    <div class="row">
+        <div class="col-sm-2">
+            <div class="kelainvoicing-contenttitle">Päiväys</div>
+            <div class="kelainvoicing-contenttext">{{ object.date|date:"j.n.Y" }}</div>
+        </div>
+        <div class="col-sm-7">
+            <div class="kelainvoicing-contenttitle">Tilityksen laatijan allekirjoitus ja nimen selvennys</div>
+            <div class="kelainvoicing-contenttext"><br><br>{{ object.firstName }} {{ object.lastName }}</div>
+        </div>
+        <div class="col-sm-3">
+            <div class="kelainvoicing-contenttitle">Kustannukset yhteensä</div>
+            <div class="kelainvoicing-contenttext" style="text-align: right">{{ totalRefund }}€</div>
+        </div>
+    </div>
+    <hr class="kelainvoicing-divider">
+{% endblock %}

@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+{% block content %}
+    Lista
+    {{ customer.lastName }}, {{ customer.firstName }}
+    {% for session in session_list %}
+        <p>
+            {{ session.date|date:"d.m.Y" }}, {{ session.time|date:"H:i" }}
+            <a href="{% url 'customers:session_detail' session.pk %}">lisätietoa...</a>
+        </p>
+    {% endfor %}
+{% endblock %}

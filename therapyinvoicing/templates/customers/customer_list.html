@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+{% block content %}
+    <a id="customer-create-customer" class="btn btn-primary  btn-sm" href="{% url 'customers:customer_create' %}"
+                   role="button">{{ createnewcustomer }}</a>
+    <div class="row">
+    {% for customer in customer_list %}
+            <div class="col-sm-3">
+                <div class="card card-block customers-card-body-background-medium">
+                    <h3 class="card-title">
+                        <a href="{% url 'customers:customer_detail' customer.pk %}"style="font-size: 16px;">{{ customer.lastName }}, {{ customer.firstName }}</a></h3>
+                        <div class="card-text" style="font-size: 12px;">
+                            {{ customer.address }}, {{ customer.zipCode }} {{ customer.city }}
+                        </div>
+                </div>
+            </div>
+    {% endfor %}
+    </div>
+{% endblock %}

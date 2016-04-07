@@ -1,0 +1,159 @@
+{% extends "base.html" %}
+{% load crispy_forms_tags customer_extras %}
+{% load nbsp %}
+{% block content %}
+    <div id="hideprint" class="row">
+        <a id="kelastatementdetail-button" class="btn btn-primary  btn-sm"
+           href="{% url 'kelainvoicing:kelastatement_detail' kelainvoice.kelaStatement.pk %}"
+           role="button">{{ backtokelastatementlistbuttontext }}</a>
+    </div>
+    <div class="kelainvoicing-divider-top"></div>
+    <div class="row">
+        <div class="col-sm-6">
+            <h1>Kela</h1>
+        </div>
+        <div class="col-sm-6">
+            <strong>Terapialasku</strong>
+            <div class="kelainvoicing-contenttitle">
+                Kuntoutuspsykoterapia
+            </div>
+            <div class="kelainvoicing-contenttitle">
+                Harkinnanvarainen kuntoutus
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-6">
+        </div>
+        <div class="col-sm-6">
+            <div class="kelainvoicing-contenttitle">
+                Liitteet ________ kpl
+            </div>
+        </div>
+    </div>
+    <hr class="kelainvoicing-divider">
+    <div class="row">
+        <div class="col-sm-9">
+            <div class="kelainvoicing-contenttitle">Kuntoutujan sukunimi ja etunimet</div>
+            <div class="kelainvoicing-contenttext">{{ kelainvoice.kelaInvoiceCustomer.lastName }}, {{ kelainvoice.kelaInvoiceCustomer.firstName }} {{ kelainvoice.kelaInvoiceCustomer.additionalName }} </div>
+        </div>
+        <div class="col-sm-3">
+            <div class="kelainvoicing-contenttitle">Henkilötunnus</div>
+            <div class="kelainvoicing-contenttext">{{ kelainvoice.kelaInvoiceCustomer.ssn }} </div>
+        </div>
+    </div>
+    <hr class="kelainvoicing-divider">
+    <div class="row">
+        <div class="col-sm-9">
+            <div class="kelainvoicing-contenttitle">Terapeutin nimi</div>
+            <div class="kelainvoicing-contenttext">{{ kelainvoice.kelaStatement.lastName }}, {{ kelainvoice.kelaStatement.firstName }} {{ kelainvoice.kelaStatement.additionalName }} </div>
+        </div>
+        <div class="col-sm-3">
+            <div class="kelainvoicing-contenttitle">Y-tunnus/ Henkilötunnus</div>
+            <div class="kelainvoicing-contenttext">{{ kelainvoice.kelaStatement.vatId }}</div>
+        </div>
+    </div>
+    <hr class="kelainvoicing-divider">
+    <div class="row">
+        <div class="col-sm-3">
+            <div class="kelainvoicing-contenttitle">Puhelinnumero</div>
+            <div class="kelainvoicing-contenttext">{{ kelainvoice.kelaStatement.telephone }} </div>
+        </div>
+        <div class="col-sm-9">
+            <div class="kelainvoicing-contenttitle">Sähköpostiosoite</div>
+            <div class="kelainvoicing-contenttext">{{ kelainvoice.kelaStatement.email }}</div>
+        </div>
+    </div>
+    <hr class="kelainvoicing-divider">
+    <div class="row">
+        <div class="col-sm-12">
+            <div class="kelainvoicing-contenttitle">Maksuosoite: IBAN-tilinumero</div>
+            <div class="kelainvoicing-contenttext">{{ kelainvoice.kelaStatement.iban }} </div>
+        </div>
+    </div>
+    <hr class="kelainvoicing-divider">
+    <div class="row">
+        <div class="col-sm-12">
+            <div class="kelainvoicing-contenttitle">BIC-pankkitunniste</div>
+            <div class="kelainvoicing-contenttext">{{ kelainvoice.kelaStatement.bic }} </div>
+        </div>
+    </div>
+    <hr class="kelainvoicing-divider">
+    <div class="row">
+        <div class="col-sm-12">
+            <div class="kelainvoicing-contenttitle">Lasku koskee</div>
+            <div class="kelainvoicing-contenttext">Kuntoutuspsykoterapiaa</div>
+        </div>
+    </div>
+    <hr class="kelainvoicing-divider">
+    <div class="container-fluid">
+        <div class="row ">
+            <table class="table table-bordered table-condensed">
+                <thead>
+                <tr>
+                    <th class="col-sm-2" style="font-size: 10px;">Käyntipäivä</th>
+                    <th class="col-sm-2" style="font-size: 10px;">Terapian laji</th>
+                    <th class="col-sm-2" style="font-size: 10px;">Kustannukset</th>
+                    <th class="col-sm-2" style="font-size: 10px;">Käyntipäivä</th>
+                    <th class="col-sm-2" style="font-size: 10px;">Terapian laji</th>
+                    <th class="col-sm-2" style="font-size: 10px;">Kustannukset</th>
+                </tr>
+                </thead>
+                <tbody>
+                {% for ic in slist %}
+                    <tr>
+                        <td class="col-sm-2" style="font-size: 10px;font-weight: bold">
+                            {% if ic.date1 == "" %}&nbsp;{% else %}{{ ic.date1|date:"j.n.Y" }}{% endif %}</td>
+                        <td class="col-sm-2"
+                            style="font-size: 10px;font-weight: bold">
+                            {% if ic.sessionType1 == "" %}&nbsp;{% else %}
+                                {% convert_sessiontype_to_readable_text ic.sessionType1 %}{% endif %}</td>
+                        <td class="col-sm-2"
+                            style="font-size: 10px;font-weight: bold; text-align: right">
+                            {% if ic.sessionpriceKelaRefund1 == "" %}&nbsp;{% else %}
+                                {{ ic.sessionpriceKelaRefund1 }}{% endif %}</td>
+                        <td class="col-sm-2" style="font-size: 10px;font-weight: bold">
+                            {% if ic.date2 == "" %}&nbsp;{% else %}{{ ic.date2|date:"j.n.Y" }}{% endif %}</td>
+                        <td class="col-sm-2"
+                            style="font-size: 10px;font-weight: bold">
+                            {% if ic.sessionType2 == "" %}&nbsp;{% else %}
+                                {% convert_sessiontype_to_readable_text ic.sessionType2 %}{% endif %}</td>
+                        <td class="col-sm-2"
+                            style="font-size: 10px;font-weight: bold; text-align: right">
+                            {% if ic.sessionpriceKelaRefund2 == "" %}&nbsp;{% else %}
+                                {{ ic.sessionpriceKelaRefund2 }}{% endif %}</td>
+                    </tr>
+                {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <hr class="kelainvoicing-divider">
+    <div class="row">
+        <div class="col-sm-9">
+            <div class="kelainvoicing-contenttitle">Lisätiedot, esim. peruuntuneet käyntipäivät</div>
+            <div class="kelainvoicing-contenttext">&nbsp;</div>
+        </div>
+        <div class="col-sm-3">
+            <div class="kelainvoicing-contenttitle">Käyntikerrat yhteensä</div>
+            <div class="kelainvoicing-contenttext" style="text-align: right">{{ sessioncount }}</div>
+        </div>
+    </div>
+    <hr class="kelainvoicing-divider">
+    <div class="row">
+        <div class="col-sm-2">
+            <div class="kelainvoicing-contenttitle">Päiväys</div>
+            <div class="kelainvoicing-contenttext">{{ kelainvoice.date|date:"j.n.Y" }}</div>
+        </div>
+        <div class="col-sm-7">
+            <div class="kelainvoicing-contenttitle">Tilityksen laatijan allekirjoitus ja nimen selvennys</div>
+            <div class="kelainvoicing-contenttext">
+                <br><br>{{ object.kelaStatement.lastName }}, {{ kelainvoice.kelaStatement.firstName }}</div>
+        </div>
+        <div class="col-sm-3">
+            <div class="kelainvoicing-contenttitle">Kustannukset yhteensä</div>
+            <div class="kelainvoicing-contenttext" style="text-align: right">{{ kelaRefundTotal }}</div>
+        </div>
+    </div>
+    <hr class="kelainvoicing-divider">
+{% endblock %}

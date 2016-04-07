@@ -1,0 +1,167 @@
+{% load staticfiles i18n %}
+{% load static from staticfiles %}
+<!DOCTYPE html>
+<html lang="en" ng-app>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>{% block title %}therapyinvoicing{% endblock title %}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="https://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+<script type="text/javascript" src='{% static 'd3/d3.min.js' %}'  ></script>
+    <script  type="text/javascript" src='{% static 'jquery/dist/jquery.min.js' %}'></script>
+
+    <script type="text/javascript" src='{% static 'nvd3/build/nv.d3.min.js' %}' ></script>
+
+    <script src="{% static 'js/project.js' %}"></script>
+    {% block css %}
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/css/bootstrap.css">
+
+        <!-- Your stuff:  Third-party css libraries go here -->
+
+        <!-- This file store project specific CSS -->
+        <link href="{% static 'css/project.css' %}" rel="stylesheet">
+    {% endblock %}
+
+    {% block angular %}
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+    {% endblock %}
+
+</head>
+
+<body>
+
+
+<div class="m-b">
+
+
+    <nav class="navbar navbar-light">
+        <div class="container ">
+            <!-- <a class="navbar-brand" href="/">&nbsp</a> -->
+            <!-- <button type="button" class="navbar-toggler hidden-sm-up pull-right" data-toggle="collapse" data-target="#bs-navbar-collapse-1">
+               &#9776;
+             </button>-->
+
+            <div class="dropdown">
+                <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="true">
+                    &#9776;
+                    <span class="caret"></span> Menu
+                </button>
+                <ul class="dropdown-menu main-background-light" aria-labelledby="dropdownMenu1">
+                    {% if request.user.is_authenticated %}
+                        <li>
+                            <a id="customersnavitem"
+                               href="{% url 'customers:customer_list' %}">Asiakas</a>
+                        </li>
+                        <li>
+                            <a id="kelainvoicingnavitem"
+                               href="{% url 'kelainvoicing:kelastatement_list' %}">Laskutus (Kela)</a>
+                        </li>
+                        <li>
+                            <a id="customerinvoicingnavitem"
+                               href="{% url 'customerinvoicing:invoice_list' %}">Laskutus (Asiakas)</a>
+                        </li>
+                         <li>
+                            <a id="reportingnavitem"
+                               href="{% url 'reporting:monthlyrevenue' %}">Raportointi</a>
+                        </li>
+                        <li>
+                            <a id="owncompanynavitem"
+                               href="{% url 'customers:companyprofile_detail' '9999' %}">Oma yritys</a>
+                        </li>
+
+                    {% else %}
+                        <li>
+                            <a id="therapypagenavitem"  href="{% url 'home' %}">Terapiaa</a>
+                        </li>
+                        <li class="nav-item">
+                            <a id="additionalinfonavitem"  href="{% url 'about' %}">Lisätietoa</a>
+                        </li>
+                    {% endif %}
+                    {% if request.user.is_authenticated %}
+                        <li >
+                            <a id="myprofile-link"
+                               href="{% url 'users:detail' request.user.username %}">{% trans "Oma profiili" %}</a>
+                        </li>
+                        <li>
+                            <a id="logout-link"
+                               href="{% url 'account_logout' %}">{% trans "Kirjaudu ulos" %}</a>
+                        </li>
+                    {% else %}
+                        <li >
+                            <a id="sign-up-link"
+                               href="{% url 'account_signup' %}">{% trans "Rekisteröidy" %}</a>
+                        </li>
+                        <li >
+                            <a id="log-in-link"
+                               href="{% url 'account_login' %}">{% trans "Kirjaudu sisään" %}</a>
+                        </li>
+                    {% endif %}
+                </ul>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <!-- <div class="collapse navbar-toggleable-xs" id="bs-navbar-collapse-1"> -->
+            <div class="dropdown" id="bs-navbar-collapse-1">
+                <ul class="nav navbar-nav nav-stacked">
+
+
+                </ul>
+
+
+                <ul class="nav navbar-nav pull-right">
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+</div>
+
+<div class="container">
+
+    {% if messages %}
+        {% for message in messages %}
+            <div class="alert {% if message.tags %}alert-{{ message.tags }}{% endif %}">{{ message }}</div>
+        {% endfor %}
+    {% endif %}
+
+    {% block content %}
+        <p>Use this document as a way to quick start any new project.</p>
+    {% endblock content %}
+
+</div> <!-- /container -->
+
+{% block modal %}{% endblock modal %}
+
+<!-- Le javascript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+{% block javascript %}
+    <!-- Latest JQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+
+    <!-- Tether - a requirement for Bootstrap tooltips -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.1.1/js/tether.min.js"></script>
+
+
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/js/bootstrap.js"></script>
+
+    <!-- Your stuff: Third-party javascript libraries go here -->
+
+
+    <!-- place project specific Javascript in this file -->
+
+{% endblock javascript %}
+</body>
+</html>
+

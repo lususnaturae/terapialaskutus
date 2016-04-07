@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+{% load crispy_forms_tags %}
+{% block content %}
+    <div class="card">
+        <div class="card-header customers-card-header-background-dark">
+            {% if customer %}
+                <h2>Muokkaa asiakastietoja</h2>
+            {% else %}
+                <h2>Luo uusi asiakas</h2>
+            {% endif %}
+        </div>
+        <div class="card-block   customers-card-body-background-medium">
+
+            <div class="card-text ">
+                <form class="form-horizontal" method="post"
+                      action="
+                              {% if customer %}{% url 'customers:customer_update' customer.pk %}{% else %}{% url 'customers:customer_create' %}{% endif %}">
+                    {% csrf_token %}
+                    <div class="card-title"><button id="customersave-button" type="submit"
+                            class="btn btn-primary btn-sm">{{ savebuttontext }}</button>
+                    <a id="customerlist-button" class="btn btn-secondary  btn-sm"
+                       href="{% url 'customers:customer_list' %}"
+                       role="button">{{ backtocustomerlistbuttontext }}</a></div>
+                    {{ form|crispy }}
+
+                </form>
+            </div>
+        </div>
+    </div>
+{% endblock %}

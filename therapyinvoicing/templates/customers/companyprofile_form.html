@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+{% load crispy_forms_tags %}
+
+{% block content %}
+    <div class="card-header customers-card-header-background-dark">
+        <h2>{{ companyprofiletitle }}</h2>
+    </div>
+    <div class="card-block   customers-card-body-background-medium">
+        <div class="card-title"></div>
+        <div class="card-text ">
+            <form class="form-horizontal" method="post"
+                  action="{% url 'customers:companyprofile_update' companyprofile.pk %}">
+                {% csrf_token %}
+                {{ form|crispy }}
+                <button id="companyprofile-save-button" type="submit"
+                        class="btn btn-primary   btn-sm">{{ savebuttontext }}</button>
+                <a id="companyprofiledetail-button" class="btn btn-secondary  btn-sm"
+                   href="{% url 'customers:companyprofile_detail' companyprofile.pk %}"
+                   role="button">{{ backtocompanyprofiledetailbuttontext }}</a>
+            </form>
+        </div>
+    </div>
+{% endblock %}

@@ -1,0 +1,41 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <div class="row">
+        <div class="card-header customers-card-header-background-dark">{{ companyprofiletitle }}</div>
+        <div class="card card-block customers-card-body-background-medium">
+            <div class="row">
+                <div class="col-sm-2" style="font-size: 12px;">Yritys:</div>
+                <div class="col-sm-10" style="font-size: 14px;font-weight: bold">{{ companyprofile.companyName }}
+                    <div>{{ companyprofile.address }}<br>
+                        {{ companyprofile.zipCode }} {{ companyprofile.city }}</div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-2" style="font-size: 12px;">Puhelin:</div>
+                <div class="col-sm-10" style="font-size: 14px;font-weight: bold">{{ companyprofile.telephone }}</div>
+            </div>
+            <div class="row">
+                <div class="col-sm-2" style="font-size: 12px;">Sähköposti:</div>
+                <div class="col-sm-10" style="font-size: 14px;font-weight: bold">{{ companyprofile.email }}</div>
+            </div>
+            <div class="row">
+                <div class="col-sm-2" style="font-size: 12px;">Y-tunnus:</div>
+                <div class="col-sm-10" style="font-size: 14px;font-weight: bold">{{ companyprofile.vatId }}</div>
+            </div>
+            <div class="row">
+                <div class="col-sm-2" style="font-size: 12px;">Pankkitili (IBAN):</div>
+                <div class="col-sm-10" style="font-size: 14px;font-weight: bold">{{ companyprofile.iban }}</div>
+            </div>
+            <div class="row">
+                <div class="col-sm-2" style="font-size: 12px;">Pankkiyhteys (BIC):</div>
+                <div class="col-sm-10" style="font-size: 14px;font-weight: bold">{{ companyprofile.bic }}</div>
+            </div>
+            <a id="companyprofileupdate-button" class="btn btn-primary  btn-sm"
+               href="{% url 'customers:companyprofile_update' companyprofile.pk %}"
+               role="button">{{ updatebuttontext }}</a>
+            <a id="customerlist-button" class="btn btn-secondary  btn-sm" href="{% url 'customers:customer_list' %}"
+               role="button">{{ backtocustomerlistbuttontext }}</a>
+        </div>
+    </div>
+{% endblock %}

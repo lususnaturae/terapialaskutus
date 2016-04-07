@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% load crispy_forms_tags %}
+{% block content %}
+    <form class="form-horizontal" method="post"
+          action="{% url 'kelastatement:kelacontactprofile_delete' object.pk %}">
+        {% csrf_token %}
+        <p>Oletko varma, että haluat poistaa kelaprofiilin {{ object.legalName }}?</p>
+        {{ form|crispy }}
+        <div class="control-group">
+            <div class="controls">
+                <button type="submit" class="btn">Poista kelan profiili</button>
+            </div>
+        </div>
+        <a href="{% url 'kelastatement:kelacontactprofile_list' %}">Älä poista ja palaa Kelan yhteystietolistaan</a>
+    </form>
+{% endblock %}

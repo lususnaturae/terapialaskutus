@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+{% load crispy_forms_tags %}
+{% block content %}
+    <div class="card">
+        <div class="card-header customers-card-header-background-dark">
+            {% if customer_session %}
+                <h2>Muokkaa tapaamista
+                    asiakkaalle: {{ customer_session.customer.lastName }}, {{ customer_session.customer.firstName }} {{ customer_session.customer.additionalName }} </h2>
+            {% else %}
+                <h2>Luo uusi tapaaminen
+                    asiakkaalle: {{ customer.lastName }}, {{ customer.firstName }} {{ customer.additionalName }}</h2>
+            {% endif %}
+        </div>
+        <div class="card-block   customers-card-body-background-medium">
+            <div class="card-title"></div>
+            <div class="card-text ">
+                <form class="form-horizontal" method="post"
+                      action="
+                              {% if customer_session %}{% url 'customers:session_update' customer_session.pk %}{% else %}{% url 'customers:session_create' customer.pk %}{% endif %}">
+                    {% csrf_token %}
+                    {{ form|crispy }}
+                    <button id="sessionsave-button" type="submit"
+                            class="btn btn-primary   btn-sm">{{ savebuttontext }}</button>
+                    <a id="customerlist-button" class="btn btn-secondary  btn-sm"
+                       href="
+                               {% if object %}{% url 'customers:customer_detail' customer_session.customer.id %}{% else %}{% url 'customers:customer_detail' customer.pk %}{% endif %}"
+                       role="button">{{ backtocustomerdetailbuttontext }}</a>
+                </form>
+            </div>
+        </div>
+    </div>
+{% endblock %}

@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+{% block content %}
+    <div class="row">
+        <div class="col-sm-12">
+            <div id="yearTitle" class="card-header customers-card-header-background-dark">
+                {{ reporttitle }}
+            </div>
+            <div class="card card-block customers-card-body-background-medium">
+                <div class="card-title">
+                    <input class="btn btn-primary btn-sm" type="button" value="Edellinen vuosi" onclick="prevyear()">
+                    <input class="btn btn-primary btn-sm" type="button" value="Seuraava vuosi" onclick="nextyear()">
+                </div>
+                <div class="card-text">
+                    {% if nodataalert %}
+                        <div>
+                            RAPORTIN DATA EI OLE SAATAVILLA
+                        </div>
+                    {% else %}
+                        <div id="monthlyreport">
+                        </div>
+                        <script>
+                            monthlyreport_init("{% url "api:monthlyrevenue_api"  %}")
+                        </script>
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}

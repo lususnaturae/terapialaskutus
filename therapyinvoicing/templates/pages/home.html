@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+{% load staticfiles i18n %}
+
+{% block content %}
+         <div class="jumbotron main-card-body-background-medium">
+  <h1 class="display-3">Tervetuloa</h1>
+  <p class="lead">Tämä on Kelaterapiaa tarjoavien terapeuttien asiakastapaamisten hallinta ja laskutussovellus.</p>
+             <p class="lead">Sovelluksen avulla hoidat asiakastietosi, asiakastapaamiset ja laskutuksen. Lisäksi sovelluksella teet napin painalluksella tilitykset ja asiakaskohtaiset laskut Kelalle</p>
+  <hr class="m-y-2">
+
+  <p class="lead">
+      <div class="col-sm-6">
+    <a class="btn btn-primary btn-lg" href="{% url 'account_login' %}" role="button">{% trans "Kirjaudu sisään" %}</a>
+             </div>
+      <div class="col-sm-6">
+      <a class="btn  btn-secondary btn-lg" href="{% url 'account_signup' %}" role="button">{% trans "Rekisteröidy uutena käyttäjänä" %}</a>
+             </div>
+  </p>
+</div>
+{% endblock %}

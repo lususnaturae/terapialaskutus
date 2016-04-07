@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+{% block content %}
+    <h2>{{ object.legalName }}</h2>
+    <p>{{ object.address }}</p>
+    <p>{{ object.zipCode }}{{ object.city }}</p>
+    <p>{{ object.telephone }}</p>
+    <p>{{ object.email }}</p>
+    <a href="{% url 'kelastatement:kelacontactprofile_update' object.pk %}">Muokkaa Kelan yhteystietoja</a>
+    <a href="{% url 'kelastatement:kelacontactprofile_delete' object.pk %}">Poista Kelan yhteystiedot</a>
+    <a href="{% url 'kelastatement:kelacontactprofile_list' %}">Palaa kelan yhteystietojen listaan</a>
+{% endblock %}

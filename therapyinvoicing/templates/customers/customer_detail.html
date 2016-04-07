@@ -1,0 +1,107 @@
+{% extends "base.html" %}
+{% load crispy_forms_tags customer_extras %}
+{% block content %}
+    <div class="row">
+        <div class="col-sm-6">
+            <div class="card-header customers-card-header-background-dark">
+                {{ contacttitle }}
+            </div>
+            <div class="card card-block customers-card-body-background-medium">
+                <h4 class="card-title">
+                    {{ customer.lastName }}, {{ customer.firstName }} {{ customer.additionalName }}
+                    ({{ customer.ssn }})</h4>
+                <div class="card-text">
+
+                    <div>{{ addresstitle }}:<strong>{{ customer.address }}, {{ customer.zipCode }} {{ customer.city }}</strong></div>
+                    <div>
+                        {{ telephonetitle }}: <strong>{{ customer.telephone }}</strong>
+                    </div>
+                    <div>
+                        {{ emailtitle }}: <strong>{{ customer.email }}</strong>
+                    </div>
+                </div>
+                <a id="customeredit-button" class="btn btn-primary  btn-sm"
+                   href="{% url 'customers:customer_update' customer.pk %}"
+                   role="button">{{ editbuttontext }}</a>
+                <a id="customerlist-button" class="btn btn-secondary  btn-sm" href="{% url 'customers:customer_list' %}"
+                   role="button">{{ backtocustomerlistbuttontext }}</a>
+            </div>
+        </div>
+        <div class="col-sm-6">
+            <div class="card-header customers-card-header-background-dark">
+                {{ pricingtitle }}
+            </div>
+            <div class="card card-block customers-card-body-background-medium">
+                <h4 class="card-title">
+                </h4>
+                <p class="card-text">
+                <div>{{ sessionpricelabel }}: {{ customer.sessionprice }}€</div>
+                <div>{{ sessionpricekelarefundabel }}: {{ customer.sessionpriceKelaRefund }}€</div>
+                <div>{{ sessioncosttocustomerlabel }} {{ customer.sessionCostToCustomer }}€</div>
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+    </div>
+    <div class="row">
+        <div class="card">
+            <div class="card-header customers-card-header-background-dark">
+                {{ sessionlisttitle }} <a id="sessioncreate-button" class="btn btn-primary  btn-sm"
+                                          href="{% url 'customers:session_create' customer.pk %}"
+                                          role="button">{{ addsessionbuttontext }}</a>
+            </div>
+            <div class="card-block customers-card-body-background-medium">
+                <h4 class="card-title"></h4>
+                <div class="card-text">
+                <table class="table table-bordered table-condensed">
+                    <thead>
+                    <tr>
+                        <th class="col-sm-2" style="font-size: 12px;">Käyntipäivä</th>
+                        <th class="col-sm-1" style="font-size: 12px;">Aika</th>
+                        <th class="col-sm-2" style="font-size: 12px;">Terapian laji</th>
+                        <th class="col-sm-1" style="font-size: 12px;">Tehty</th>
+                        <th class="col-sm-2" style="font-size: 12px;">Kelan laskutus</th>
+                        <th class="col-sm-2" style="font-size: 12px;">Asiakaslaskutus</th>
+                        <th class="col-sm-2" style="font-size: 12px;">&nbsp;</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    {% for session in customersessions %}
+                        <tr>
+                            <td class="col-sm-2" style="font-size: 14px;font-weight: bold">
+                                {% if session.customerInvoiced or session.kelaInvoiced %}
+                                    {{ session.date|date:"j.n.Y" }}
+                                {% else %}
+                                    <a id="sessionupdate-link" href="{% url 'customers:session_update' session.id %}">
+                                        {{ session.date|date:"j.n.Y" }}</a>
+                                {% endif %}
+                            </td>
+                            <td class="col-sm-1" style="font-size: 14px;font-weight: bold">{{ session.time|date:"H:i" }}</td>
+                            <td class="col-sm-2"
+                                style="font-size: 14px;font-weight: bold">{% convert_sessiontype_to_readable_text session.sessionType %}</td>
+                            <td class="col-sm-1" style="font-size: 14px;font-weight: bold;">{% if session.sessionDone %}
+                                OK{% else %}&nbsp;{% endif %}</td>
+                            <td class="col-sm-2" style="font-size: 14px;font-weight: bold">{% if session.kelaInvoiced %}
+                                Laskutettu{% else %}Ei laskutettu{% endif %}</td>
+                            <td class="col-sm-2" style="font-size: 14px;font-weight: bold">
+                                {% if session.customerInvoiced %}Laskutettu{% else %}Ei laskutettu{% endif %}</td>
+                            <td class="col-sm-2" style="font-size: 14px;font-weight: bold">
+                                {% if session.customerInvoiced or session.kelaInvoiced %}
+                                    &nbsp;
+                                {% else %}
+
+                                    <a id="sessiondelete-button"
+                                       href="{% url 'customers:session_delete' session.id %}"
+                                       >Poista</a>
+                                {% endif %}
+                            </td>
+                        </tr>
+                    {% endfor %}
+                    </tbody>
+                </table>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}

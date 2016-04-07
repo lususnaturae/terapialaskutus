@@ -1,0 +1,49 @@
+{% extends "base.html" %}
+{% load crispy_forms_tags %}
+{% block content %}
+    <div class="row">
+    <div class="card col-sm-12">
+        <div class="card-header customers-card-header-background-dark">
+            Vahvista asiakaslaskujen luonti
+        </div>
+        <div class="card-block customers-card-body-background-medium">
+            <h4 class="card-title"></h4>
+            <div class="card-text">
+                Alla olevia toteutuneita asiakastapaamisia ei ole vielä laskutettu. Luo kaikki laskut kerralla yllä
+                olevasta
+                napista.
+            </div>
+            <div class="row">
+                <a id="confirminvoicegeneration-button" class="btn btn-danger  btn-sm"
+                   href="{% url 'customerinvoicing:invoice_creator_all' %}"
+                   role="button">{{ askconfirmationtext }}</a>
+                <a id="invoicelist-button" class="btn btn-secondary  btn-sm"
+                   href="{% url 'customerinvoicing:invoice_list' %}"
+                   role="button">{{ backtoinvoicelistbuttontext }}</a>
+            </div>
+        </div>
+    </div></div>
+    <div class="row">
+            &nbsp;
+        </div>
+    <div class="card col-sm-12">
+        <div class="row">
+            <div class="row">
+                {% for cc in customerinvoicablesessions %}
+                    <div class="col-sm-6">
+                        <div class="card">
+                        <div class="card-header customers-card-header-background-dark">
+                            <div>{{ cc.lastName }}, {{ cc.firstName }} {{ cc.additionalName }}</div>
+                        </div>
+                            <ul class="list-group list-group-flush">
+                                {% for ss in cc.invoicablesessions %}
+                                    <li class="list-group-item customers-card-body-background-medium">{{ ss.date|date:"d.m.Y" }} {{ ss.time|date:"H:i" }}</li>
+                                {% endfor %}
+                            </ul>
+                        </div>
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+{% endblock %}

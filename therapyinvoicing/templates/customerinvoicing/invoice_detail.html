@@ -1,0 +1,113 @@
+{% extends "base.html" %}
+{% load crispy_forms_tags %}
+{% load nbsp %}
+{% block content %}
+    <div id="hideprint" class="row">
+        <a id="invoicelist-button" class="btn btn-primary  btn-sm"
+           href="{% url 'customerinvoicing:invoice_list' %}"
+           role="button">{{ backtoinvoicelistbuttontext }}</a>
+    </div>
+    <div class="customerinvoicing-divider-top"></div>
+    <div class="row">
+        <div class="col-sm-9">
+            <div class="customerinvoicing-companyprofileinvoicetitle">
+                <strong>{{ customer_invoice.invoiceCompanyProfile.companyName }}</strong></div>
+            <div class="customerinvoicing-companyprofileinvoicetitle">{{ customer_invoice.invoiceCompanyProfile.address }}</div>
+            <div class="customerinvoicing-companyprofileinvoicetitle">{{ customer_invoice.invoiceCompanyProfile.zipCode }} {{ customer_invoice.invoiceCompanyProfile.city }}</div>
+            <div class="customerinvoicing-companyprofileinvoicetitle">
+                Puhelin: {{ customer_invoice.invoiceCompanyProfile.telephone }}</div>
+            <div class="customerinvoicing-companyprofileinvoicetitle">
+                Sähköposti: {{ customer_invoice.invoiceCompanyProfile.email }}</div>
+            <div class="customerinvoicing-companyprofileinvoicetitle">
+                Y-tunnus: {{ customer_invoice.invoiceCompanyProfile.vatId }}</div>
+        </div>
+        <div class="col-sm-3">
+            <div class="customerinvoicing-invoicebigtext">LASKU</div>
+            <div class="customerinvoicing-contenttitle">&nbsp;</div>
+            <div class="customerinvoicing-contenttitle">Laskun numero</div>
+            <div class="customerinvoicing-contenttext">{{ customer_invoice.invoiceNumber }} </div>
+        </div>
+    </div>
+    <hr class="customerinvoicing-divider">
+    <div class="row">
+        <div class="col-sm-9">
+            <div class="customerinvoicing-contenttitle">Asiakas</div>
+            <div class="customerinvoicing-contenttext">{{ customer_invoice.invoiceCustomer.firstName }} {{ customer_invoice.invoiceCustomer.additionalName }} {{ customer_invoice.invoiceCustomer.lastName }}</div>
+            <div class="customerinvoicing-contenttext">{{ customer_invoice.invoiceCustomer.address }} </div>
+            <div class="customerinvoicing-contenttext">{{ customer_invoice.invoiceCustomer.zipCode }} {{ customer_invoice.invoiceCustomer.city }}</div>
+        </div>
+        <div class="col-sm-3">
+            <div class="customerinvoicing-contenttitle">Laskun päiväys</div>
+            <div class="customerinvoicing-contenttext">{{ customer_invoice.date|date:"j.n.Y" }}</div>
+            <div class="customerinvoicing-contenttitle">Laskun eräpäivä</div>
+            <div class="customerinvoicing-contenttext">{{ invoiceduedate|date:"j.n.Y" }}</div>
+        </div>
+    </div>
+    <hr class="customerinvoicing-divider">
+    <div class="container-fluid">
+        <div class="row ">
+            <table class="table table-bordered table-condensed">
+                <thead>
+                <tr>
+                    <th class="col-sm-3" style="font-size: 10px;">Tapaamisaika</th>
+                    <th class="col-sm-6" style="font-size: 10px;">Terapian laji</th>
+                    <th class="col-sm-3" style="font-size: 10px; text-align: right">Kustannus</th>
+                </tr>
+                </thead>
+                <tbody>
+                {% for ic in invoicelineitems %}
+                    <tr>
+                        <td class="col-sm-3" style="font-size: 10px;font-weight: bold">
+                            {% if ic.date == "" %}&nbsp;{% else %}{{ ic.date|date:"j.n.Y" }}{% endif %}</td>
+                        <td class="col-sm-6"
+                            style="font-size: 10px;font-weight: bold">
+                            {% if ic.sessionType == "" %}&nbsp;{% else %}{{ ic.sessionType }}{% endif %}</td>
+                        <td class="col-sm-3"
+                            style="font-size: 10px;font-weight: bold; text-align: right">
+                            {% if ic.sessionprice == "" %}&nbsp;{% else %}{{ ic.sessionprice }}{% endif %}</td>
+                    </tr>
+                {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <hr class="customerinvoicing-divider">
+    <div class="row">
+        <div class="col-sm-9">
+            <div class="customerinvoicing-contenttitle">Välisumma:</div>
+        </div>
+        <div class="col-sm-3">
+            <div class="customerinvoicing-contenttitle"
+                 style="text-align: right">{{ invoiceTotalWithoutKelaRefund }} </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-9">
+            <div class="customerinvoicing-contenttitle">Kelan korvaus:</div>
+        </div>
+        <div class="col-sm-3">
+            <div class="customerinvoicing-contenttitle" style="text-align: right">-{{ kelaRefundTotal }} </div>
+        </div>
+    </div>
+    <hr class="customerinvoicing-divider">
+    <div class="row">
+        <div class="col-sm-9">
+            <div class="customerinvoicing-contenttitle">YHTEENSÄ:</div>
+        </div>
+        <div class="col-sm-3">
+            <div class="customerinvoicing-contenttext" style="text-align: right">{{ invoiceTotal }} </div>
+        </div>
+    </div>
+    <hr class="customerinvoicing-divider">
+    <div class="row">
+        <div class="col-sm-6">
+            <div class="customerinvoicing-contenttitle">Maksuosoite: IBAN-tilinumero</div>
+            <div class="customerinvoicing-contenttext">{{ customer_invoice.invoiceCompanyProfile.iban }} </div>
+        </div>
+        <div class="col-sm-6">
+            <div class="customerinvoicing-contenttitle">BIC-pankkitunniste</div>
+            <div class="customerinvoicing-contenttext">{{ customer_invoice.invoiceCompanyProfile.bic }} </div>
+        </div>
+    </div>
+    <hr class="customerinvoicing-divider">
+{% endblock %}
