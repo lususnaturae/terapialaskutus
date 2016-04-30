@@ -24,7 +24,7 @@ def clean_and_init_api_monthlyrevenue():
             t += 1
     x=1
 
-
+# FIXME: Change update_api_monthlyrevenue(), so that it will not update new data everytime when api is called, but only after new invoices are created
 @shared_task
 def update_api_monthlyrevenue():
     from .models import MonthlyRevenue

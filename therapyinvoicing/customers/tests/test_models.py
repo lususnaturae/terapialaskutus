@@ -14,11 +14,11 @@ class CustomerTest(TestCase):
                         lastname="TestLastName",ssn="TestSsn", address="TestAddress",
                         zipcode="TestZipCode", city="TestCity", country="TestCountry",
                         telephone="TestTelephone", email="TestEmail@testdomain.com", status=True, therapyCategory="KUNTOUTUS",
-                        sessionprice=85.00, sessionpriceKelaRefund=52.14,statementpriceKela=22.17):
+                        sessionprice=85.00, sessionpriceKelaRefund=52.14):
         return Customer.objects.create(firstName=firstname, additionalName=additionalname, lastName=lastname,
                         ssn=ssn, address=address, zipCode=zipcode, city=city, country=country,
                         telephone=telephone, email=email, status=status, therapyCategory=therapyCategory, sessionprice=sessionprice,
-                        sessionpriceKelaRefund=sessionpriceKelaRefund,statementpriceKela=statementpriceKela)
+                        sessionpriceKelaRefund=sessionpriceKelaRefund)
 
     def test_customer_creation(self):
         w = self.create_customer()
@@ -46,11 +46,11 @@ class SessionTest(TestCase):
                         lastname="TestLastName",ssn="TestSsn", address="TestAddress",
                         zipcode="TestZipCode", city="TestCity", country="TestCountry",
                         telephone="TestTelephone", email="TestEmail@testdomain.com", status=True, therapyCategory="KUNTOUTUS",
-                        sessionprice=85.00, sessionpriceKelaRefund=52.14,statementpriceKela=22.17):
+                        sessionprice=85.00, sessionpriceKelaRefund=52.14):
         return Customer.objects.create(firstName=firstname, additionalName=additionalname, lastName=lastname,
                         ssn=ssn, address=address, zipCode=zipcode, city=city, country=country,
                         telephone=telephone, email=email, status=status, therapyCategory=therapyCategory, sessionprice=sessionprice,
-                        sessionpriceKelaRefund=sessionpriceKelaRefund,statementpriceKela=statementpriceKela)
+                        sessionpriceKelaRefund=sessionpriceKelaRefund)
 
     def create_session(self, customer, date=timezone.now().date(), time=timezone.now().time(), sessionInvoiceType="SINGLESESSION",
                        kelaInvoiceType="CANINVOICEKELA", sessionType="YKSILÖ",

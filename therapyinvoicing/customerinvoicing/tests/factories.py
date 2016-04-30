@@ -21,7 +21,7 @@ class InvoiceCustomerFactory(factory.django.DjangoModelFactory):
     therapyCategory = 'KUNTOUTUS'
     sessionprice = 80
     sessionpriceKelaRefund = 52.14
-    statementpriceKela = 22.17
+    # statementpriceKela = 22.17
 
     class Meta:
         model = 'customerinvoicing.InvoiceCustomer'

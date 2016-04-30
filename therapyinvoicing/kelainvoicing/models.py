@@ -233,22 +233,23 @@ class KelaStatement(CompanyProfileModel):
             icobj = get_object_or_404(Customer, id=i['customer'])
             if icobj:
                 # Find Sessions of this Customer sorted by 'date'
-                slist = Session.objects.filter(sessionDone=True, kelaInvoiced=False, customer=icobj).order_by('date')
-                sagg = slist.aggregate(kelaRefundTotal = Sum('sessionpriceKelaRefund'), max_date = Max('date'), min_date = Min('date'))
-                dd.append({
-                    'id': icobj.id,
-                    'firstName': icobj.firstName,
-                    'lastName': icobj.lastName,
-                    'additionalName': icobj.additionalName,
-                    'invoicablesessions': slist,
-                    'kelaRefundTotal': sagg['kelaRefundTotal'],
-                    'minSessionDate': sagg['min_date'],
-                    'maxSessionDate': sagg['max_date'],
-                    'linenum': k
+                slist = Session.objects.filter(sessionDone=True, kelaInvoiced=False, kelaInvoiceType="CANINVOICEKELA", customer=icobj).order_by('date')
+                if (len(slist) != 0):
+                    sagg = slist.aggregate(kelaRefundTotal = Sum('sessionpriceKelaRefund'), max_date = Max('date'), min_date = Min('date'))
+                    dd.append({
+                        'id': icobj.id,
+                        'firstName': icobj.firstName,
+                        'lastName': icobj.lastName,
+                        'additionalName': icobj.additionalName,
+                        'invoicablesessions': slist,
+                        'kelaRefundTotal': sagg['kelaRefundTotal'],
+                        'minSessionDate': sagg['min_date'],
+                        'maxSessionDate': sagg['max_date'],
+                        'linenum': k
 
-                }
-                )
-                k += 1
+                    }
+                    )
+                    k += 1
         return dd
 
 

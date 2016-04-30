@@ -68,7 +68,7 @@ class CustomerFormPageLocators(object):
     THERAPYCATEGORY_FIELD = (By.ID, 'id_therapyCategory')
     SESSIONPRICE_FIELD = (By.ID, 'id_sessionprice')
     SESSIONPRICEKELAREFUND_FIELD = (By.ID, 'id_sessionpriceKelaRefund')
-    STATEMENTPRICEKELA_FIELD = (By.ID, 'id_statementpriceKela')
+    # STATEMENTPRICEKELA_FIELD = (By.ID, 'id_statementpriceKela')
     SAVE_BUTTON = (By.ID, 'customersave-button')
 
 
