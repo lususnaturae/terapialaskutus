@@ -1,10 +1,9 @@
 #pip insta Bleeding edge Django
-django==1.9.4
+django==1.9.5
 
 # Configuration
 django-environ==0.4.0
-django-secure==1.0.1
-whitenoise==2.0.6
+whitenoise==3.0
 
 
 # Forms
@@ -47,4 +46,4 @@ django-celery==3.1.17
 python-nvd3==0.14.2
 python-slugify==1.1.4
 django-nvd3==0.9.7
-django-bower==5.0.4
+django-bower==5.1.0

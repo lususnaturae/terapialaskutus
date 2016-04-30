@@ -3,10 +3,10 @@
 coverage==4.0.3
 django_coverage_plugin==1.1
 Sphinx
-django-extensions==1.5.9
+django-extensions==1.6.3
 Werkzeug==0.11.2
-django-test-plus==1.0.11
-factory_boy==2.6.0
+django-test-plus==1.0.12
+factory_boy==2.7.0
 
 # django-debug-toolbar that works with Django 1.5+
 django-debug-toolbar==1.4
@@ -18,8 +18,8 @@ virtualenv==13.1.2
 virtualenvwrapper-win==1.2.1
 
 #REST FRAMEWORK
-djangorestframework==3.3.2
+djangorestframework==3.3.3
 markdown==2.6.5
 django-filter==0.12.0
-selenium==2.52.0
+selenium==2.53.2
 
