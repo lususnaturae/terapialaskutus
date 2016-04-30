@@ -154,11 +154,14 @@ function monthlyreport_createchartbase() {
             {label: "Vuosi yhteensä",
                 x: monthlyreportvars.width - monthlyreportvars.rightmargin + (monthlyreportvars.rightmargin/2) - 10,
                 y: monthlyreportvars.topmargin + 30,
-                style: "font-size: 12; font-color: white; font-family: Helvetica, sans-serif" },
+                style: "font-size: 12; font-color: white; font-family: Helvetica, sans-serif",
+                idsuffix: "Title"},
+
             {label: parseInt(monthlyreportvars.yeartotallist[monthlyreportvars.selectedyearloc]) + "€",
                 x: monthlyreportvars.width - monthlyreportvars.rightmargin + (monthlyreportvars.rightmargin/2) - 10,
                 y: monthlyreportvars.topmargin + 55,
-            style: "font-size: 20; font-weight: bold; font-color: white; font-family: Helvetica, sans-serif"}
+            style: "font-size: 20; font-weight: bold; font-color: white; font-family: Helvetica, sans-serif",
+            idsuffix: "Value"}
         ])
          .enter()
         .append("svg:text")
@@ -170,6 +173,7 @@ function monthlyreport_createchartbase() {
         .text(function(d) {return d.label;})
             .attr("transform", "translate(15, 15)")
         .attr("class", "legendLabel")
+            .attr("id", function (d) {return "yeartotal" + d.idsuffix})
 
 
 }
@@ -216,6 +220,11 @@ function monthlyreport_barupdate() {
 
     d3.select("#yearTitle")
             .text("Liikevaihto " + monthlyreportvars.yearlist[monthlyreportvars.selectedyearloc])
+
+    d3.select("#yeartotalValue")
+            .text(parseInt(monthlyreportvars.yeartotallist[monthlyreportvars.selectedyearloc]) + "€")
+
+
 }
 
 function monthlyreport_init(apiurl) {
