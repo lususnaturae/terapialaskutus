@@ -1,2 +1,2 @@
-activate terapialaskutus_dev
+activate tlaskutus_dev
 

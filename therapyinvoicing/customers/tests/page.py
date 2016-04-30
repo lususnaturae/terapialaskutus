@@ -169,9 +169,9 @@ class CustomerFormPage(BasePage):
         element = self.driver.find_element(*CustomerFormPageLocators.SESSIONPRICEKELAREFUND_FIELD)
         return element
 
-    def is_statementpricekela_field_visible(self):
-        element = self.driver.find_element(*CustomerFormPageLocators.STATEMENTPRICEKELA_FIELD)
-        return element
+    # def is_statementpricekela_field_visible(self):
+    #     element = self.driver.find_element(*CustomerFormPageLocators.STATEMENTPRICEKELA_FIELD)
+    #     return element
 
     def is_save_button_visible(self):
         element = self.driver.find_element(*CustomerFormPageLocators.SAVE_BUTTON)
@@ -196,9 +196,9 @@ class CustomerFormPage(BasePage):
             'email': 'testemail@example.com',
             'status': True,
             'therapyCategory': '',
-            'sessionprice': 80,
-            'sessionpriceKelaRefund': 52.14,
-            'statementpriceKela': 22.17
+            'sessionprice': "80.00",
+            'sessionpriceKelaRefund': "52.16",
+            # 'statementpriceKela': 22.17
         }
 
 
@@ -224,10 +224,11 @@ class CustomerFormPage(BasePage):
         element.send_keys(fields['sessionprice'])
         element = self.driver.find_element(*CustomerFormPageLocators.SESSIONPRICEKELAREFUND_FIELD)
         element.send_keys(fields['sessionpriceKelaRefund'])
-        element = self.driver.find_element(*CustomerFormPageLocators.STATEMENTPRICEKELA_FIELD)
-        element.send_keys(fields['statementpriceKela'])
+        # element = self.driver.find_element(*CustomerFormPageLocators.STATEMENTPRICEKELA_FIELD)
+        # element.send_keys(fields['statementpriceKela'])
         # element = self.driver.find_element(*CustomerFormPageLocators.THERAPYCATEGORY_FIELD)
         # element.click()
+        t=1
 
     def change_customer_field_lastname(self):
         element = self.driver.find_element(*CustomerFormPageLocators.LASTNAME_FIELD)
